@@ -7,9 +7,11 @@
 
 文件结构：
 
-GetManifest.cpp      C++源文件
+getmanifest.h        C++头文件
+getmanifest.cpp      C++源文件
 ----------------------
-GetManifest          可执行文件
+test.cpp             C++源文件/*程序入口*/
+test                 可执行文件
 ----------------------
 AndroidManifest.xml  apk解压缩后的xml文件
 ----------------------
@@ -26,11 +28,11 @@ g++ 5.3.1
 
 编译方法：
 
-终端下输入g++ GetManifest.cpp -o GetManifest
+终端下输入g++ test.cpp getmanifest.cpp -o test
 
 **********************
 
 运行：
 
-终端下输入：./GetManifest
+终端下输入：./test
 最终结果：在当前文件夹生成重新编码后的manifest.xml文件

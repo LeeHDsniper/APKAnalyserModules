@@ -1,19 +1,19 @@
 模块功能：
 
 将GetManifest模块解析好的manifest.xml进行分析，获取apk的基本信息，保存在如下全局变量中：
-+ extern string minsdk;
-+ extern string maxsdk;
-+ extern string targetsdk;
-+ extern string package;
-+ extern string androidversioncode;
-+ extern string androidversionname;
-+ extern string activity_list[1024];
-+ extern string mainact;
-+ extern string service_list[1024];
-+ extern string provider_list[1024];
-+ extern string receiver_list[1024];
-+ extern string library_list[1024];
-+ extern Permission dvm_permission_list[MANI_PERMISSIONS_SUM];
++ static string minsdk;
++ static string maxsdk;
++ static string targetsdk;
++ static string package;
++ static string androidversioncode;
++ static string androidversionname;
++ static string activity_list[1024];
++ static string mainact;
++ static string service_list[1024];
++ static string provider_list[1024];
++ static string receiver_list[1024];
++ static string library_list[1024];
++ static Permission dvm_permission_list[MANI_PERMISSIONS_SUM];
 
 **********************
 
@@ -21,11 +21,6 @@
 
 dvm_permissions.h     C++头文件/* 定义了保存dvm权限的结构体 */
 dvm_permissions.cpp   C++源文件/* 保存了114个MANI_PERMISSION，11个MANI_GROUP_PERMISSION */
-
-----------------------
-
-manifestdata.h        C++头文件/* 定义了全局变量和各种方法 */
-manifestdata.cpp      C++源文件
 
 ----------------------
 tinyxml.h            +
@@ -36,7 +31,7 @@ tinyxmlerror.cpp     +
 tinyxmlparser.cpp    +
 ----------------------
 
-test.cpp              C++源文件
+ManifestData.cpp      C++源文件
 
 ----------------------
 
@@ -44,7 +39,7 @@ manifest.xml          GetManifest模块解析好的xml文件
 
 ----------------------
 
-test                  可执行文件
+ManifestData          可执行文件
 
 **********************
 
@@ -57,13 +52,13 @@ g++ 5.3.1
 
 编译方法：
 
-终端下输入g++ test.cpp tinyxml.cpp tinystr.cpp tinyxmlparser.cpp tinyxmlerror.cpp dvm_permissions.cpp manifestdata.cpp -o ManifestData
+终端下输入g++ ManifestData.cpp tinyxml.cpp tinystr.cpp tinyxmlparser.cpp tinyxmlerror.cpp dvm_permissions.cpp -o ManifestData
 
 **********************
 
 运行：
 
-终端下输入：./test
+终端下输入：./ManifestData
 最终结果：将基本数据保存到全局变量中
 测试输出：
 minsdk=8

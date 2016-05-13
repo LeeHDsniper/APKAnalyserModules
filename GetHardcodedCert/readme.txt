@@ -6,9 +6,11 @@
 
 文件结构：
 
-GetHardcodedCert.cpp                  C++源文件
+gethardcodedcert.h                    C++头文件
+gethardcodedcert.cpp                  C++源文件
 ----------------------
-GetHardcodedCert                      可执行文件
+test.cpp                              C++源文件/*程序入口*/
+test                                  可执行文件
 ----------------------
 ./83a2cba1cb708c7fd7bb00d20021e932    文件夹(包含apk解压后的所有文件)
 
@@ -23,12 +25,12 @@ g++ 5.3.1
 
 编译方法：
 
-终端下输入g++ GetHardcodedCert.cpp -o GetHardcodedCert
+终端下输入g++ test.cpp gethardcodedcert.cpp -o test
 
 **********************
 
 运行：
 
-终端下输入：./GetHardcodedCert
+终端下输入：./test
 输出：
 ./83a2cba1cb708c7fd7bb00d20021e932/assets/videosdkcrt/sec.video.qq.com.crt
