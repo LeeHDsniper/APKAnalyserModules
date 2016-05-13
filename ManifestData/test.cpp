@@ -3,7 +3,6 @@
 #include "tinyxml.h"
 #include "dvm_permissions.h"
 #include "manifestdata.h"
-
 using namespace std;
 
 int main( int argc, char* argv[] )
