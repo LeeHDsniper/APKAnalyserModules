@@ -3578,7 +3578,7 @@
 		</activity>
 		<service
 			android:name="com.tencent.mobileqq.contactsync.authenticator.AuthenticationService"
-			android:exported="true"
+			android:permission="gahh"
 			>
 			<intent-filter
 				>

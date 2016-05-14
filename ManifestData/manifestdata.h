@@ -1,7 +1,6 @@
 #ifndef MANIFESTDATA_H
 #define MANIFESTDATA_H
 
-
 /*@
  * Global variables
  */

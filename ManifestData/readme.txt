@@ -28,6 +28,11 @@ manifestdata.h        C++头文件/* 定义了全局变量和各种方法 */
 manifestdata.cpp      C++源文件
 
 ----------------------
+
+xmlanalysis.h         C++头文件/* 封装了xml分析的方法 */
+xmlanalysis.cpp       C++源文件
+
+----------------------
 tinyxml.h            +
 tinystr.h            +
 tinystr.cpp          +------>TinyXml库，用来解析xml文件
@@ -57,7 +62,7 @@ g++ 5.3.1
 
 编译方法：
 
-终端下输入g++ test.cpp tinyxml.cpp tinystr.cpp tinyxmlparser.cpp tinyxmlerror.cpp dvm_permissions.cpp manifestdata.cpp -o ManifestData
+终端下输入g++ test.cpp tinyxml.cpp tinystr.cpp tinyxmlparser.cpp tinyxmlerror.cpp xmlanalysis.cpp dvm_permissions.cpp manifestdata.cpp -o test
 
 **********************
 
