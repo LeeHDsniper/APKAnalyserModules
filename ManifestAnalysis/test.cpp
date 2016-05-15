@@ -10,6 +10,7 @@ using namespace std;
 int main()
 {
 	ManifestAnalysis( "manifest.xml", ".activity.SplashActivity" );
+	
 	cout << "----------Manifest Analysis EXPORTED_COUNT------------" << endl;
 	cout << "Activity_Count: " << exp_count.Activity_Count << endl;
 	cout << "Provider_Count: " << exp_count.Provider_Count << endl;
