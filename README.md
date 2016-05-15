@@ -15,3 +15,8 @@ APKAnalyser是一个C++/Qt编写的APK行为分析和安全检测工具
 4. GetManifest
 5. ManifestData
 6. ManifestAnalysis
+7. CertInfo
+8. Decompile
+
+##运行报错
+由于我的java路径是直接作为函数参数传入的，所以在使用jar文件的模块中存在java路径的问题，可以直接在该模块的test.cpp中修改传入 的java路径，再重新编译
