@@ -1,0 +1,97 @@
+package com.tencent.feedback.upload;
+
+import android.content.Context;
+import com.tencent.feedback.common.c;
+import com.tencent.feedback.common.e;
+import com.tencent.feedback.proguard.N;
+import com.tencent.feedback.proguard.a;
+import com.tencent.feedback.proguard.t;
+import com.tencent.feedback.proguard.w;
+import com.tencent.feedback.proguard.w.a;
+
+public abstract class AbstractUploadDatas
+{
+  protected final int a;
+  protected final int b;
+  protected Context c;
+  
+  public AbstractUploadDatas(Context paramContext, int paramInt1, int paramInt2)
+  {
+    c = paramContext;
+    a = paramInt2;
+    b = paramInt1;
+  }
+  
+  public static N a(Context paramContext, int paramInt, byte[] paramArrayOfByte)
+  {
+    try
+    {
+      String str = t.a(paramContext).b().d();
+      paramContext = a.a(paramInt, c.a(paramContext), paramArrayOfByte, (byte)2, (byte)1, str);
+      return paramContext;
+    }
+    catch (Throwable paramContext)
+    {
+      e.c("rqdp{  imposiable comStrategy error} %s", new Object[] { paramContext.toString() });
+      if (!e.a(paramContext)) {
+        paramContext.printStackTrace();
+      }
+    }
+    return null;
+  }
+  
+  public static void d()
+  {
+    e.c("rqdp{  encode failed, clear db data}", new Object[0]);
+  }
+  
+  public abstract N a();
+  
+  public final byte[] a(boolean paramBoolean)
+  {
+    byte[] arrayOfByte = null;
+    try
+    {
+      N localN = a();
+      if (localN != null) {
+        arrayOfByte = localN.a();
+      }
+      return arrayOfByte;
+    }
+    catch (Throwable localThrowable)
+    {
+      if (!e.a(localThrowable)) {
+        localThrowable.printStackTrace();
+      }
+      e.d("rqdp{  encode to bytes failed}", new Object[0]);
+    }
+    return null;
+  }
+  
+  public final int b()
+  {
+    return a;
+  }
+  
+  public final String c()
+  {
+    try
+    {
+      if (b == 1111) {
+        return t.a(c).b().a();
+      }
+      String str = t.a(c).b().c(b).a();
+      return str;
+    }
+    catch (Throwable localThrowable)
+    {
+      e.c("rqdp{  imposiable comStrategy error }%s", new Object[] { localThrowable.toString() });
+      if (!e.a(localThrowable)) {
+        localThrowable.printStackTrace();
+      }
+    }
+    return null;
+  }
+  
+  public abstract void done(boolean paramBoolean);
+}
