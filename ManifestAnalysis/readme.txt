@@ -1,7 +1,10 @@
 模块功能：
 
 在上一模块——GetManifest分析的基础上，对manifest.xml进一步分析，获取Activity,Provider,Receiver,Service
-等项目的异常部分，保存在如下全局变量中：
+等项目的异常部分，主要是检测是否包含android:export=true属性
+
+/*android:exported 是Android中的四大组件 Activity，Service，Provider，Receiver 四大组件中都会有的一个属性
+保存在如下全局变量中：
 /*使用到了上一模块中获取到的mainact变量值，为了方便起见，直接将值作为参数传递*/
 
 + extern Manifest_Anal	RET[128];

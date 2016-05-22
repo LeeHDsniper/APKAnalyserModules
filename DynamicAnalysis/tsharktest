@@ -1,0 +1,44 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <pthread.h>
+#include "dynamicanalysis.h"
+using namespace std;
+struct st
+{
+	string p;
+};
+void* Tshark(void *path)
+{
+	cout<<((st *)path)->p<<endl;
+	FILE *f;
+	char    buff[1024];
+	string cmd =((st *)path)->p;
+      	f = popen( cmd.c_str(), "r" );
+      	cout<<cmd<<endl;
+      	while( fgets( buff, sizeof(buff), f ) != NULL )
+       {
+       	cout<<buff<<endl;
+       }
+       pclose( f );
+}
+int main()
+{
+pthread_t id;
+int i,ret;
+st s;
+s.p="tshark -i enp7s0 > ee.txt -e \"http.request.uri\" -T fields -c 9999";
+//sudo tshark -i enp7s0  -l -p -a duration:10  -T fields -e http.host -e http.request.uri >ee.txt
+
+//s.p="sudo tshark -i enp7s0 > ee.txt";
+//string s="tshark -i vboxnet0 > ee.txt -e \"http.request.uri\" -T fields -c 9999";
+ret=pthread_create(&id,NULL,Tshark,(void *)&s);
+cout<<ret<<endl;
+while(1)
+{
+
+}
+	//RefreshVM("/usr/bin/VBoxManage","639e59d4-783e-4ddf-9ed9-efd2c29c326a","06791058-885b-4b0c-bd30-a382d59e995b");
+	//Install_Run("192.168.56.101","5555","./test.apk","com.tencent.mobileqq",".activity.SplashActivity");
+	return 0;
+}
