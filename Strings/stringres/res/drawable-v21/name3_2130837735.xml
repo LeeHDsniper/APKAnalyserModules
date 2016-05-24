@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?name3_2130772377"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/name3_16908334" android:drawable="@android:color/name3_17170443" />
+    <item>
+        <selector>
+            <item android:state_pressed="true" android:drawable="@color/name3_2131558584" />
+        </selector>
+    </item>
+</ripple>

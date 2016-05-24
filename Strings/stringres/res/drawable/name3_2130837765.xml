@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/name3_2131231235" android:top="@dimen/name3_2131231236" android:right="@dimen/name3_2131231235" android:bottom="@dimen/name3_2131231236">
+        <shape android:shape="name3_16908868">
+            <corners android:radius="@dimen/name3_2131231234" />
+            <solid android:color="@color/name3_2131558597" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.internal.widget.ContentFrameLayout android:id="@id/name3_2131689472" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:foreground="?android:name3_16842841" android:foregroundGravity="name3_16908451|name3_16908445|name3_16908455" />
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name1_2130837612" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name3_2131689652" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_margin="@dimen/name3_2131230785" android:adjustViewBounds="true" android:layout_above="@id/name3_2131689653" android:layout_alignParentTop="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="name3_16908446" android:orientation="name3_16908460" android:id="@id/name3_2131689653" android:background="@null" android:paddingTop="@dimen/name3_2131230788" android:paddingBottom="@dimen/name3_2131230788" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:weightSum="4.0" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/name3_2131689659" android:background="@null" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837998" android:layout_weight="1.0" android:onClick="onClick" />
+        <ImageButton android:id="@id/name3_2131689660" android:background="@null" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837999" android:layout_weight="1.0" android:onClick="onClick" />
+        <ImageButton android:id="@id/name3_2131689661" android:background="@null" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837904" android:layout_weight="1.0" android:onClick="onClick" />
+        <ImageButton android:id="@id/name3_2131689662" android:background="@null" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837905" android:layout_weight="1.0" android:onClick="onClick" />
+    </LinearLayout>
+</RelativeLayout>

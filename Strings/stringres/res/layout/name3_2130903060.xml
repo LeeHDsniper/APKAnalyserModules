@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.ActionBarOverlayLayout android:id="@id/name3_2131689597" android:fitsSystemWindows="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/abc_screen_content_include" />
+    <android.support.v7.internal.widget.ActionBarContainer android:gravity="name3_16908455" android:id="@id/name3_2131689598" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_alignParentTop="true" style="?attr/actionBarStyle">
+        <android.support.v7.widget.Toolbar android:id="@id/name3_2131689599" android:layout_width="name3_16908781" android:layout_height="name3_16908386" app:navigationContentDescription="@string/name3_2131165185" style="?attr/toolbarStyle" />
+        <android.support.v7.internal.widget.ActionBarContextView android:theme="?name3_2130772311" android:id="@id/name3_2131689600" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908386" style="?attr/actionModeStyle" />
+    </android.support.v7.internal.widget.ActionBarContainer>
+</android.support.v7.internal.widget.ActionBarOverlayLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.behance.sdk.senab.photoview.PhotoView android:id="@id/name3_2131690203" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+    <com.behance.sdk.edmodo.cropper.cropwindow.CropOverlayView android:id="@id/name3_2131690204" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+</merge>

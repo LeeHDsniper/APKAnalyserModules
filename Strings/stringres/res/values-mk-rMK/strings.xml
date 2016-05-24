@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name3_2131165184">Движи се кон дома</string>
+    <string name="name3_2131165185">Движи се нагоре</string>
+    <string name="name3_2131165186">Повеќе опции</string>
+    <string name="name3_2131165187">Готово</string>
+    <string name="name3_2131165188">Види ги сите</string>
+    <string name="name3_2131165189">Избери апликација</string>
+    <string name="name3_2131165190">Исчисти барање</string>
+    <string name="name3_2131165191">Пребарај барање</string>
+    <string name="name3_2131165192">Пребарај</string>
+    <string name="name3_2131165193">Поднеси барање</string>
+    <string name="name3_2131165194">Гласовно пребарување</string>
+    <string name="name3_2131165195">Сподели со</string>
+    <string name="name3_2131165197">%1$s бара ажурирање на апликацијата Android Wear.</string>
+    <string name="name3_2131165198">%1$s нема да се извршува ако не ја ажурирате апликацијата Android Wear.</string>
+    <string name="name3_2131165199">Ажурирај Android Wear</string>
+    <string name="name3_2131165200">%1$s бара една или повеќе услуги на Google Play што не се достапни во моментов. Контактирајте со програмерот за помош.</string>
+    <string name="name3_2131165201">Овозможи ги услугите на Google Play</string>
+    <string name="name3_2131165202">%1$s нема да се извршува ако не овозможите услуги на Google Play.</string>
+    <string name="name3_2131165203">Овозможи ги услугите на Google Play</string>
+    <string name="name3_2131165204">Побарал %1$s</string>
+    <string name="name3_2131165205">Преземи ги услугите на Google Play</string>
+    <string name="name3_2131165206">%1$s нема да се извршува без услугите на Google Play што ги нема на телефонот.</string>
+    <string name="name3_2131165207">%1$s нема да се извршува без услугите на Google Play што ги нема на таблетот.</string>
+    <string name="name3_2131165208">Преземи ги услугите на Google Play</string>
+    <string name="name3_2131165209">Наведената сметка не постои на овој уред. Изберете друга сметка.</string>
+    <string name="name3_2131165210">Неважечка сметка</string>
+    <string name="name3_2131165211">Апликацијата бара да се овозможат услугите на Google Play.</string>
+    <string name="name3_2131165212">Потребно е поврзување податоци за да се поврзете со услугите на Google Play.</string>
+    <string name="name3_2131165213">Мрежна грешка</string>
+    <string name="name3_2131165214">Апликацијата бара да се ажурираат услугите на Google Play.</string>
+    <string name="name3_2131165215">Грешка на услугите на Google Play</string>
+    <string name="name3_2131165216">Грешка при пријавување во наведената сметка. Изберете друга сметка.</string>
+    <string name="name3_2131165217">Пријавувањето не успеа</string>
+    <string name="name3_2131165218">Непознат проблем со услугите на Google Play.</string>
+    <string name="name3_2131165219">%1$s се потпира на услуги на Google Play што вашиот уред не ги поддржува. Контактирајте со производителот за помош.</string>
+    <string name="name3_2131165220">Услуги на Google Play</string>
+    <string name="name3_2131165221">Ажурирај</string>
+    <string name="name3_2131165222">%1$s нема да се извршува ако не ги ажурирате услугите на Google Play.</string>
+    <string name="name3_2131165223">Ажурирај ги услугите на Google Play</string>
+    <string name="name3_2131165224">%1$s нема да се извршува без услугите на Google Play што се ажурираат во моментов.</string>
+    <string name="name3_2131165225">Услугите на Google Play се ажурираат</string>
+    <string name="name3_2131165226">Отвори на телефонот</string>
+    <string name="name3_2131165227">Најави се</string>
+    <string name="name3_2131165228">Најави се со Google</string>
+</resources>

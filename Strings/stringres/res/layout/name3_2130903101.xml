@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:id="@id/name3_2131689739" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginBottom="2.0dip" card_view:cardBackgroundColor="@android:color/name3_17170443" card_view:cardCornerRadius="7.0dip" card_view:cardElevation="2.0dip" card_view:cardUseCompatPadding="true">
+        <LinearLayout android:gravity="name3_16908447" android:layout_gravity="name3_16908447" android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="74.0dip">
+            <ImageView android:id="@id/name3_2131689740" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="18.0dip" android:textColor="@color/name3_2131558420" android:ellipsize="name3_16908395" android:gravity="name3_16908447" android:id="@id/name3_2131689741" android:layout_width="name3_16908386" android:layout_height="name3_16908781" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView android:id="@id/name3_2131689742" android:visibility="name3_16908734" android:layout_width="name3_16908781" android:layout_height="name3_16908386" card_view:cardBackgroundColor="@color/name3_2131558419" card_view:cardCornerRadius="7.0dip" card_view:cardElevation="4.0sp" card_view:cardUseCompatPadding="true">
+        <RelativeLayout android:layout_width="name3_16908781" android:layout_height="74.0dip">
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="18.0dip" android:textColor="@android:color/name3_17170443" android:ellipsize="name3_16908395" android:gravity="name3_16908447" android:id="@id/name3_2131689743" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginLeft="15.0dip" android:layout_marginRight="52.0dip" android:singleLine="true" android:layout_alignParentLeft="true" />
+            <FrameLayout android:layout_width="35.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="name3_16908445" android:id="@id/name3_2131689744" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/name1_2130837947" android:tint="@android:color/name3_17170443" />
+            </FrameLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

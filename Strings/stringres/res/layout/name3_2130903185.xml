@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:behanceSDK="http://schemas.android.com/apk/com.behance.sdk">
+    <ImageView android:id="@id/name3_2131690002" android:paddingTop="@dimen/name3_2131230728" android:visibility="name3_16908733" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:scaleType="name3_16908838" android:adjustViewBounds="true" android:contentDescription="@string/name3_2131165732" />
+    <RelativeLayout android:id="@id/name3_2131690003" android:background="@color/name3_2131558466" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131230863" android:layout_marginTop="@dimen/name3_2131230728" android:layout_toRightOf="@id/name3_2131689477">
+        <ImageView android:id="@id/name3_2131690004" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginBottom="@dimen/name3_2131231077" android:src="@drawable/name1_2130837619" android:scaleType="name3_16908445" android:layout_centerInParent="true" android:contentDescription="@string/name3_2131165797" />
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231080" android:textColor="@color/name3_2131558467" android:id="@id/name3_2131690005" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginBottom="@dimen/name3_2131231079" android:layout_below="@id/name3_2131690004" android:layout_centerHorizontal="true" behanceSDK:fontStyle="bold" />
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231078" android:textColor="@color/name3_2131558467" android:id="@id/name3_2131690006" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_below="@id/name3_2131690005" android:layout_centerHorizontal="true" behanceSDK:fontStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.StoreDetailLayout android:orientation="name3_16908461" android:background="@drawable/name3_2130837757" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/name3_2131690190" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+        <com.adobe.android.ui.view.AdaptiveFrameLayout android:id="@id/name3_2131690191" android:layout_width="name3_16908781" android:layout_height="0.0dip" app:adobe_layout_dimension="name3_2131689516" app:adobe_layout_dimension_value="59.000004%p">
+            <include layout="@layout/com_adobe_image_store_detail_banner" />
+        </com.adobe.android.ui.view.AdaptiveFrameLayout>
+        <RelativeLayout android:gravity="name3_16908445" android:id="@id/name3_2131690192" android:background="?name3_2130772372" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="40.0dip" android:focusable="true" android:clickable="true" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_below="@id/name3_2131690191">
+            <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296266" android:id="@id/name3_2131689579" android:layout_width="name3_16908386" android:layout_height="name3_16908386" app:fontFamily="?name3_2130771973" />
+            <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296270" android:textColor="?android:name3_16842806" android:autoLink="name3_16908457|name3_16908459" android:linksClickable="true" android:id="@id/name3_2131690193" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_below="@id/name3_2131689579" app:fontFamily="?name3_2130771972" />
+            <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296261" android:ellipsize="name3_16908396" android:id="@id/name3_2131690194" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:lines="4" android:singleLine="false" android:layout_below="@id/name3_2131690193" app:fontFamily="?name3_2130771972" />
+        </RelativeLayout>
+        <include android:id="@id/name3_2131690195" android:layout_width="name3_16908781" android:layout_height="name3_16908781" layout="@layout/com_adobe_image_store_detail_layout_previews" />
+        <RelativeLayout android:id="@id/name3_2131690196" android:paddingLeft="0.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="0.0dip" android:visibility="name3_16908734" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_alignTop="@id/name3_2131690192">
+            <com.adobe.creativesdk.aviary.widget.IAPBuyButton android:id="@id/name3_2131690197" android:layout_width="@dimen/name3_2131230720" android:layout_height="name3_16908386" android:layout_alignParentRight="true" app:adobe_buttonStyle="?name3_2130771976" app:adobe_progressStyle="?android:name3_16843400" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296266" android:id="@id/name3_2131690198" android:visibility="name3_16908732" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165251" android:layout_centerInParent="true" />
+</com.adobe.creativesdk.aviary.widget.StoreDetailLayout>

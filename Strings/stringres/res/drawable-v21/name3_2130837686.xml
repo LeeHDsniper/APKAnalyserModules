@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true">
+        <nine-patch android:src="@drawable/name1_2130837631" android:tint="@color/name3_2131558507" />
+    </item>
+    <item android:state_window_focused="false" android:state_enabled="false">
+        <nine-patch android:src="@drawable/name1_2130837631" android:tint="@color/name3_2131558507" android:alpha="0.5" />
+    </item>
+    <item android:state_focused="true" android:state_enabled="true">
+        <nine-patch android:src="@drawable/name1_2130837631" android:tint="@color/name3_2131558508" />
+    </item>
+    <item android:state_enabled="true" android:state_activated="true">
+        <nine-patch android:src="@drawable/name1_2130837631" android:tint="@color/name3_2131558508" />
+    </item>
+    <item android:state_enabled="true">
+        <nine-patch android:src="@drawable/name1_2130837631" android:tint="@color/name3_2131558507" />
+    </item>
+    <item android:state_focused="true">
+        <nine-patch android:src="@drawable/name1_2130837631" android:tint="@color/name3_2131558507" android:alpha="0.5" />
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/name1_2130837631" android:tint="@color/name3_2131558507" android:alpha="0.5" />
+    </item>
+</selector>

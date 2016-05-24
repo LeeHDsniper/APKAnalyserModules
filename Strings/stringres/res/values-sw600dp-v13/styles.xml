@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name3_2131296257" parent="@style/name3_2131296533">
+        <item name="name3_2130772278">name3_2131689562</item>
+        <item name="name3_2130772279">name3_2131689524</item>
+    </style>
+    <style name="name3_2131296260" parent="@style/name3_2131296430">
+        <item name="android:name3_16842996">500.0dip</item>
+    </style>
+</resources>

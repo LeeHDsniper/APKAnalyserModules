@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:left="@dimen/name3_2131231206" android:top="@dimen/name3_2131231206" android:right="@dimen/name3_2131231206" android:bottom="@dimen/name3_2131231206">
+                <shape android:shape="name3_16908867">
+                    <solid android:color="@color/name3_2131558600" />
+                    <size android:height="@dimen/name3_2131231208" android:width="@dimen/name3_2131231208" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/name1_2130837787" android:left="@dimen/name3_2131231206" android:top="@dimen/name3_2131231206" android:right="@dimen/name3_2131231206" android:bottom="@dimen/name3_2131231206" />
+        </layer-list>
+    </item>
+    <item android:drawable="@drawable/name1_2130837787" android:left="@dimen/name3_2131231206" android:top="@dimen/name3_2131231206" android:right="@dimen/name3_2131231206" android:bottom="@dimen/name3_2131231206" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689577" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="name3_16908781" android:layout_height="?name3_2130772337" android:minWidth="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:duplicateParentState="true" android:layout_width="name3_16908386" android:layout_height="name3_16908781">
+        <ImageView android:layout_gravity="name3_16908447" android:id="@id/name3_2131689578" android:duplicateParentState="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" />
+        <TextView android:textAppearance="?name3_2130772331" android:ellipsize="name3_16908394" android:layout_gravity="name3_16908447" android:id="@id/name3_2131689579" android:fadingEdge="name3_16908460" android:duplicateParentState="true" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

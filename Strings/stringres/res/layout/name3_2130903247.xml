@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.AdobeImageToolBar android:id="@id/name3_2131689489" android:layout_width="name3_16908781" android:layout_height="?name3_2130772313" android:minHeight="?name3_2130772313" style="?attr/toolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewSwitcher android:id="@id/name3_2131690175" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:inAnimation="@anim/name3_2130968620" android:outAnimation="@anim/name3_2130968621">
+        <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <android.support.v7.widget.AppCompatTextView android:textAppearance="@style/name3_2131296577" android:id="@android:id/name3_16908310" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165282" android:layout_centerVertical="true" />
+            <android.support.v7.widget.AppCompatButton android:id="@id/name3_2131690151" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165376" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/AdobeImageWidget.FlatButton.DGray.Transparent" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <TextSwitcher android:id="@id/name3_2131690176" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerVertical="true" android:animateFirstView="false" />
+            <ProgressBar android:id="@id/name3_2131690177" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:maxWidth="?name3_2130772011" android:maxHeight="?name3_2130772011" android:indeterminate="true" android:indeterminateOnly="true" android:minWidth="?name3_2130772011" android:minHeight="?name3_2130772011" android:layout_toLeftOf="@id/name3_2131690152" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmall" />
+            <ImageButton android:id="@id/name3_2131690152" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837724" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/name3_2131165252" style="@style/AdobeImageWidget.FlatButton.DGray.Transparent" />
+        </RelativeLayout>
+    </ViewSwitcher>
+</com.adobe.creativesdk.aviary.widget.AdobeImageToolBar>

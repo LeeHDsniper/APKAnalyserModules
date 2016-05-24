@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:background="@android:color/name3_17170447" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bsdk_adapter_publish_project_copyright_settings_item_header" />
+    <RelativeLayout android:paddingLeft="@dimen/name3_2131231178" android:paddingRight="@dimen/name3_2131231179" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+        <View android:id="@id/name3_2131689985" android:background="@color/name3_2131558532" android:layout_width="name3_16908781" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/name3_2131689986" android:paddingLeft="@dimen/name3_2131231111" android:paddingRight="@dimen/name3_2131231181" android:visibility="name3_16908732" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837643" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/name3_2131165768" />
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231177" android:textColor="@color/name3_2131558554" android:id="@id/name3_2131689987" android:paddingTop="@dimen/name3_2131231182" android:paddingBottom="@dimen/name3_2131231182" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_toLeftOf="@id/name3_2131689986" android:layout_alignParentLeft="true" app:fontSyle="name3_2131689503" />
+    </RelativeLayout>
+</LinearLayout>

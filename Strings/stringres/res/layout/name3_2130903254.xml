@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar android:id="@id/name3_2131690140" android:layout_width="name3_16908781" android:layout_height="name3_16908386" style="@style/AdobeImageWidget.SeekBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

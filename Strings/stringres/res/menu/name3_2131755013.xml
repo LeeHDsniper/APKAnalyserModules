@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/name3_2131690255" android:orderInCategory="1" android:title="@string/name3_2131165636" app:showAsAction="name3_2131689551" />
+    <item android:icon="@drawable/name1_2130837966" android:id="@id/name3_2131690256" android:orderInCategory="1" android:title="@string/name3_2131165511" app:showAsAction="name3_2131689551" />
+    <item android:id="@id/name3_2131690257" android:orderInCategory="200" android:title="@string/name3_2131165611" app:showAsAction="name3_2131689554" />
+    <item android:id="@id/name3_2131690258" android:orderInCategory="200" android:title="@string/name3_2131165607" app:showAsAction="name3_2131689554" />
+    <item android:id="@id/name3_2131690259" android:orderInCategory="300" android:title="@string/name3_2131165508" app:showAsAction="name3_2131689554" />
+    <item android:id="@id/name3_2131690260" android:orderInCategory="300" android:title="@string/name3_2131165509" app:showAsAction="name3_2131689554" />
+</menu>

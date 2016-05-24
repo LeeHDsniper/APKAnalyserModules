@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha android:interpolator="@android:interpolator/name3_17563648" android:duration="@integer/name3_2131427382" android:fillAfter="true" android:fromAlpha="1.0" android:toAlpha="0.0" android:fillEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

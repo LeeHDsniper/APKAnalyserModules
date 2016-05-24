@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name3_2131296256" parent="@style/name3_2131296525">
+        <item name="name3_2130772181">24.0dip</item>
+        <item name="name3_2130772182">3.0dip</item>
+        <item name="name3_2130772185">18.0dip</item>
+    </style>
+    <style name="name3_2131296257" parent="@style/name3_2131296533">
+        <item name="name3_2130772278">name3_2131689562</item>
+        <item name="name3_2130772279">name3_2131689530</item>
+    </style>
+    <style name="name3_2131296258" parent="@style/name3_2131296597" />
+    <style name="name3_2131296259" parent="@style/name3_2131296603" />
+    <style name="name3_2131296260" parent="@style/name3_2131296430">
+        <item name="android:name3_16842996">name3_16908781</item>
+    </style>
+    <style name="name3_2131296261" parent="@style/name3_2131296546" />
+    <style name="name3_2131296262" parent="@style/name3_2131296547" />
+    <style name="name3_2131296263" parent="@style/name3_2131296549" />
+    <style name="name3_2131296264" parent="@style/name3_2131296550" />
+    <style name="name3_2131296265" parent="@style/name3_2131296556" />
+    <style name="name3_2131296266" parent="@style/name3_2131296557" />
+    <style name="name3_2131296267" parent="@style/name3_2131296558" />
+    <style name="name3_2131296268" parent="@style/name3_2131296563" />
+    <style name="name3_2131296269" parent="@style/name3_2131296564" />
+    <style name="name3_2131296270" parent="@style/name3_2131296568" />
+    <style name="name3_2131296271" parent="@style/name3_2131296569" />
+    <style name="name3_2131296272" parent="@style/name3_2131296570" />
+    <style name="name3_2131296273" parent="@style/name3_2131296572" />
+    <style name="name3_2131296274" parent="@android:style/name3_16973836" />
+    <style name="name3_2131296275" parent="@style/name3_2131296324">
+        <item name="android:name3_16842904">?android:name3_16842809</item>
+        <item name="android:name3_16842906">?android:name3_16842815</item>
+    </style>
+    <style name="name3_2131296276" parent="@style/name3_2131296333">
+        <item name="android:name3_16842904">?android:name3_16842809</item>
+        <item name="android:name3_16842906">?android:name3_16842815</item>
+    </style>
+    <style name="name3_2131296277" parent="@style/name3_2131296336">
+        <item name="android:name3_16842904">?android:name3_16842810</item>
+        <item name="android:name3_16842906">?android:name3_16842815</item>
+    </style>
+    <style name="name3_2131296278" parent="@style/name3_2131296340">
+        <item name="android:name3_16842904">?android:name3_16843283</item>
+        <item name="android:name3_16842906">?android:name3_16842815</item>
+    </style>
+    <style name="name3_2131296279" parent="@style/name3_2131296341">
+        <item name="android:name3_16842904">?android:name3_16842810</item>
+        <item name="android:name3_16842906">?android:name3_16842815</item>
+    </style>
+    <style name="name3_2131296280" parent="@style/name3_2131296342">
+        <item name="android:name3_16842904">?android:name3_16842809</item>
+        <item name="android:name3_16842906">?android:name3_16842815</item>
+    </style>
+    <style name="name3_2131296281" parent="@style/name3_2131296512" />
+    <style name="name3_2131296282" parent="@style/name3_2131296514" />
+    <style name="name3_2131296285" parent="@android:style/name3_16973852">
+        <item name="android:name3_16843039">@dimen/name3_2131230725</item>
+        <item name="android:name3_16843040">@dimen/name3_2131230725</item>
+        <item name="android:name3_16843071">@dimen/name3_2131230725</item>
+        <item name="android:name3_16843072">@dimen/name3_2131230725</item>
+    </style>
+    <style name="name3_2131296286" parent="@android:style/name3_16973855" />
+    <style name="name3_2131296287" parent="@android:style/name3_16973864">
+        <item name="android:name3_16842964">@drawable/name1_2130837552</item>
+        <item name="android:name3_16843125">?name3_2130772371</item>
+        <item name="android:name3_16843437">0.0dip</item>
+    </style>
+    <style name="name3_2131296288" parent="@android:style/name3_16973829">
+        <item name="android:name3_16842800">@color/name3_2131558442</item>
+        <item name="android:name3_16842801">@color/name3_2131558436</item>
+        <item name="android:name3_16842802">0.6</item>
+        <item name="android:name3_16842803">@dimen/name3_2131230905</item>
+        <item name="android:name3_16842804">@style/name3_2131296546</item>
+        <item name="android:name3_16842805">@style/name3_2131296556</item>
+        <item name="android:name3_16842806">@color/name3_2131558691</item>
+        <item name="android:name3_16842807">@color/name3_2131558689</item>
+        <item name="android:name3_16842808">@color/name3_2131558694</item>
+        <item name="android:name3_16842809">@color/name3_2131558692</item>
+        <item name="android:name3_16842810">@color/name3_2131558695</item>
+        <item name="android:name3_16842815">@color/name3_2131558647</item>
+        <item name="android:name3_16842816">@style/name3_2131296557</item>
+        <item name="android:name3_16842817">@style/name3_2131296563</item>
+        <item name="android:name3_16842818">@style/name3_2131296568</item>
+        <item name="android:name3_16842819">@style/name3_2131296558</item>
+        <item name="android:name3_16842820">@style/name3_2131296564</item>
+        <item name="android:name3_16842821">@style/name3_2131296569</item>
+        <item name="android:name3_16842836">@color/name3_2131558436</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842905">@color/name3_2131558644</item>
+        <item name="android:name3_16842906">@color/name3_2131558646</item>
+        <item name="android:name3_16842907">@color/name3_2131558648</item>
+        <item name="android:name3_16843270">@color/name3_2131558443</item>
+        <item name="android:name3_16843282">@color/name3_2131558694</item>
+        <item name="android:name3_16843283">@color/name3_2131558695</item>
+        <item name="android:name3_16843289">@drawable/name3_2130837510</item>
+        <item name="android:name3_16843290">@drawable/name3_2130837506</item>
+        <item name="android:name3_16843435">@color/name3_2131558687</item>
+    </style>
+    <style name="name3_2131296289" parent="@android:style/name3_16973836">
+        <item name="android:name3_16842800">@color/name3_2131558443</item>
+        <item name="android:name3_16842801">@color/name3_2131558437</item>
+        <item name="android:name3_16842802">0.6</item>
+        <item name="android:name3_16842803">@dimen/name3_2131230906</item>
+        <item name="android:name3_16842804">@style/name3_2131296546</item>
+        <item name="android:name3_16842805">@style/name3_2131296556</item>
+        <item name="android:name3_16842806">@color/name3_2131558692</item>
+        <item name="android:name3_16842807">@color/name3_2131558690</item>
+        <item name="android:name3_16842808">@color/name3_2131558695</item>
+        <item name="android:name3_16842809">@color/name3_2131558691</item>
+        <item name="android:name3_16842810">@color/name3_2131558694</item>
+        <item name="android:name3_16842815">@color/name3_2131558646</item>
+        <item name="android:name3_16842816">@style/name3_2131296557</item>
+        <item name="android:name3_16842817">@style/name3_2131296563</item>
+        <item name="android:name3_16842818">@style/name3_2131296568</item>
+        <item name="android:name3_16842819">@style/name3_2131296558</item>
+        <item name="android:name3_16842820">@style/name3_2131296564</item>
+        <item name="android:name3_16842821">@style/name3_2131296569</item>
+        <item name="android:name3_16842836">@color/name3_2131558437</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842905">@color/name3_2131558645</item>
+        <item name="android:name3_16842906">@color/name3_2131558647</item>
+        <item name="android:name3_16842907">@color/name3_2131558649</item>
+        <item name="android:name3_16843270">@color/name3_2131558442</item>
+        <item name="android:name3_16843282">@color/name3_2131558695</item>
+        <item name="android:name3_16843283">@color/name3_2131558694</item>
+        <item name="android:name3_16843289">@drawable/name3_2130837510</item>
+        <item name="android:name3_16843290">@drawable/name3_2130837506</item>
+        <item name="android:name3_16843403">@color/name3_2131558689</item>
+        <item name="android:name3_16843435">@color/name3_2131558688</item>
+    </style>
+    <style name="name3_2131296294" parent="@style/name3_2131296515" />
+    <style name="name3_2131296295" parent="@style/name3_2131296516" />
+    <style name="name3_2131296296" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230919</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+        <item name="name3_2130772122">true</item>
+    </style>
+    <style name="name3_2131296299" />
+    <style name="name3_2131296300" />
+    <style name="name3_2131296301" />
+    <style name="name3_2131296302" />
+    <style name="name3_2131296303" />
+    <style name="name3_2131296304" parent="@style/name3_2131296493" />
+    <style name="name3_2131296305" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842931">name3_16908445|name3_16908453</item>
+        <item name="android:name3_16842968">8.0dip</item>
+    </style>
+    <style name="name3_2131296306" parent="@style/name3_2131296366">
+        <item name="android:name3_16842966">@dimen/name3_2131230885</item>
+        <item name="android:name3_16842968">@dimen/name3_2131230757</item>
+    </style>
+    <style name="name3_2131296307" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843001">8.0dip</item>
+    </style>
+    <style name="name3_2131296308" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842968">16.0dip</item>
+    </style>
+    <style name="name3_2131296309" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842999">16.0dip</item>
+    </style>
+    <style name="name3_2131296310" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843147">true</item>
+    </style>
+    <style name="name3_2131296311" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842966">@dimen/name3_2131230908</item>
+        <item name="android:name3_16842968">4.0dip</item>
+    </style>
+    <style name="name3_2131296312" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843147">true</item>
+    </style>
+    <style name="name3_2131296313" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843138">@id/name3_2131689601</item>
+    </style>
+    <style name="name3_2131296314" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843149">true</item>
+    </style>
+    <style name="name3_2131296315" parent="@style/name3_2131296374">
+        <item name="android:name3_16843138">@android:id/name3_16908296</item>
+        <item name="android:name3_16843139">@android:id/name3_16908295</item>
+    </style>
+    <style name="name3_2131296316" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842999">@dimen/name3_2131230908</item>
+    </style>
+    <style name="name3_2131296317" parent="@style/name3_2131296390">
+        <item name="android:name3_16842966">@dimen/name3_2131230756</item>
+    </style>
+    <style name="name3_2131296318" parent="@style/name3_2131296425" />
+    <style name="name3_2131296319" parent="@style/name3_2131296425" />
+    <style name="name3_2131296320" parent="@style/name3_2131296425" />
+    <style name="name3_2131296321" parent="@style/name3_2131296456" />
+    <style name="name3_2131296322" parent="@android:style/name3_16973982" />
+    <style name="name3_2131296323" parent="@style/name3_2131296469" />
+    <style name="name3_2131296324" parent="@android:style/name3_16973886">
+        <item name="android:name3_16842901">@dimen/name3_2131230917</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+        <item name="android:name3_16842905">?android:name3_16842905</item>
+        <item name="android:name3_16842906">?android:name3_16842906</item>
+        <item name="android:name3_16842907">?android:name3_16842907</item>
+    </style>
+    <style name="name3_2131296325" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230917</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296326" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230918</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296327" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230920</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+    </style>
+    <style name="name3_2131296328" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230921</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+    </style>
+    <style name="name3_2131296329" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230922</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+    </style>
+    <style name="name3_2131296330" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230923</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+    </style>
+    <style name="name3_2131296331" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230924</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+    </style>
+    <style name="name3_2131296332" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230925</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296333" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230926</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296334" parent="@style/name3_2131296565" />
+    <style name="name3_2131296335" parent="@style/name3_2131296565" />
+    <style name="name3_2131296336" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230927</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+    </style>
+    <style name="name3_2131296337" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230928</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296338" parent="@style/name3_2131296495">
+        <item name="android:name3_16842901">14.0sp</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+    </style>
+    <style name="name3_2131296339" parent="@style/name3_2131296495">
+        <item name="android:name3_16842901">18.0sp</item>
+    </style>
+    <style name="name3_2131296340" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230929</item>
+        <item name="android:name3_16842904">?android:name3_16843282</item>
+    </style>
+    <style name="name3_2131296341" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296342" parent="@style/name3_2131296324">
+        <item name="android:name3_16842901">@dimen/name3_2131230931</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296343" parent="@android:style/name3_16973894">
+        <item name="android:name3_16842901">12.0sp</item>
+        <item name="android:name3_16842903">name3_16908391</item>
+        <item name="android:name3_16842904">?name3_2130772317</item>
+    </style>
+    <style name="name3_2131296344" parent="@style/name3_2131296570">
+        <item name="android:name3_16842901">@dimen/name3_2131230726</item>
+    </style>
+    <style name="name3_2131296345" parent="@style/name3_2131296571">
+        <item name="android:name3_16842901">@dimen/name3_2131230726</item>
+    </style>
+    <style name="name3_2131296346" parent="@style/name3_2131296572">
+        <item name="android:name3_16842901">@dimen/name3_2131230727</item>
+    </style>
+    <style name="name3_2131296347" parent="@style/name3_2131296573">
+        <item name="android:name3_16842901">@dimen/name3_2131230727</item>
+    </style>
+    <style name="name3_2131296348" parent="@style/name3_2131296570">
+        <item name="android:name3_16842901">@dimen/name3_2131230726</item>
+    </style>
+    <style name="name3_2131296349" parent="@style/name3_2131296572">
+        <item name="android:name3_16842901">@dimen/name3_2131230727</item>
+    </style>
+    <style name="name3_2131296350" parent="@style/name3_2131296565" />
+    <style name="name3_2131296351" parent="@style/name3_2131296565" />
+    <style name="name3_2131296352" parent="@style/name3_2131296549" />
+    <style name="name3_2131296353" parent="@style/name3_2131296565" />
+    <style name="name3_2131296354" parent="@style/name3_2131296575" />
+    <style name="name3_2131296355" parent="@style/name3_2131296577" />
+    <style name="name3_2131296356" parent="@style/name3_2131296511" />
+    <style name="name3_2131296357" parent="@style/name3_2131296513" />
+    <style name="name3_2131296362">
+        <item name="android:name3_16842804">@style/name3_2131296563</item>
+        <item name="android:name3_16842901">12.0sp</item>
+        <item name="android:name3_16842903">name3_16908391</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+        <item name="android:name3_16842923">name3_16908394</item>
+        <item name="android:name3_16843039">180.0dip</item>
+        <item name="android:name3_16843091">2</item>
+        <item name="name3_2130772122">true</item>
+    </style>
+    <style name="name3_2131296363">
+        <item name="android:name3_16842927">name3_16908446</item>
+        <item name="android:name3_16842964">@drawable/name3_2130837556</item>
+        <item name="android:name3_16842966">16.0dip</item>
+        <item name="android:name3_16842968">16.0dip</item>
+        <item name="android:name3_16842996">0.0dip</item>
+        <item name="android:name3_16843071">80.0dip</item>
+        <item name="android:name3_16843137">1.0</item>
+    </style>
+    <style name="name3_2131296364">
+        <item name="android:name3_16842927">name3_16908445</item>
+        <item name="android:name3_16842964">?name3_2130772315</item>
+        <item name="android:name3_16842966">12.0dip</item>
+        <item name="android:name3_16842968">12.0dip</item>
+        <item name="android:name3_16843037">name3_16908445</item>
+        <item name="android:name3_16843071">@dimen/name3_2131230891</item>
+        <item name="android:name3_16843072">@dimen/name3_2131230890</item>
+        <item name="android:name3_16843091">2</item>
+        <item name="name3_2130772122">@bool/name3_2131361799</item>
+    </style>
+    <style name="name3_2131296365" parent="@style/name3_2131296364">
+        <item name="android:name3_16842964">?name3_2130772344</item>
+        <item name="android:name3_16843071">56.0dip</item>
+    </style>
+    <style name="name3_2131296366" parent="@style/name3_2131296364">
+        <item name="android:name3_16842964">?name3_2130772315</item>
+        <item name="android:name3_16843033">@drawable/name1_2130837529</item>
+        <item name="android:name3_16843071">@dimen/name3_2131230892</item>
+        <item name="android:name3_16843072">@dimen/name3_2131230890</item>
+        <item name="android:name3_16843379">@string/name3_2131165186</item>
+    </style>
+    <style name="name3_2131296367" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842804">?android:name3_16843271</item>
+        <item name="android:name3_16842927">name3_16908445</item>
+        <item name="android:name3_16842964">@drawable/name3_2130837509</item>
+        <item name="android:name3_16842970">true</item>
+        <item name="android:name3_16842981">true</item>
+        <item name="android:name3_16843071">88.0dip</item>
+        <item name="android:name3_16843072">48.0dip</item>
+    </style>
+    <style name="name3_2131296368" parent="@style/name3_2131296367">
+        <item name="android:name3_16842964">@drawable/name3_2130837505</item>
+    </style>
+    <style name="name3_2131296369" parent="@style/name3_2131296368">
+        <item name="android:name3_16842904">?name3_2130772374</item>
+    </style>
+    <style name="name3_2131296370" parent="@style/name3_2131296367">
+        <item name="android:name3_16843071">48.0dip</item>
+        <item name="android:name3_16843072">48.0dip</item>
+    </style>
+    <style name="name3_2131296371" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842964">@null</item>
+    </style>
+    <style name="name3_2131296372" parent="@android:style/name3_16973849">
+        <item name="android:name3_16842964">?name3_2130772344</item>
+        <item name="android:name3_16843015">?android:name3_16843290</item>
+    </style>
+    <style name="name3_2131296373" parent="@android:style/name3_16973850">
+        <item name="android:name3_16842964">?name3_2130772344</item>
+        <item name="android:name3_16843015">?android:name3_16843289</item>
+    </style>
+    <style name="name3_2131296374">
+        <item name="android:name3_16842804">@style/name3_2131296583</item>
+        <item name="android:name3_16842927">name3_16908447</item>
+        <item name="android:name3_16842966">8.0dip</item>
+        <item name="android:name3_16842968">8.0dip</item>
+    </style>
+    <style name="name3_2131296375" parent="@style/name3_2131296362" />
+    <style name="name3_2131296376" parent="@style/name3_2131296375">
+        <item name="android:name3_16842804">@style/name3_2131296564</item>
+    </style>
+    <style name="name3_2131296377" parent="@style/name3_2131296363">
+        <item name="android:name3_16842964">@drawable/name3_2130837556</item>
+    </style>
+    <style name="name3_2131296378" parent="@style/name3_2131296667" />
+    <style name="name3_2131296379" parent="@style/name3_2131296378">
+        <item name="android:name3_16843436">-4.0dip</item>
+        <item name="name3_2130772222">true</item>
+    </style>
+    <style name="name3_2131296380">
+        <item name="android:name3_16843125">?name3_2130772371</item>
+        <item name="android:name3_16843126">@drawable/name1_2130837550</item>
+        <item name="android:name3_16843362">name3_16908386</item>
+        <item name="android:name3_16843436">0.0dip</item>
+        <item name="android:name3_16843437">0.0dip</item>
+    </style>
+    <style name="name3_2131296381" parent="@android:style/name3_16973870">
+        <item name="android:name3_16843003">?name3_2130772371</item>
+    </style>
+    <style name="name3_2131296382" parent="@style/name3_2131296381">
+        <item name="android:name3_16843049">@null</item>
+    </style>
+    <style name="name3_2131296383" parent="@android:style/name3_16973873">
+        <item name="android:name3_16843003">?name3_2130772371</item>
+        <item name="android:name3_16843049">?name3_2130772347</item>
+    </style>
+    <style name="name3_2131296384" parent="@style/name3_2131296667" />
+    <style name="name3_2131296385" parent="@style/name3_2131296384">
+        <item name="android:name3_16843436">-4.0dip</item>
+        <item name="name3_2130772222">true</item>
+    </style>
+    <style name="name3_2131296386" parent="@android:style/name3_16973857">
+        <item name="android:name3_16843067">@drawable/name3_2130837551</item>
+        <item name="android:name3_16843068">@drawable/name3_2130837551</item>
+    </style>
+    <style name="name3_2131296387" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842927">name3_16908397|name3_16908445</item>
+        <item name="android:name3_16842964">@drawable/name1_2130837552</item>
+        <item name="android:name3_16842981">true</item>
+        <item name="android:name3_16843125">?name3_2130772371</item>
+        <item name="android:name3_16843126">@drawable/name1_2130837550</item>
+        <item name="android:name3_16843362">name3_16908386</item>
+        <item name="android:name3_16843436">0.0dip</item>
+        <item name="android:name3_16843437">0.0dip</item>
+        <item name="name3_2130772222">true</item>
+        <item name="name3_2130772256">name3_2131689561</item>
+        <item name="name3_2130772257">@layout/name3_2130903064</item>
+        <item name="name3_2130772258">true</item>
+    </style>
+    <style name="name3_2131296388" parent="@style/name3_2131296287">
+        <item name="android:name3_16842964">@drawable/name3_2130837553</item>
+    </style>
+    <style name="name3_2131296389" parent="@android:style/name3_16973866">
+        <item name="android:name3_16842804">@style/name3_2131296587</item>
+        <item name="android:name3_16842966">8.0dip</item>
+        <item name="android:name3_16842968">8.0dip</item>
+    </style>
+    <style name="name3_2131296390" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842964">?name3_2130772343</item>
+        <item name="android:name3_16843037">name3_16908445</item>
+        <item name="android:name3_16843071">56.0dip</item>
+    </style>
+    <style name="name3_2131296391" parent="@style/name3_2131296274">
+        <item name="android:name3_16842836">@android:color/name3_17170445</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842840">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843295">false</item>
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296392" parent="@style/name3_2131296274">
+        <item name="android:name3_16842836">@android:color/name3_17170445</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842839">true</item>
+        <item name="android:name3_16842840">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843295">false</item>
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296393" parent="@style/name3_2131296274">
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296394" parent="@style/name3_2131296274">
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296395" parent="@style/name3_2131296274">
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296396" parent="@style/name3_2131296397">
+        <item name="android:name3_16842901">@dimen/name3_2131231125</item>
+        <item name="android:name3_16842904">@color/name3_2131558506</item>
+        <item name="android:name3_16842906">@color/name3_2131558505</item>
+        <item name="android:name3_16842927">name3_16908447</item>
+        <item name="android:name3_16842996">name3_16908781</item>
+        <item name="android:name3_16842997">@dimen/name3_2131231124</item>
+        <item name="android:name3_16843296">name3_16908409</item>
+        <item name="android:name3_16843364">name3_16908443</item>
+    </style>
+    <style name="name3_2131296397">
+        <item name="android:name3_16842964">@drawable/name3_2130837681</item>
+    </style>
+    <style name="name3_2131296398">
+        <item name="android:name3_16842964">@drawable/name3_2130837685</item>
+        <item name="android:name3_16842999">@dimen/name3_2131231091</item>
+    </style>
+    <style name="name3_2131296399" parent="@android:style/name3_16974064">
+        <item name="android:name3_16842926">@style/name3_2131296535</item>
+    </style>
+    <style name="name3_2131296400" parent="@android:style/name3_16974064">
+        <item name="android:name3_16842926">@style/name3_2131296538</item>
+    </style>
+    <style name="name3_2131296401">
+        <item name="android:name3_16842964">@drawable/name3_2130837686</item>
+    </style>
+    <style name="name3_2131296402" parent="@style/name3_2131296397">
+        <item name="android:name3_16842901">@dimen/name3_2131231097</item>
+        <item name="android:name3_16842904">@color/name3_2131558482</item>
+        <item name="android:name3_16842906">@color/name3_2131558481</item>
+    </style>
+    <style name="name3_2131296403" parent="@android:style/name3_16974064">
+        <item name="android:name3_16842926">@style/name3_2131296539</item>
+    </style>
+    <style name="name3_2131296404" parent="@android:style/name3_16974064">
+        <item name="android:name3_16842926">@style/name3_2131296539</item>
+    </style>
+    <style name="name3_2131296405" parent="@style/name3_2131296397">
+        <item name="android:name3_16842901">@dimen/name3_2131230877</item>
+        <item name="android:name3_16842904">@color/name3_2131558569</item>
+        <item name="android:name3_16842906">@color/name3_2131558570</item>
+    </style>
+    <style name="name3_2131296406">
+        <item name="android:name3_16842859">@style/name3_2131296631</item>
+        <item name="android:name3_16842886">@style/name3_2131296643</item>
+        <item name="name3_2130772315">@drawable/name3_2130837535</item>
+        <item name="name3_2130772336">@style/name3_2131296681</item>
+        <item name="name3_2130772343">@drawable/name3_2130837535</item>
+    </style>
+    <style name="name3_2131296407">
+        <item name="android:name3_16842859">@style/name3_2131296659</item>
+        <item name="android:name3_16842886">@style/name3_2131296643</item>
+        <item name="name3_2130772315">@drawable/name3_2130837536</item>
+        <item name="name3_2130772336">@style/name3_2131296666</item>
+        <item name="name3_2130772343">@drawable/name3_2130837536</item>
+    </style>
+    <style name="name3_2131296408" parent="@style/name3_2131296626">
+        <item name="android:name3_16842965">15.0dip</item>
+        <item name="android:name3_16843039">40.0dip</item>
+        <item name="android:name3_16843071">20.0dip</item>
+    </style>
+    <style name="name3_2131296409" parent="@style/name3_2131296420">
+        <item name="android:name3_16843492">true</item>
+        <item name="name3_2130772295">true</item>
+    </style>
+    <style name="name3_2131296410" parent="@style/name3_2131296609" />
+    <style name="name3_2131296411" parent="@style/name3_2131296616">
+        <item name="android:name3_16842901">@dimen/name3_2131230940</item>
+        <item name="android:name3_16843056">@drawable/name3_2130837975</item>
+    </style>
+    <style name="name3_2131296412" parent="@style/name3_2131296410" />
+    <style name="name3_2131296413" parent="@style/name3_2131296412">
+        <item name="name3_2130772295">true</item>
+    </style>
+    <style name="name3_2131296414" parent="@style/name3_2131296604">
+        <item name="name3_2130772295">true</item>
+    </style>
+    <style name="name3_2131296415" parent="@style/name3_2131296259">
+        <item name="android:name3_16842841">@null</item>
+        <item name="name3_2130772293">false</item>
+    </style>
+    <style name="name3_2131296416" parent="@style/name3_2131296608">
+        <item name="name3_2130772293">false</item>
+        <item name="name3_2130772294">true</item>
+    </style>
+    <style name="name3_2131296417" parent="@style/name3_2131296605">
+        <item name="android:name3_16842836">@android:color/name3_17170445</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842964">@android:color/name3_17170445</item>
+        <item name="android:name3_16843295">true</item>
+    </style>
+    <style name="name3_2131296418" parent="@style/name3_2131296603">
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843277">true</item>
+        <item name="name3_2130772293">false</item>
+    </style>
+    <style name="name3_2131296419" parent="@style/name3_2131296613">
+        <item name="android:name3_16843480">@style/name3_2131296408</item>
+        <item name="android:name3_16843510">@style/name3_2131296478</item>
+        <item name="name3_2130772306">@style/name3_2131296478</item>
+        <item name="name3_2130772340">@style/name3_2131296408</item>
+        <item name="name3_2130772358">@style/name3_2131296545</item>
+    </style>
+    <style name="name3_2131296420" parent="@style/name3_2131296412">
+        <item name="android:name3_16842841">@null</item>
+        <item name="name3_2130772373">@color/name3_2131558411</item>
+        <item name="name3_2130772374">@color/name3_2131558410</item>
+    </style>
+    <style name="name3_2131296421" parent="@style/name3_2131296420">
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296422" parent="@style/name3_2131296563">
+        <item name="android:name3_16842901">@dimen/name3_2131230954</item>
+        <item name="android:name3_16842904">@color/name3_2131558420</item>
+        <item name="android:name3_16842923">name3_16908395</item>
+        <item name="android:name3_16842964">@color/name3_2131558418</item>
+        <item name="android:name3_16842968">3.0dip</item>
+        <item name="android:name3_16842996">name3_16908781</item>
+        <item name="android:name3_16842997">name3_16908386</item>
+        <item name="android:name3_16842999">@dimen/name3_2131230953</item>
+        <item name="android:name3_16843101">true</item>
+        <item name="android:name3_16843153">true</item>
+    </style>
+    <style name="name3_2131296423" parent="@style/name3_2131296412">
+        <item name="android:name3_16842841">@null</item>
+        <item name="name3_2130772373">@color/name3_2131558417</item>
+        <item name="name3_2130772374">@color/name3_2131558410</item>
+    </style>
+    <style name="name3_2131296424">
+        <item name="android:name3_16842904">@color/name3_2131558423</item>
+        <item name="android:name3_16842964">@drawable/name3_2130837572</item>
+    </style>
+    <style name="name3_2131296425" parent="@style/name3_2131296610">
+        <item name="name3_2130771971">adobe/image/fonts/Roboto-Bold.ttf</item>
+        <item name="name3_2130771972">adobe/image/fonts/Roboto-Light.ttf</item>
+        <item name="name3_2130771973">adobe/image/fonts/Roboto-Regular.ttf</item>
+        <item name="name3_2130771976">@style/name3_2131296439</item>
+        <item name="name3_2130771977">@style/name3_2131296440</item>
+        <item name="name3_2130771978">@drawable/name3_2130837730</item>
+        <item name="name3_2130771979">@color/name3_2131558582</item>
+        <item name="name3_2130771980">@color/name3_2131558590</item>
+        <item name="name3_2130771981">@color/name3_2131558598</item>
+        <item name="name3_2130771982">@color/name3_2131558600</item>
+        <item name="name3_2130771983">@color/name3_2131558589</item>
+        <item name="name3_2130771984">@color/name3_2131558601</item>
+        <item name="name3_2130772005">@drawable/name3_2130837766</item>
+        <item name="name3_2130772006">@drawable/name3_2130837807</item>
+        <item name="name3_2130772007">?android:name3_16842809</item>
+        <item name="name3_2130772008">@color/name3_2131558696</item>
+        <item name="name3_2130772009">?android:name3_16842809</item>
+        <item name="name3_2130772010">?android:name3_16842806</item>
+        <item name="name3_2130772011">@dimen/name3_2131230764</item>
+        <item name="name3_2130772296">true</item>
+        <item name="name3_2130772306">@style/name3_2131296432</item>
+        <item name="name3_2130772313">@dimen/name3_2131230731</item>
+        <item name="name3_2130772318">@style/name3_2131296433</item>
+        <item name="name3_2130772319">@style/name3_2131296431</item>
+        <item name="name3_2130772349">@style/name3_2131296469</item>
+        <item name="name3_2130772350">@style/name3_2131296470</item>
+        <item name="name3_2130772372">@color/name3_2131558585</item>
+        <item name="name3_2130772373">@color/name3_2131558587</item>
+        <item name="name3_2130772374">@color/name3_2131558580</item>
+    </style>
+    <style name="name3_2131296426" parent="@style/name3_2131296608">
+        <item name="android:name3_16842836">@color/name3_2131558589</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="name3_2130771974">@color/name3_2131558585</item>
+        <item name="name3_2130771975">@color/name3_2131558594</item>
+        <item name="name3_2130771985">@style/name3_2131296472</item>
+        <item name="name3_2130771986">@style/name3_2131296442</item>
+        <item name="name3_2130771987">@style/name3_2131296443</item>
+        <item name="name3_2130771988">@style/name3_2131296441</item>
+        <item name="name3_2130771989">@color/name3_2131558595</item>
+        <item name="name3_2130771990">@color/name3_2131558586</item>
+        <item name="name3_2130771991">@style/name3_2131296455</item>
+        <item name="name3_2130771992">@style/name3_2131296458</item>
+        <item name="name3_2130771993">@style/name3_2131296459</item>
+        <item name="name3_2130771994">@style/name3_2131296437</item>
+        <item name="name3_2130771995">@style/name3_2131296446</item>
+        <item name="name3_2130771996">@style/name3_2131296467</item>
+        <item name="name3_2130771997">@style/name3_2131296473</item>
+        <item name="name3_2130771998">@color/name3_2131558593</item>
+        <item name="name3_2130771999">@style/name3_2131296461</item>
+        <item name="name3_2130772000">@style/name3_2131296474</item>
+        <item name="name3_2130772001">@style/name3_2131296462</item>
+        <item name="name3_2130772002">@style/name3_2131296465</item>
+        <item name="name3_2130772003">@style/name3_2131296476</item>
+        <item name="name3_2130772004">@style/name3_2131296477</item>
+        <item name="name3_2130772005">@drawable/name3_2130837764</item>
+        <item name="name3_2130772349">@style/name3_2131296323</item>
+        <item name="name3_2130772373">@color/name3_2131558589</item>
+    </style>
+    <style name="name3_2131296427" parent="@style/name3_2131296425">
+        <item name="android:name3_16842836">?name3_2130771983</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="name3_2130771974">@color/name3_2131558585</item>
+        <item name="name3_2130771975">@color/name3_2131558594</item>
+        <item name="name3_2130771985">@style/name3_2131296472</item>
+        <item name="name3_2130771986">@style/name3_2131296442</item>
+        <item name="name3_2130771987">@style/name3_2131296443</item>
+        <item name="name3_2130771988">@style/name3_2131296441</item>
+        <item name="name3_2130771989">@color/name3_2131558595</item>
+        <item name="name3_2130771990">@color/name3_2131558586</item>
+        <item name="name3_2130771991">@style/name3_2131296455</item>
+        <item name="name3_2130771992">@style/name3_2131296458</item>
+        <item name="name3_2130771993">@style/name3_2131296459</item>
+        <item name="name3_2130771994">@style/name3_2131296437</item>
+        <item name="name3_2130771995">@style/name3_2131296446</item>
+        <item name="name3_2130771996">@style/name3_2131296467</item>
+        <item name="name3_2130771997">@style/name3_2131296473</item>
+        <item name="name3_2130771998">@color/name3_2131558593</item>
+        <item name="name3_2130771999">@style/name3_2131296461</item>
+        <item name="name3_2130772000">@style/name3_2131296474</item>
+        <item name="name3_2130772001">@style/name3_2131296462</item>
+        <item name="name3_2130772002">@style/name3_2131296465</item>
+        <item name="name3_2130772003">@style/name3_2131296476</item>
+        <item name="name3_2130772004">@style/name3_2131296477</item>
+        <item name="name3_2130772005">@drawable/name3_2130837764</item>
+        <item name="name3_2130772349">@style/name3_2131296323</item>
+        <item name="name3_2130772373">@color/name3_2131558589</item>
+    </style>
+    <style name="name3_2131296428" parent="@style/name3_2131296282">
+        <item name="name3_2130771971">adobe/image/fonts/Roboto-Bold.ttf</item>
+        <item name="name3_2130771972">adobe/image/fonts/Roboto-Light.ttf</item>
+        <item name="name3_2130771973">adobe/image/fonts/Roboto-Regular.ttf</item>
+        <item name="name3_2130771976">@style/name3_2131296439</item>
+        <item name="name3_2130771977">@style/name3_2131296440</item>
+        <item name="name3_2130771978">@drawable/name3_2130837730</item>
+        <item name="name3_2130771979">@color/name3_2131558582</item>
+        <item name="name3_2130771980">@color/name3_2131558590</item>
+        <item name="name3_2130771981">@color/name3_2131558598</item>
+        <item name="name3_2130771982">@color/name3_2131558600</item>
+        <item name="name3_2130771983">@color/name3_2131558589</item>
+        <item name="name3_2130771984">@color/name3_2131558601</item>
+        <item name="name3_2130772005">@drawable/name3_2130837766</item>
+        <item name="name3_2130772006">@drawable/name3_2130837807</item>
+        <item name="name3_2130772008">@color/name3_2131558696</item>
+        <item name="name3_2130772009">?android:name3_16842806</item>
+        <item name="name3_2130772010">?android:name3_16842809</item>
+        <item name="name3_2130772306">@style/name3_2131296432</item>
+        <item name="name3_2130772318">@style/name3_2131296433</item>
+        <item name="name3_2130772319">@style/name3_2131296431</item>
+        <item name="name3_2130772349">@style/name3_2131296469</item>
+        <item name="name3_2130772350">@style/name3_2131296470</item>
+        <item name="name3_2130772372">@color/name3_2131558585</item>
+        <item name="name3_2130772373">@color/name3_2131558587</item>
+        <item name="name3_2130772374">@color/name3_2131558580</item>
+    </style>
+    <style name="name3_2131296429" parent="@style/name3_2131296428">
+        <item name="android:name3_16842836">@android:color/name3_17170445</item>
+        <item name="android:name3_16842837">@null</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842839">true</item>
+        <item name="android:name3_16842840">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16842926">@null</item>
+        <item name="android:name3_16843295">true</item>
+        <item name="android:name3_16843435">@null</item>
+        <item name="name3_2130772297">@dimen/name3_2131230751</item>
+        <item name="name3_2130772298">@dimen/name3_2131230750</item>
+        <item name="name3_2130772299">@dimen/name3_2131230752</item>
+        <item name="name3_2130772300">@dimen/name3_2131230749</item>
+    </style>
+    <style name="name3_2131296430" />
+    <style name="name3_2131296431" parent="@style/name3_2131296627">
+        <item name="android:name3_16843001">20.0dip</item>
+    </style>
+    <style name="name3_2131296432" parent="@style/name3_2131296628">
+        <item name="android:name3_16842966">0.0dip</item>
+        <item name="android:name3_16842968">0.0dip</item>
+    </style>
+    <style name="name3_2131296433" parent="@style/name3_2131296629">
+        <item name="android:name3_16842966">@dimen/name3_2131230771</item>
+        <item name="android:name3_16842968">@dimen/name3_2131230771</item>
+        <item name="name3_2130772026">?name3_2130772374</item>
+        <item name="name3_2130772028">?name3_2130772374</item>
+    </style>
+    <style name="name3_2131296434" parent="@style/name3_2131296453">
+        <item name="android:name3_16842901">@dimen/name3_2131230920</item>
+        <item name="android:name3_16842964">@drawable/name3_2130837770</item>
+        <item name="android:name3_16843119">@drawable/name1_2130837785</item>
+        <item name="android:name3_16843120">@drawable/name1_2130837786</item>
+        <item name="android:name3_16843121">0.0dip</item>
+        <item name="name3_2130772102">?name3_2130771971</item>
+    </style>
+    <style name="name3_2131296435" parent="@style/name3_2131296434">
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296436" parent="@style/name3_2131296430">
+        <item name="android:name3_16842804">@style/name3_2131296549</item>
+        <item name="android:name3_16842901">@dimen/name3_2131230819</item>
+        <item name="android:name3_16842923">name3_16908393</item>
+        <item name="android:name3_16842927">name3_16908445</item>
+        <item name="android:name3_16843091">1</item>
+        <item name="android:name3_16843092">1</item>
+        <item name="android:name3_16843101">true</item>
+        <item name="name3_2130772102">?name3_2130771973</item>
+    </style>
+    <style name="name3_2131296437" parent="@style/name3_2131296449">
+        <item name="android:name3_16842901">@dimen/name3_2131230817</item>
+        <item name="android:name3_16842964">@drawable/name3_2130837774</item>
+        <item name="android:name3_16842966">@dimen/name3_2131231231</item>
+        <item name="android:name3_16842968">@dimen/name3_2131231231</item>
+        <item name="android:name3_16843089">@dimen/name3_2131230767</item>
+        <item name="android:name3_16843660">false</item>
+        <item name="name3_2130772102">?name3_2130771973</item>
+    </style>
+    <style name="name3_2131296438" parent="@style/name3_2131296453">
+        <item name="android:name3_16842901">@dimen/name3_2131230820</item>
+        <item name="android:name3_16843119">@drawable/name1_2130837785</item>
+        <item name="android:name3_16843120">@drawable/name1_2130837786</item>
+        <item name="android:name3_16843121">0.0dip</item>
+        <item name="name3_2130772102">?name3_2130771971</item>
+    </style>
+    <style name="name3_2131296439" parent="@style/name3_2131296438">
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296440" parent="@style/name3_2131296451">
+        <item name="android:name3_16842966">@dimen/name3_2131231211</item>
+        <item name="android:name3_16842967">@dimen/name3_2131231212</item>
+        <item name="android:name3_16842968">@dimen/name3_2131231211</item>
+        <item name="android:name3_16842969">@dimen/name3_2131231212</item>
+        <item name="android:name3_16843039">@dimen/name3_2131230720</item>
+        <item name="android:name3_16843071">@dimen/name3_2131230720</item>
+        <item name="android:name3_16843660">true</item>
+        <item name="name3_2130772102">?name3_2130771971</item>
+    </style>
+    <style name="name3_2131296441" parent="@style/name3_2131296264">
+        <item name="android:name3_16842923">name3_16908393</item>
+        <item name="android:name3_16843000">@dimen/name3_2131230816</item>
+        <item name="android:name3_16843039">@dimen/name3_2131230814</item>
+        <item name="android:name3_16843101">true</item>
+    </style>
+    <style name="name3_2131296442" parent="@style/name3_2131296430">
+        <item name="android:name3_16842964">@drawable/name3_2130837727</item>
+        <item name="android:name3_16842965">@dimen/name3_2131230815</item>
+        <item name="android:name3_16842981">true</item>
+        <item name="android:name3_16843037">name3_16908834</item>
+        <item name="name3_2130771969">name3_2131689494|name3_2131689495|name3_2131689496</item>
+        <item name="name3_2130772063">MULTIPLY</item>
+        <item name="name3_2130772064">?name3_2130771980</item>
+        <item name="name3_2130772067">true</item>
+        <item name="name3_2130772070">true</item>
+    </style>
+    <style name="name3_2131296443" parent="@style/name3_2131296442">
+        <item name="name3_2130772070">false</item>
+    </style>
+    <style name="name3_2131296444" parent="@style/name3_2131296430">
+        <item name="name3_2130772410">@dimen/name3_2131231335</item>
+        <item name="name3_2130772411">@null</item>
+        <item name="name3_2130772412">@color/name3_2131558611</item>
+        <item name="name3_2130772413">0.0dip</item>
+        <item name="name3_2130772414">6.0dip</item>
+        <item name="name3_2130772415">1.4</item>
+    </style>
+    <style name="name3_2131296445" parent="@style/name3_2131296430">
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+        <item name="name3_2130772076">0.0dip</item>
+        <item name="name3_2130772102">?name3_2130771973</item>
+        <item name="name3_2130772146">0.35</item>
+    </style>
+    <style name="name3_2131296446" parent="@style/name3_2131296430">
+        <item name="android:name3_16843033">@drawable/name3_2130837745</item>
+        <item name="name3_2130772050">@color/name3_2131558591</item>
+        <item name="name3_2130772051">@color/name3_2131558579</item>
+        <item name="name3_2130772052">@color/name3_2131558579</item>
+        <item name="name3_2130772076">@dimen/name3_2131231221</item>
+        <item name="name3_2130772077">@color/name3_2131558602</item>
+    </style>
+    <style name="name3_2131296447" parent="@style/name3_2131296430">
+        <item name="android:name3_16842965">6.0dip</item>
+        <item name="android:name3_16843033">@drawable/name3_2130837739</item>
+        <item name="name3_2130772076">2.0dip</item>
+        <item name="name3_2130772077">?name3_2130771982</item>
+        <item name="name3_2130772078">?name3_2130772374</item>
+        <item name="name3_2130772081">0.0</item>
+    </style>
+    <style name="name3_2131296448" parent="@style/name3_2131296430" />
+    <style name="name3_2131296449" parent="@style/name3_2131296436">
+        <item name="android:name3_16842964">@drawable/name3_2130837760</item>
+        <item name="android:name3_16842966">@dimen/name3_2131231232</item>
+        <item name="android:name3_16842967">@dimen/name3_2131231233</item>
+        <item name="android:name3_16842968">@dimen/name3_2131231232</item>
+        <item name="android:name3_16842969">@dimen/name3_2131231233</item>
+        <item name="android:name3_16843103">false</item>
+    </style>
+    <style name="name3_2131296450" parent="@style/name3_2131296449">
+        <item name="android:name3_16842904">?name3_2130772010</item>
+    </style>
+    <style name="name3_2131296451" parent="@style/name3_2131296449">
+        <item name="android:name3_16842904">?name3_2130772008</item>
+        <item name="android:name3_16842964">?name3_2130772005</item>
+    </style>
+    <style name="name3_2131296452" parent="@style/name3_2131296449">
+        <item name="android:name3_16842964">@drawable/name3_2130837776</item>
+    </style>
+    <style name="name3_2131296453" parent="@style/name3_2131296450">
+        <item name="android:name3_16842964">@drawable/name3_2130837770</item>
+    </style>
+    <style name="name3_2131296454" parent="@style/name3_2131296450">
+        <item name="android:name3_16842964">@drawable/name3_2130837779</item>
+    </style>
+    <style name="name3_2131296455" parent="@style/name3_2131296430">
+        <item name="android:name3_16843037">name3_16908834</item>
+    </style>
+    <style name="name3_2131296456" parent="@style/name3_2131296430">
+        <item name="android:name3_16842964">?name3_2130771978</item>
+    </style>
+    <style name="name3_2131296457" parent="@style/name3_2131296430">
+        <item name="android:name3_16842904">@color/name3_2131558603</item>
+        <item name="name3_2130772076">@dimen/name3_2131230824</item>
+        <item name="name3_2130772077">@color/name3_2131558579</item>
+        <item name="name3_2130772089">@dimen/name3_2131230823</item>
+        <item name="name3_2130772090">2000</item>
+        <item name="name3_2130772091">300</item>
+    </style>
+    <style name="name3_2131296458" parent="@style/name3_2131296264">
+        <item name="android:name3_16842923">name3_16908393</item>
+        <item name="android:name3_16842927">name3_16908445|name3_16908453</item>
+        <item name="android:name3_16842964">@drawable/name3_2130837815</item>
+        <item name="android:name3_16842966">16.0dip</item>
+        <item name="android:name3_16842967">10.0dip</item>
+        <item name="android:name3_16842968">26.0dip</item>
+        <item name="android:name3_16842969">12.0dip</item>
+        <item name="android:name3_16843101">true</item>
+    </style>
+    <style name="name3_2131296459" parent="@style/name3_2131296430">
+        <item name="android:name3_16842964">@null</item>
+        <item name="android:name3_16842981">true</item>
+        <item name="android:name3_16843033">@drawable/name3_2130837814</item>
+        <item name="android:name3_16843038">true</item>
+    </style>
+    <style name="name3_2131296460" parent="@android:style/name3_16973859">
+        <item name="android:name3_16842901">1.0sp</item>
+        <item name="android:name3_16842904">@android:color/name3_17170445</item>
+        <item name="android:name3_16842964">@drawable/name3_2130837750</item>
+        <item name="android:name3_16842971">true</item>
+        <item name="android:name3_16843040">1.0sp</item>
+        <item name="android:name3_16843091">1</item>
+        <item name="android:name3_16843101">true</item>
+        <item name="android:name3_16843104">@integer/name3_2131427369</item>
+        <item name="android:name3_16843115">true</item>
+        <item name="android:name3_16843296">name3_16908406|name3_16908407|name3_16908416|name3_16908417</item>
+        <item name="android:name3_16843364">name3_16908429</item>
+    </style>
+    <style name="name3_2131296461" parent="@style/name3_2131296430">
+        <item name="android:name3_16842965">18.0dip</item>
+        <item name="android:name3_16843026">@android:integer/name3_17694721</item>
+        <item name="name3_2130772051">@color/name3_2131558579</item>
+        <item name="name3_2130772071">@drawable/name3_2130837823</item>
+        <item name="name3_2130772072">@color/name3_2131558601</item>
+        <item name="name3_2130772073">@dimen/name3_2131231223</item>
+        <item name="name3_2130772074">@bool/name3_2131361807</item>
+        <item name="name3_2130772075">@bool/name3_2131361806</item>
+        <item name="name3_2130772076">@dimen/name3_2131231222</item>
+        <item name="name3_2130772077">@color/name3_2131558602</item>
+    </style>
+    <style name="name3_2131296462" parent="@style/name3_2131296430">
+        <item name="android:name3_16842964">@drawable/name3_2130837758</item>
+        <item name="android:name3_16842965">@dimen/name3_2131231217</item>
+        <item name="name3_2130771970">name3_2131689499</item>
+        <item name="name3_2130772055">@drawable/name3_2130837756</item>
+        <item name="name3_2130772056">@drawable/name3_2130837747</item>
+        <item name="name3_2130772057">@drawable/name3_2130837752</item>
+        <item name="name3_2130772058">@drawable/name3_2130837749</item>
+        <item name="name3_2130772059">@dimen/name3_2131231216</item>
+        <item name="name3_2130772060">1</item>
+        <item name="name3_2130772061">1</item>
+        <item name="name3_2130772062">1</item>
+    </style>
+    <style name="name3_2131296463" parent="@style/name3_2131296430">
+        <item name="android:name3_16842965">@dimen/name3_2131231206</item>
+        <item name="name3_2130772076">@dimen/name3_2131231207</item>
+        <item name="name3_2130772077">?name3_2130771980</item>
+        <item name="name3_2130772078">?name3_2130772374</item>
+        <item name="name3_2130772079">@android:color/name3_17170445</item>
+        <item name="name3_2130772080">?name3_2130771982</item>
+        <item name="name3_2130772081">0.5</item>
+    </style>
+    <style name="name3_2131296464" parent="@style/name3_2131296460">
+        <item name="android:name3_16843088">@string/name3_2131165291</item>
+        <item name="android:name3_16843091">2</item>
+        <item name="android:name3_16843101">false</item>
+        <item name="android:name3_16843104">@integer/name3_2131427375</item>
+        <item name="android:name3_16843364">name3_16908432</item>
+    </style>
+    <style name="name3_2131296465" parent="@style/name3_2131296430">
+        <item name="android:name3_16842964">@drawable/name3_2130837758</item>
+        <item name="android:name3_16842965">@dimen/name3_2131231227</item>
+        <item name="name3_2130771970">name3_2131689499</item>
+        <item name="name3_2130772055">@drawable/name3_2130837756</item>
+        <item name="name3_2130772059">@dimen/name3_2131231226</item>
+        <item name="name3_2130772060">1</item>
+        <item name="name3_2130772061">1</item>
+        <item name="name3_2130772062">1</item>
+    </style>
+    <style name="name3_2131296466" parent="@style/name3_2131296270">
+        <item name="name3_2130772102">?name3_2130771972</item>
+    </style>
+    <style name="name3_2131296467" parent="@style/name3_2131296430">
+        <item name="android:name3_16843026">200</item>
+        <item name="name3_2130772076">@dimen/name3_2131231221</item>
+        <item name="name3_2130772077">@color/name3_2131558602</item>
+        <item name="name3_2130772082">10</item>
+        <item name="name3_2130772083">95</item>
+        <item name="name3_2130772084">29.999996%p</item>
+        <item name="name3_2130772085">2500</item>
+        <item name="name3_2130772086">@drawable/name1_2130837857</item>
+        <item name="name3_2130772087">@android:integer/name3_17694722</item>
+        <item name="name3_2130772088">10</item>
+    </style>
+    <style name="name3_2131296468" parent="@style/name3_2131296266">
+        <item name="name3_2130772102">?name3_2130771973</item>
+    </style>
+    <style name="name3_2131296469" parent="@style/name3_2131296684">
+        <item name="android:name3_16842964">?name3_2130772372</item>
+        <item name="android:name3_16842966">@dimen/name3_2131230771</item>
+        <item name="android:name3_16842968">@dimen/name3_2131230771</item>
+        <item name="name3_2130772036">@dimen/name3_2131230768</item>
+        <item name="name3_2130772405">48.0dip</item>
+    </style>
+    <style name="name3_2131296470" parent="@style/name3_2131296685">
+        <item name="android:name3_16843071">48.0dip</item>
+    </style>
+    <style name="name3_2131296471" parent="@style/name3_2131296430">
+        <item name="android:name3_16842964">@color/name3_2131558578</item>
+        <item name="android:name3_16843026">300</item>
+        <item name="name3_2130772103">@style/name3_2131296468</item>
+        <item name="name3_2130772104">@style/name3_2131296466</item>
+        <item name="name3_2130772106">@drawable/name1_2130837759</item>
+        <item name="name3_2130772109">@dimen/name3_2131231238</item>
+        <item name="name3_2130772110">@layout/name3_2130903240</item>
+    </style>
+    <style name="name3_2131296472" parent="@style/name3_2131296471">
+        <item name="android:name3_16843026">@android:integer/name3_17694720</item>
+    </style>
+    <style name="name3_2131296473" parent="@style/name3_2131296471" />
+    <style name="name3_2131296474" parent="@style/name3_2131296471" />
+    <style name="name3_2131296475" parent="@style/name3_2131296471" />
+    <style name="name3_2131296476" parent="@style/name3_2131296471">
+        <item name="android:name3_16843026">@android:integer/name3_17694720</item>
+        <item name="name3_2130772108">30.0dip</item>
+        <item name="name3_2130772111">0</item>
+    </style>
+    <style name="name3_2131296477" parent="@style/name3_2131296430">
+        <item name="name3_2130772092">@dimen/name3_2131231246</item>
+        <item name="name3_2130772093">?name3_2130771984</item>
+        <item name="name3_2130772094">@android:color/name3_17170445</item>
+        <item name="name3_2130772095">1800</item>
+        <item name="name3_2130772096">@dimen/name3_2131231229</item>
+        <item name="name3_2130772097">@dimen/name3_2131231230</item>
+        <item name="name3_2130772098">@integer/name3_2131427376</item>
+        <item name="name3_2130772099">@drawable/name1_2130837857</item>
+        <item name="name3_2130772100">@android:integer/name3_17694722</item>
+        <item name="name3_2130772101">400</item>
+    </style>
+    <style name="name3_2131296478" parent="@style/name3_2131296628">
+        <item name="android:name3_16842965">4.0dip</item>
+        <item name="android:name3_16843071">20.0dip</item>
+    </style>
+    <style name="name3_2131296479">
+        <item name="android:name3_16842933">@anim/name3_2130968577</item>
+    </style>
+    <style name="name3_2131296480" parent="@style/name3_2131296489" />
+    <style name="name3_2131296481" parent="@style/name3_2131296490" />
+    <style name="name3_2131296482" parent="@style/name3_2131296491" />
+    <style name="name3_2131296483" parent="@style/name3_2131296492" />
+    <style name="name3_2131296484" parent="@style/name3_2131296597" />
+    <style name="name3_2131296485" parent="@style/name3_2131296274">
+        <item name="android:name3_16843470">@style/name3_2131296544</item>
+    </style>
+    <style name="name3_2131296486" parent="@style/name3_2131296563">
+        <item name="android:name3_16842901">@dimen/name3_2131231284</item>
+        <item name="android:name3_16842927">name3_16908447</item>
+        <item name="android:name3_16842996">name3_16908386</item>
+        <item name="android:name3_16842997">name3_16908386</item>
+        <item name="android:name3_16843072">@dimen/name3_2131231283</item>
+        <item name="android:name3_16843101">true</item>
+        <item name="android:name3_16843153">true</item>
+    </style>
+    <style name="name3_2131296487" parent="@style/name3_2131296486">
+        <item name="android:name3_16842904">@color/name3_2131558420</item>
+    </style>
+    <style name="name3_2131296488" parent="@style/name3_2131296486">
+        <item name="android:name3_16842904">@color/name3_2131558423</item>
+        <item name="android:name3_16842999">36.0dip</item>
+    </style>
+    <style name="name3_2131296489" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842994">@layout/name3_2130903049</item>
+        <item name="name3_2130772116">@layout/name3_2130903063</item>
+        <item name="name3_2130772117">@layout/name3_2130903294</item>
+        <item name="name3_2130772118">@layout/name3_2130903295</item>
+        <item name="name3_2130772119">@layout/name3_2130903293</item>
+    </style>
+    <style name="name3_2131296490" parent="@style/name3_2131296489" />
+    <style name="name3_2131296491" parent="@android:style/name3_16973824">
+        <item name="android:name3_16842932">@anim/name3_2130968579</item>
+        <item name="android:name3_16842933">@anim/name3_2130968580</item>
+    </style>
+    <style name="name3_2131296492" parent="@android:style/name3_16973824">
+        <item name="android:name3_16842932">@anim/name3_2130968578</item>
+        <item name="android:name3_16842933">@anim/name3_2130968581</item>
+    </style>
+    <style name="name3_2131296493" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842804">@style/name3_2131296572</item>
+        <item name="android:name3_16843091">1</item>
+        <item name="android:name3_16843099">true</item>
+    </style>
+    <style name="name3_2131296494" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842964">@null</item>
+        <item name="android:name3_16842966">?name3_2130772334</item>
+        <item name="android:name3_16842967">@dimen/name3_2131230904</item>
+        <item name="android:name3_16842968">?name3_2130772334</item>
+    </style>
+    <style name="name3_2131296495">
+        <item name="android:name3_16842903">name3_16908388</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+        <item name="android:name3_16842906">?android:name3_16842906</item>
+    </style>
+    <style name="name3_2131296496" parent="@android:style/name3_16973894">
+        <item name="android:name3_16842904">?android:name3_16842807</item>
+    </style>
+    <style name="name3_2131296497" parent="@android:style/name3_16973892">
+        <item name="android:name3_16842904">?android:name3_16842807</item>
+    </style>
+    <style name="name3_2131296498">
+        <item name="android:name3_16842868">@style/name3_2131296670</item>
+        <item name="android:name3_16842926">@style/name3_2131296483</item>
+        <item name="android:name3_16843052">?android:name3_16842817</item>
+    </style>
+    <style name="name3_2131296499" parent="@style/name3_2131296281">
+        <item name="name3_2130772301">@dimen/name3_2131230901</item>
+        <item name="name3_2130772302">@dimen/name3_2131230902</item>
+    </style>
+    <style name="name3_2131296500" parent="@style/name3_2131296281">
+        <item name="name3_2130772297">@dimen/name3_2131230751</item>
+        <item name="name3_2130772298">@dimen/name3_2131230750</item>
+        <item name="name3_2130772299">@dimen/name3_2131230752</item>
+        <item name="name3_2130772300">@dimen/name3_2131230749</item>
+    </style>
+    <style name="name3_2131296501" parent="@style/name3_2131296281">
+        <item name="name3_2130772301">@dimen/name3_2131230901</item>
+        <item name="name3_2130772302">@dimen/name3_2131230902</item>
+    </style>
+    <style name="name3_2131296502" parent="@style/name3_2131296357">
+        <item name="name3_2130772308">@style/name3_2131296616</item>
+        <item name="name3_2130772311">@style/name3_2131296615</item>
+        <item name="name3_2130772312">@null</item>
+        <item name="name3_2130772371">@drawable/name3_2130837547</item>
+        <item name="name3_2130772372">@color/name3_2131558659</item>
+        <item name="name3_2130772373">@color/name3_2131558657</item>
+    </style>
+    <style name="name3_2131296503" parent="@style/name3_2131296282">
+        <item name="name3_2130772301">@dimen/name3_2131230901</item>
+        <item name="name3_2130772302">@dimen/name3_2131230902</item>
+    </style>
+    <style name="name3_2131296504" parent="@style/name3_2131296282">
+        <item name="name3_2130772297">@dimen/name3_2131230751</item>
+        <item name="name3_2130772298">@dimen/name3_2131230750</item>
+        <item name="name3_2130772299">@dimen/name3_2131230752</item>
+        <item name="name3_2130772300">@dimen/name3_2131230749</item>
+    </style>
+    <style name="name3_2131296505" parent="@style/name3_2131296282">
+        <item name="name3_2130772301">@dimen/name3_2131230901</item>
+        <item name="name3_2130772302">@dimen/name3_2131230902</item>
+    </style>
+    <style name="name3_2131296506" />
+    <style name="name3_2131296507" parent="@style/name3_2131296506">
+        <item name="name3_2130772358">@style/name3_2131296678</item>
+        <item name="name3_2130772375">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296508" parent="@style/name3_2131296406">
+        <item name="android:name3_16842800">@color/name3_2131558442</item>
+        <item name="android:name3_16842801">@color/name3_2131558436</item>
+        <item name="android:name3_16842806">@color/name3_2131558691</item>
+        <item name="android:name3_16842807">@color/name3_2131558689</item>
+        <item name="android:name3_16842808">@color/name3_2131558694</item>
+        <item name="android:name3_16842809">@color/name3_2131558692</item>
+        <item name="android:name3_16842810">@color/name3_2131558695</item>
+        <item name="android:name3_16842815">@color/name3_2131558647</item>
+        <item name="android:name3_16842836">@color/name3_2131558436</item>
+        <item name="android:name3_16842905">@color/name3_2131558644</item>
+        <item name="android:name3_16842906">@color/name3_2131558646</item>
+        <item name="android:name3_16842907">@color/name3_2131558648</item>
+        <item name="android:name3_16843270">@color/name3_2131558443</item>
+        <item name="android:name3_16843282">@color/name3_2131558694</item>
+        <item name="android:name3_16843283">@color/name3_2131558695</item>
+        <item name="android:name3_16843435">@color/name3_2131558687</item>
+        <item name="name3_2130772015">false</item>
+        <item name="name3_2130772375">?android:name3_16842808</item>
+        <item name="name3_2130772377">@color/name3_2131558666</item>
+        <item name="name3_2130772378">@color/name3_2131558571</item>
+        <item name="name3_2130772379">@color/name3_2131558700</item>
+    </style>
+    <style name="name3_2131296509" parent="@style/name3_2131296508">
+        <item name="name3_2130772358">@style/name3_2131296678</item>
+        <item name="name3_2130772375">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296510" parent="@style/name3_2131296407">
+        <item name="android:name3_16842800">@color/name3_2131558443</item>
+        <item name="android:name3_16842801">@color/name3_2131558437</item>
+        <item name="android:name3_16842806">@color/name3_2131558692</item>
+        <item name="android:name3_16842807">@color/name3_2131558690</item>
+        <item name="android:name3_16842808">@color/name3_2131558695</item>
+        <item name="android:name3_16842809">@color/name3_2131558691</item>
+        <item name="android:name3_16842810">@color/name3_2131558694</item>
+        <item name="android:name3_16842815">@color/name3_2131558646</item>
+        <item name="android:name3_16842836">@color/name3_2131558437</item>
+        <item name="android:name3_16842905">@color/name3_2131558645</item>
+        <item name="android:name3_16842906">@color/name3_2131558647</item>
+        <item name="android:name3_16842907">@color/name3_2131558649</item>
+        <item name="android:name3_16843270">@color/name3_2131558442</item>
+        <item name="android:name3_16843282">@color/name3_2131558695</item>
+        <item name="android:name3_16843283">@color/name3_2131558694</item>
+        <item name="android:name3_16843403">@color/name3_2131558689</item>
+        <item name="android:name3_16843435">@color/name3_2131558688</item>
+        <item name="name3_2130772015">true</item>
+        <item name="name3_2130772375">?android:name3_16842808</item>
+        <item name="name3_2130772377">@color/name3_2131558667</item>
+        <item name="name3_2130772378">@color/name3_2131558572</item>
+        <item name="name3_2130772379">@color/name3_2131558701</item>
+    </style>
+    <style name="name3_2131296511" parent="@style/name3_2131296288">
+        <item name="android:name3_16842846">@android:color/name3_17170445</item>
+        <item name="android:name3_16842861">@style/name3_2131296669</item>
+        <item name="android:name3_16842886">@style/name3_2131296643</item>
+        <item name="android:name3_16842889">@style/name3_2131296683</item>
+        <item name="android:name3_16843271">@style/name3_2131296549</item>
+        <item name="name3_2130772012">@style/name3_2131296642</item>
+        <item name="name3_2130772015">false</item>
+        <item name="name3_2130772293">true</item>
+        <item name="name3_2130772295">false</item>
+        <item name="name3_2130772297">0.0dip</item>
+        <item name="name3_2130772298">0.0dip</item>
+        <item name="name3_2130772299">0.0dip</item>
+        <item name="name3_2130772300">0.0dip</item>
+        <item name="name3_2130772303">@style/name3_2131296625</item>
+        <item name="name3_2130772304">@style/name3_2131296623</item>
+        <item name="name3_2130772305">@style/name3_2131296624</item>
+        <item name="name3_2130772306">@style/name3_2131296628</item>
+        <item name="name3_2130772307">@style/name3_2131296672</item>
+        <item name="name3_2130772309">@style/name3_2131296622</item>
+        <item name="name3_2130772310">?name3_2130772309</item>
+        <item name="name3_2130772311">@style/name3_2131296613</item>
+        <item name="name3_2130772312">@null</item>
+        <item name="name3_2130772313">@dimen/name3_2131230723</item>
+        <item name="name3_2130772314">?name3_2130772346</item>
+        <item name="name3_2130772315">?name3_2130772344</item>
+        <item name="name3_2130772316">@style/name3_2131296574</item>
+        <item name="name3_2130772317">?android:name3_16842807</item>
+        <item name="name3_2130772318">@style/name3_2131296629</item>
+        <item name="name3_2130772319">@style/name3_2131296627</item>
+        <item name="name3_2130772320">@drawable/name3_2130837518</item>
+        <item name="name3_2130772321">?name3_2130772373</item>
+        <item name="name3_2130772322">@drawable/name1_2130837523</item>
+        <item name="name3_2130772323">@drawable/name1_2130837528</item>
+        <item name="name3_2130772324">@drawable/name1_2130837527</item>
+        <item name="name3_2130772325">@drawable/name1_2130837530</item>
+        <item name="name3_2130772326">@drawable/name1_2130837531</item>
+        <item name="name3_2130772327">@drawable/name1_2130837532</item>
+        <item name="name3_2130772331">@style/name3_2131296584</item>
+        <item name="name3_2130772332">@style/name3_2131296585</item>
+        <item name="name3_2130772333">@style/name3_2131296599</item>
+        <item name="name3_2130772334">@dimen/name3_2131230903</item>
+        <item name="name3_2130772335">@null</item>
+        <item name="name3_2130772336">@style/name3_2131296681</item>
+        <item name="name3_2130772337">?name3_2130772360</item>
+        <item name="name3_2130772338">@style/name3_2131296643</item>
+        <item name="name3_2130772339">@drawable/name1_2130837523</item>
+        <item name="name3_2130772340">@style/name3_2131296626</item>
+        <item name="name3_2130772341">@style/name3_2131296637</item>
+        <item name="name3_2130772342">@style/name3_2131296635</item>
+        <item name="name3_2130772343">@drawable/name3_2130837535</item>
+        <item name="name3_2130772344">?name3_2130772343</item>
+        <item name="name3_2130772345">@style/name3_2131296633</item>
+        <item name="name3_2130772346">@drawable/name1_2130837537</item>
+        <item name="name3_2130772347">@drawable/name1_2130837537</item>
+        <item name="name3_2130772348">@style/name3_2131296630</item>
+        <item name="name3_2130772349">@style/name3_2131296684</item>
+        <item name="name3_2130772350">@style/name3_2131296685</item>
+        <item name="name3_2130772351">@style/name3_2131296671</item>
+        <item name="name3_2130772353">?android:name3_16842806</item>
+        <item name="name3_2130772354">@drawable/name3_2130837522</item>
+        <item name="name3_2130772355">@style/name3_2131296567</item>
+        <item name="name3_2130772356">@style/name3_2131296566</item>
+        <item name="name3_2130772357">@color/name3_2131558693</item>
+        <item name="name3_2130772358">@style/name3_2131296677</item>
+        <item name="name3_2130772359">64.0dip</item>
+        <item name="name3_2130772360">48.0dip</item>
+        <item name="name3_2130772361">80.0dip</item>
+        <item name="name3_2130772362">@dimen/name3_2131230914</item>
+        <item name="name3_2130772363">@dimen/name3_2131230914</item>
+        <item name="name3_2130772364">@style/name3_2131296669</item>
+        <item name="name3_2130772365">@style/name3_2131296667</item>
+        <item name="name3_2130772366">@style/name3_2131296570</item>
+        <item name="name3_2130772367">@style/name3_2131296570</item>
+        <item name="name3_2130772368">@drawable/name1_2130837549</item>
+        <item name="name3_2130772369">@dimen/name3_2131230915</item>
+        <item name="name3_2130772370">@style/name3_2131296598</item>
+        <item name="name3_2130772371">@drawable/name3_2130837547</item>
+        <item name="name3_2130772372">@color/name3_2131558659</item>
+        <item name="name3_2130772373">@color/name3_2131558657</item>
+        <item name="name3_2130772374">@color/name3_2131558406</item>
+        <item name="name3_2130772375">?android:name3_16842808</item>
+        <item name="name3_2130772376">?name3_2130772374</item>
+        <item name="name3_2130772377">@color/name3_2131558666</item>
+        <item name="name3_2130772378">@color/name3_2131558571</item>
+        <item name="name3_2130772379">@color/name3_2131558700</item>
+        <item name="name3_2130772380">@style/name3_2131296480</item>
+        <item name="name3_2130772382">false</item>
+        <item name="name3_2130772383">@style/name3_2131296600</item>
+        <item name="name3_2130772384">@color/name3_2131558691</item>
+        <item name="name3_2130772385">?name3_2130772342</item>
+        <item name="name3_2130772386">?name3_2130772342</item>
+        <item name="name3_2130772387">?name3_2130772342</item>
+        <item name="name3_2130772388">@style/name3_2131296631</item>
+        <item name="name3_2130772389">@style/name3_2131296632</item>
+        <item name="name3_2130772390">@style/name3_2131296636</item>
+        <item name="name3_2130772391">@style/name3_2131296639</item>
+        <item name="name3_2130772393">@style/name3_2131296644</item>
+        <item name="name3_2130772394">@style/name3_2131296640</item>
+        <item name="name3_2130772395">@style/name3_2131296676</item>
+        <item name="name3_2130772396">@style/name3_2131296679</item>
+        <item name="name3_2130772397">@style/name3_2131296641</item>
+    </style>
+    <style name="name3_2131296512" parent="@style/name3_2131296356">
+        <item name="android:name3_16842801">@color/name3_2131558434</item>
+        <item name="android:name3_16842836">@drawable/name3_2130837520</item>
+        <item name="android:name3_16842837">@null</item>
+        <item name="android:name3_16842839">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16842843">@style/name3_2131296304</item>
+        <item name="android:name3_16842844">@style/name3_2131296494</item>
+        <item name="android:name3_16842926">@style/name3_2131296482</item>
+        <item name="android:name3_16843284">@null</item>
+        <item name="android:name3_16843295">true</item>
+        <item name="android:name3_16843307">name3_16908374</item>
+        <item name="android:name3_16843435">@null</item>
+        <item name="name3_2130772293">false</item>
+        <item name="name3_2130772296">true</item>
+        <item name="name3_2130772362">24.0dip</item>
+        <item name="name3_2130772363">24.0dip</item>
+    </style>
+    <style name="name3_2131296513" parent="@style/name3_2131296289">
+        <item name="android:name3_16842846">@android:color/name3_17170445</item>
+        <item name="android:name3_16842861">@style/name3_2131296669</item>
+        <item name="android:name3_16842886">@style/name3_2131296643</item>
+        <item name="android:name3_16842889">@style/name3_2131296683</item>
+        <item name="android:name3_16843271">@style/name3_2131296549</item>
+        <item name="name3_2130772012">@style/name3_2131296642</item>
+        <item name="name3_2130772015">true</item>
+        <item name="name3_2130772293">true</item>
+        <item name="name3_2130772295">false</item>
+        <item name="name3_2130772297">0.0dip</item>
+        <item name="name3_2130772298">0.0dip</item>
+        <item name="name3_2130772299">0.0dip</item>
+        <item name="name3_2130772300">0.0dip</item>
+        <item name="name3_2130772303">@style/name3_2131296652</item>
+        <item name="name3_2130772304">@style/name3_2131296648</item>
+        <item name="name3_2130772305">@style/name3_2131296650</item>
+        <item name="name3_2130772306">@style/name3_2131296656</item>
+        <item name="name3_2130772307">@style/name3_2131296664</item>
+        <item name="name3_2130772309">@style/name3_2131296646</item>
+        <item name="name3_2130772310">?name3_2130772309</item>
+        <item name="name3_2130772311">@style/name3_2131296613</item>
+        <item name="name3_2130772312">@null</item>
+        <item name="name3_2130772313">@dimen/name3_2131230723</item>
+        <item name="name3_2130772314">?name3_2130772346</item>
+        <item name="name3_2130772315">?name3_2130772344</item>
+        <item name="name3_2130772316">@style/name3_2131296574</item>
+        <item name="name3_2130772317">?android:name3_16842807</item>
+        <item name="name3_2130772318">@style/name3_2131296629</item>
+        <item name="name3_2130772319">@style/name3_2131296627</item>
+        <item name="name3_2130772320">@drawable/name3_2130837518</item>
+        <item name="name3_2130772321">?name3_2130772373</item>
+        <item name="name3_2130772322">@drawable/name1_2130837523</item>
+        <item name="name3_2130772323">@drawable/name1_2130837528</item>
+        <item name="name3_2130772324">@drawable/name1_2130837527</item>
+        <item name="name3_2130772325">@drawable/name1_2130837530</item>
+        <item name="name3_2130772326">@drawable/name1_2130837531</item>
+        <item name="name3_2130772327">@drawable/name1_2130837532</item>
+        <item name="name3_2130772331">@style/name3_2131296561</item>
+        <item name="name3_2130772332">@style/name3_2131296562</item>
+        <item name="name3_2130772333">@style/name3_2131296605</item>
+        <item name="name3_2130772334">@dimen/name3_2131230903</item>
+        <item name="name3_2130772335">@null</item>
+        <item name="name3_2130772336">@style/name3_2131296666</item>
+        <item name="name3_2130772337">?name3_2130772360</item>
+        <item name="name3_2130772338">@style/name3_2131296643</item>
+        <item name="name3_2130772339">@drawable/name1_2130837523</item>
+        <item name="name3_2130772340">@style/name3_2131296654</item>
+        <item name="name3_2130772341">@style/name3_2131296637</item>
+        <item name="name3_2130772342">@style/name3_2131296635</item>
+        <item name="name3_2130772343">@drawable/name3_2130837536</item>
+        <item name="name3_2130772344">?name3_2130772343</item>
+        <item name="name3_2130772345">@style/name3_2131296633</item>
+        <item name="name3_2130772346">@drawable/name1_2130837537</item>
+        <item name="name3_2130772347">@drawable/name1_2130837537</item>
+        <item name="name3_2130772348">@style/name3_2131296630</item>
+        <item name="name3_2130772349">@style/name3_2131296684</item>
+        <item name="name3_2130772350">@style/name3_2131296685</item>
+        <item name="name3_2130772351">@style/name3_2131296663</item>
+        <item name="name3_2130772353">?android:name3_16842806</item>
+        <item name="name3_2130772354">@drawable/name3_2130837522</item>
+        <item name="name3_2130772355">@style/name3_2131296567</item>
+        <item name="name3_2130772356">@style/name3_2131296566</item>
+        <item name="name3_2130772357">@color/name3_2131558693</item>
+        <item name="name3_2130772358">@style/name3_2131296665</item>
+        <item name="name3_2130772359">64.0dip</item>
+        <item name="name3_2130772360">48.0dip</item>
+        <item name="name3_2130772361">80.0dip</item>
+        <item name="name3_2130772362">@dimen/name3_2131230914</item>
+        <item name="name3_2130772363">@dimen/name3_2131230914</item>
+        <item name="name3_2130772364">@style/name3_2131296669</item>
+        <item name="name3_2130772365">@style/name3_2131296667</item>
+        <item name="name3_2130772366">@style/name3_2131296570</item>
+        <item name="name3_2130772367">@style/name3_2131296570</item>
+        <item name="name3_2130772368">@drawable/name1_2130837549</item>
+        <item name="name3_2130772369">@dimen/name3_2131230915</item>
+        <item name="name3_2130772370">@style/name3_2131296598</item>
+        <item name="name3_2130772371">@drawable/name3_2130837548</item>
+        <item name="name3_2130772372">@color/name3_2131558660</item>
+        <item name="name3_2130772373">@color/name3_2131558658</item>
+        <item name="name3_2130772374">@color/name3_2131558407</item>
+        <item name="name3_2130772375">?android:name3_16842808</item>
+        <item name="name3_2130772376">?name3_2130772374</item>
+        <item name="name3_2130772377">@color/name3_2131558667</item>
+        <item name="name3_2130772378">@color/name3_2131558572</item>
+        <item name="name3_2130772379">@color/name3_2131558701</item>
+        <item name="name3_2130772380">@style/name3_2131296481</item>
+        <item name="name3_2130772382">false</item>
+        <item name="name3_2130772383">@style/name3_2131296606</item>
+        <item name="name3_2130772384">@color/name3_2131558692</item>
+        <item name="name3_2130772385">?name3_2130772342</item>
+        <item name="name3_2130772386">?name3_2130772342</item>
+        <item name="name3_2130772387">?name3_2130772342</item>
+        <item name="name3_2130772388">@style/name3_2131296631</item>
+        <item name="name3_2130772389">@style/name3_2131296632</item>
+        <item name="name3_2130772390">@style/name3_2131296636</item>
+        <item name="name3_2130772391">@style/name3_2131296639</item>
+        <item name="name3_2130772393">@style/name3_2131296644</item>
+        <item name="name3_2130772394">@style/name3_2131296640</item>
+        <item name="name3_2130772395">@style/name3_2131296676</item>
+        <item name="name3_2130772396">@style/name3_2131296679</item>
+        <item name="name3_2130772397">@style/name3_2131296641</item>
+    </style>
+    <style name="name3_2131296514" parent="@style/name3_2131296357">
+        <item name="android:name3_16842801">@color/name3_2131558435</item>
+        <item name="android:name3_16842836">@drawable/name3_2130837521</item>
+        <item name="android:name3_16842837">@null</item>
+        <item name="android:name3_16842839">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16842843">@style/name3_2131296304</item>
+        <item name="android:name3_16842844">@style/name3_2131296494</item>
+        <item name="android:name3_16842926">@style/name3_2131296482</item>
+        <item name="android:name3_16843284">@null</item>
+        <item name="android:name3_16843295">true</item>
+        <item name="android:name3_16843307">name3_16908374</item>
+        <item name="android:name3_16843435">@null</item>
+        <item name="name3_2130772293">false</item>
+        <item name="name3_2130772296">true</item>
+        <item name="name3_2130772362">24.0dip</item>
+        <item name="name3_2130772363">24.0dip</item>
+    </style>
+    <style name="name3_2131296515" parent="@android:style/name3_16973863">
+        <item name="android:name3_16842804">?android:name3_16842820</item>
+        <item name="android:name3_16842904">?name3_2130772353</item>
+        <item name="android:name3_16842964">?name3_2130772354</item>
+        <item name="android:name3_16843125">?name3_2130772371</item>
+        <item name="android:name3_16843126">@drawable/name1_2130837550</item>
+    </style>
+    <style name="name3_2131296516" parent="@android:style/name3_16973859">
+        <item name="android:name3_16842804">?android:name3_16842820</item>
+        <item name="android:name3_16842904">?name3_2130772353</item>
+        <item name="android:name3_16842964">?name3_2130772354</item>
+    </style>
+    <style name="name3_2131296517">
+        <item name="android:name3_16842927">name3_16908447</item>
+        <item name="name3_2130772014">?name3_2130772313</item>
+        <item name="name3_2130772019">name3_2131689513</item>
+        <item name="name3_2130772021">@style/name3_2131296577</item>
+        <item name="name3_2130772022">@style/name3_2131296575</item>
+        <item name="name3_2130772025">?name3_2130772346</item>
+        <item name="name3_2130772026">@null</item>
+        <item name="name3_2130772027">@null</item>
+        <item name="name3_2130772028">@null</item>
+        <item name="name3_2130772036">@dimen/name3_2131230755</item>
+        <item name="name3_2130772037">@dimen/name3_2131230755</item>
+        <item name="name3_2130772040">8.0dip</item>
+        <item name="name3_2130772041">?name3_2130772308</item>
+        <item name="name3_2130772306">@style/name3_2131296628</item>
+        <item name="name3_2130772340">@style/name3_2131296626</item>
+    </style>
+    <style name="name3_2131296518" parent="@style/name3_2131296517">
+        <item name="name3_2130772026">?name3_2130772372</item>
+        <item name="name3_2130772027">?name3_2130772372</item>
+        <item name="name3_2130772028">?name3_2130772372</item>
+    </style>
+    <style name="name3_2131296519">
+        <item name="name3_2130772025">?name3_2130772314</item>
+        <item name="name3_2130772207">name3_2131689548</item>
+        <item name="name3_2130772208">8.0dip</item>
+    </style>
+    <style name="name3_2131296520">
+        <item name="name3_2130772014">?name3_2130772313</item>
+        <item name="name3_2130772021">@style/name3_2131296581</item>
+        <item name="name3_2130772022">@style/name3_2131296579</item>
+        <item name="name3_2130772026">?name3_2130772320</item>
+        <item name="name3_2130772028">?name3_2130772321</item>
+        <item name="name3_2130772042">@layout/name3_2130903046</item>
+    </style>
+    <style name="name3_2131296521">
+        <item name="android:name3_16842927">name3_16908445</item>
+        <item name="android:name3_16842964">@drawable/name1_2130837504</item>
+        <item name="name3_2130772025">?name3_2130772346</item>
+        <item name="name3_2130772207">name3_2131689548</item>
+        <item name="name3_2130772208">6.0dip</item>
+    </style>
+    <style name="name3_2131296522" parent="@style/name3_2131296634">
+        <item name="android:name3_16843071">64.0dip</item>
+        <item name="android:name3_16843072">@dimen/name3_2131230722</item>
+        <item name="android:name3_16843091">2</item>
+    </style>
+    <style name="name3_2131296523" parent="@style/name3_2131296371">
+        <item name="android:name3_16842964">@null</item>
+    </style>
+    <style name="name3_2131296524" parent="@android:style/name3_16973848">
+        <item name="android:name3_16842964">?name3_2130772344</item>
+        <item name="android:name3_16843074">@drawable/name3_2130837554</item>
+        <item name="name3_2130772267">@drawable/name1_2130837555</item>
+        <item name="name3_2130772269">@style/name3_2131296586</item>
+        <item name="name3_2130772271">@dimen/name3_2131230827</item>
+        <item name="name3_2130772273">false</item>
+    </style>
+    <style name="name3_2131296525">
+        <item name="name3_2130772179">?android:name3_16842808</item>
+        <item name="name3_2130772180">true</item>
+        <item name="name3_2130772183">11.309998dip</item>
+        <item name="name3_2130772184">16.0dip</item>
+        <item name="name3_2130772186">2.0dip</item>
+    </style>
+    <style name="name3_2131296526" parent="@style/name3_2131296517">
+        <item name="name3_2130772306">@style/name3_2131296656</item>
+        <item name="name3_2130772340">@style/name3_2131296654</item>
+    </style>
+    <style name="name3_2131296527" parent="@style/name3_2131296526">
+        <item name="name3_2130772026">?name3_2130772372</item>
+        <item name="name3_2130772027">?name3_2130772372</item>
+        <item name="name3_2130772028">?name3_2130772372</item>
+    </style>
+    <style name="name3_2131296528" parent="@style/name3_2131296519" />
+    <style name="name3_2131296529" parent="@android:style/name3_16973878" />
+    <style name="name3_2131296530" parent="@android:style/name3_16973842">
+        <item name="name3_2130772231">@layout/name3_2130903062</item>
+        <item name="name3_2130772235">@drawable/name1_2130837524</item>
+        <item name="name3_2130772236">@drawable/name1_2130837526</item>
+        <item name="name3_2130772237">@drawable/name1_2130837533</item>
+        <item name="name3_2130772238">@drawable/name1_2130837533</item>
+        <item name="name3_2130772239">@drawable/name1_2130837534</item>
+        <item name="name3_2130772240">@drawable/name1_2130837525</item>
+        <item name="name3_2130772241">@layout/name3_2130903061</item>
+        <item name="name3_2130772242">@drawable/name3_2130837563</item>
+        <item name="name3_2130772243">@drawable/name3_2130837563</item>
+    </style>
+    <style name="name3_2131296531" parent="@style/name3_2131296530">
+        <item name="name3_2130772234">@string/name3_2131165850</item>
+        <item name="name3_2130772238">@null</item>
+        <item name="name3_2130772242">@null</item>
+        <item name="name3_2130772243">@null</item>
+    </style>
+    <style name="name3_2131296532" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843072">?name3_2130772313</item>
+        <item name="name3_2130772036">16.0dip</item>
+        <item name="name3_2130772398">@style/name3_2131296596</item>
+        <item name="name3_2130772399">@style/name3_2131296595</item>
+        <item name="name3_2130772400">4.0dip</item>
+        <item name="name3_2130772405">56.0dip</item>
+        <item name="name3_2130772406">?name3_2130772339</item>
+        <item name="name3_2130772407">@string/name3_2131165851</item>
+    </style>
+    <style name="name3_2131296533" parent="@android:style/name3_16973842">
+        <item name="name3_2130772274">?name3_2130772374</item>
+        <item name="name3_2130772275">2.0dip</item>
+        <item name="name3_2130772277">?name3_2130772343</item>
+        <item name="name3_2130772281">@dimen/name3_2131231333</item>
+        <item name="name3_2130772282">@style/name3_2131296593</item>
+        <item name="name3_2130772284">?android:name3_16842806</item>
+        <item name="name3_2130772285">12.0dip</item>
+        <item name="name3_2130772287">12.0dip</item>
+    </style>
+    <style name="name3_2131296534" parent="@android:style/name3_16974018">
+        <item name="android:name3_16843003">@drawable/name3_2130837679</item>
+    </style>
+    <style name="name3_2131296535">
+        <item name="android:name3_16842932">@anim/name3_2130968601</item>
+        <item name="android:name3_16842933">@anim/name3_2130968602</item>
+    </style>
+    <style name="name3_2131296536" parent="@style/name3_2131296274">
+        <item name="android:name3_16842836">@color/name3_2131558516</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842840">true</item>
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296537" parent="@android:style/name3_16973942">
+        <item name="android:name3_16842868">@style/name3_2131296534</item>
+        <item name="android:name3_16842926">@android:style/name3_16973826</item>
+        <item name="android:name3_16843574">@drawable/name3_2130837684</item>
+    </style>
+    <style name="name3_2131296538">
+        <item name="android:name3_16842932">@anim/name3_2130968588</item>
+        <item name="android:name3_16842933">@anim/name3_2130968592</item>
+    </style>
+    <style name="name3_2131296539">
+        <item name="android:name3_16842932">@anim/name3_2130968601</item>
+        <item name="android:name3_16842933">@anim/name3_2130968602</item>
+    </style>
+    <style name="name3_2131296540" parent="@style/name3_2131296274">
+        <item name="android:name3_16842836">@android:color/name3_17170445</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842839">true</item>
+        <item name="android:name3_16842840">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843295">false</item>
+        <item name="android:name3_16843469">false</item>
+    </style>
+    <style name="name3_2131296541">
+        <item name="name3_2130772123">@color/name3_2131558574</item>
+        <item name="name3_2130772124">@dimen/name3_2131231202</item>
+        <item name="name3_2130772125">@dimen/name3_2131231201</item>
+        <item name="name3_2130772126">@dimen/name3_2131231201</item>
+        <item name="name3_2130772127">false</item>
+        <item name="name3_2130772128">true</item>
+    </style>
+    <style name="name3_2131296542" parent="@style/name3_2131296541">
+        <item name="name3_2130772123">@color/name3_2131558573</item>
+    </style>
+    <style name="name3_2131296543" parent="@style/name3_2131296541">
+        <item name="name3_2130772123">@color/name3_2131558574</item>
+    </style>
+    <style name="name3_2131296544" parent="@android:style/name3_16974115">
+        <item name="android:name3_16842964">@null</item>
+        <item name="android:name3_16843472">name3_16908935</item>
+    </style>
+    <style name="name3_2131296545" parent="@style/name3_2131296677" />
+    <style name="name3_2131296546" parent="@style/name3_2131296324" />
+    <style name="name3_2131296547" parent="@style/name3_2131296325" />
+    <style name="name3_2131296548" parent="@style/name3_2131296326" />
+    <style name="name3_2131296549" parent="@style/name3_2131296296" />
+    <style name="name3_2131296550" parent="@style/name3_2131296327" />
+    <style name="name3_2131296551" parent="@style/name3_2131296328" />
+    <style name="name3_2131296552" parent="@style/name3_2131296329" />
+    <style name="name3_2131296553" parent="@style/name3_2131296330" />
+    <style name="name3_2131296554" parent="@style/name3_2131296331" />
+    <style name="name3_2131296555" parent="@style/name3_2131296332" />
+    <style name="name3_2131296556" parent="@style/name3_2131296275" />
+    <style name="name3_2131296557" parent="@style/name3_2131296333" />
+    <style name="name3_2131296558" parent="@style/name3_2131296276" />
+    <style name="name3_2131296559" parent="@style/name3_2131296566" />
+    <style name="name3_2131296560" parent="@style/name3_2131296567" />
+    <style name="name3_2131296561" parent="@style/name3_2131296334" />
+    <style name="name3_2131296562" parent="@style/name3_2131296335" />
+    <style name="name3_2131296563" parent="@style/name3_2131296336" />
+    <style name="name3_2131296564" parent="@style/name3_2131296277" />
+    <style name="name3_2131296565" parent="@style/name3_2131296337" />
+    <style name="name3_2131296566" parent="@style/name3_2131296338" />
+    <style name="name3_2131296567" parent="@style/name3_2131296339" />
+    <style name="name3_2131296568" parent="@style/name3_2131296340" />
+    <style name="name3_2131296569" parent="@style/name3_2131296278" />
+    <style name="name3_2131296570" parent="@style/name3_2131296341" />
+    <style name="name3_2131296571" parent="@style/name3_2131296279" />
+    <style name="name3_2131296572" parent="@style/name3_2131296342" />
+    <style name="name3_2131296573" parent="@style/name3_2131296280" />
+    <style name="name3_2131296574" parent="@style/name3_2131296343" />
+    <style name="name3_2131296575" parent="@style/name3_2131296344" />
+    <style name="name3_2131296576" parent="@style/name3_2131296345" />
+    <style name="name3_2131296577" parent="@style/name3_2131296346" />
+    <style name="name3_2131296578" parent="@style/name3_2131296347" />
+    <style name="name3_2131296579" parent="@style/name3_2131296348" />
+    <style name="name3_2131296580" parent="@style/name3_2131296579" />
+    <style name="name3_2131296581" parent="@style/name3_2131296349" />
+    <style name="name3_2131296582" parent="@style/name3_2131296581" />
+    <style name="name3_2131296583" parent="@style/name3_2131296496" />
+    <style name="name3_2131296584" parent="@style/name3_2131296350" />
+    <style name="name3_2131296585" parent="@style/name3_2131296351" />
+    <style name="name3_2131296586" parent="@style/name3_2131296352" />
+    <style name="name3_2131296587" parent="@style/name3_2131296353" />
+    <style name="name3_2131296588" parent="@style/name3_2131296551">
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296589" parent="@style/name3_2131296550">
+        <item name="android:name3_16842904">@color/name3_2131558637</item>
+    </style>
+    <style name="name3_2131296590" parent="@style/name3_2131296550">
+        <item name="android:name3_16842904">?name3_2130772376</item>
+    </style>
+    <style name="name3_2131296591" parent="@style/name3_2131296549">
+        <item name="android:name3_16842904">?name3_2130772374</item>
+    </style>
+    <style name="name3_2131296592" parent="@android:style/name3_16973886">
+        <item name="android:name3_16842901">@dimen/name3_2131231310</item>
+        <item name="android:name3_16842904">?android:name3_16842806</item>
+    </style>
+    <style name="name3_2131296593" parent="@style/name3_2131296549">
+        <item name="android:name3_16842901">14.0sp</item>
+        <item name="android:name3_16842904">?android:name3_16842808</item>
+        <item name="name3_2130772122">true</item>
+    </style>
+    <style name="name3_2131296594" parent="@style/name3_2131296497" />
+    <style name="name3_2131296595" parent="@style/name3_2131296354" />
+    <style name="name3_2131296596" parent="@style/name3_2131296355" />
+    <style name="name3_2131296597" parent="@style/name3_2131296356" />
+    <style name="name3_2131296598" parent="@style/name3_2131296498" />
+    <style name="name3_2131296599" parent="@style/name3_2131296281" />
+    <style name="name3_2131296600" parent="@style/name3_2131296499" />
+    <style name="name3_2131296601" parent="@style/name3_2131296501" />
+    <style name="name3_2131296602" parent="@style/name3_2131296258" />
+    <style name="name3_2131296603" parent="@style/name3_2131296357" />
+    <style name="name3_2131296604" parent="@style/name3_2131296502" />
+    <style name="name3_2131296605" parent="@style/name3_2131296282" />
+    <style name="name3_2131296606" parent="@style/name3_2131296503" />
+    <style name="name3_2131296607" parent="@style/name3_2131296505" />
+    <style name="name3_2131296608" parent="@style/name3_2131296259" />
+    <style name="name3_2131296609" parent="@style/name3_2131296603">
+        <item name="name3_2130772293">false</item>
+        <item name="name3_2130772294">true</item>
+    </style>
+    <style name="name3_2131296610" parent="@style/name3_2131296597">
+        <item name="name3_2130772293">false</item>
+        <item name="name3_2130772294">true</item>
+    </style>
+    <style name="name3_2131296611" parent="@android:style/name3_16973829">
+        <item name="android:name3_16842836">@android:color/name3_17170445</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842839">true</item>
+        <item name="android:name3_16842840">true</item>
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843295">false</item>
+    </style>
+    <style name="name3_2131296612" parent="@style/name3_2131296506" />
+    <style name="name3_2131296613" parent="@style/name3_2131296507" />
+    <style name="name3_2131296614" parent="@style/name3_2131296508" />
+    <style name="name3_2131296615" parent="@style/name3_2131296509" />
+    <style name="name3_2131296616" parent="@style/name3_2131296510" />
+    <style name="name3_2131296617">
+        <item name="name3_2130772410">@dimen/name3_2131231335</item>
+        <item name="name3_2130772411">@color/name3_2131558686</item>
+        <item name="name3_2130772412">@color/name3_2131558685</item>
+        <item name="name3_2130772413">@dimen/name3_2131231336</item>
+        <item name="name3_2130772414">@dimen/name3_2131231334</item>
+        <item name="name3_2130772415">1.4</item>
+    </style>
+    <style name="name3_2131296618" parent="@style/name3_2131296605">
+        <item name="android:name3_16842836">@android:color/name3_17170445</item>
+        <item name="android:name3_16842838">true</item>
+        <item name="android:name3_16842964">@android:color/name3_17170445</item>
+        <item name="android:name3_16843295">true</item>
+    </style>
+    <style name="name3_2131296619" parent="@style/name3_2131296620" />
+    <style name="name3_2131296620" parent="@style/name3_2131296666">
+        <item name="android:name3_16842964">?android:name3_16843534</item>
+        <item name="android:name3_16843049">@null</item>
+        <item name="android:name3_16843050">0.0dip</item>
+        <item name="android:name3_16843125">?android:name3_16843534</item>
+    </style>
+    <style name="name3_2131296621" parent="@style/name3_2131296517" />
+    <style name="name3_2131296622" parent="@style/name3_2131296518" />
+    <style name="name3_2131296623" parent="@style/name3_2131296519" />
+    <style name="name3_2131296624" parent="@style/name3_2131296362" />
+    <style name="name3_2131296625" parent="@style/name3_2131296363" />
+    <style name="name3_2131296626" parent="@style/name3_2131296364" />
+    <style name="name3_2131296627" parent="@style/name3_2131296365" />
+    <style name="name3_2131296628" parent="@style/name3_2131296306" />
+    <style name="name3_2131296629" parent="@style/name3_2131296520" />
+    <style name="name3_2131296630" parent="@style/name3_2131296521" />
+    <style name="name3_2131296631" parent="@style/name3_2131296294" />
+    <style name="name3_2131296632" parent="@style/name3_2131296367" />
+    <style name="name3_2131296633" parent="@style/name3_2131296368" />
+    <style name="name3_2131296634" parent="@style/name3_2131296369" />
+    <style name="name3_2131296635" parent="@style/name3_2131296522" />
+    <style name="name3_2131296636" parent="@style/name3_2131296370" />
+    <style name="name3_2131296637" parent="@style/name3_2131296371" />
+    <style name="name3_2131296638" parent="@style/name3_2131296523" />
+    <style name="name3_2131296639" parent="@style/name3_2131296372" />
+    <style name="name3_2131296640" parent="@style/name3_2131296373" />
+    <style name="name3_2131296641" parent="@style/name3_2131296524" />
+    <style name="name3_2131296642" parent="@style/name3_2131296256">
+        <item name="name3_2130772179">?name3_2130772375</item>
+    </style>
+    <style name="name3_2131296643" parent="@style/name3_2131296315" />
+    <style name="name3_2131296644" parent="@style/name3_2131296295" />
+    <style name="name3_2131296645" parent="@style/name3_2131296526" />
+    <style name="name3_2131296646" parent="@style/name3_2131296527" />
+    <style name="name3_2131296647" parent="@style/name3_2131296646" />
+    <style name="name3_2131296648" parent="@style/name3_2131296528" />
+    <style name="name3_2131296649" parent="@style/name3_2131296648" />
+    <style name="name3_2131296650" parent="@style/name3_2131296375" />
+    <style name="name3_2131296651" parent="@style/name3_2131296376" />
+    <style name="name3_2131296652" parent="@style/name3_2131296377" />
+    <style name="name3_2131296653" parent="@style/name3_2131296652" />
+    <style name="name3_2131296654" parent="@style/name3_2131296626" />
+    <style name="name3_2131296655" parent="@style/name3_2131296627" />
+    <style name="name3_2131296656" parent="@style/name3_2131296628" />
+    <style name="name3_2131296657" parent="@style/name3_2131296629" />
+    <style name="name3_2131296658" parent="@style/name3_2131296630" />
+    <style name="name3_2131296659" parent="@style/name3_2131296631" />
+    <style name="name3_2131296660" parent="@style/name3_2131296643" />
+    <style name="name3_2131296661" parent="@style/name3_2131296667" />
+    <style name="name3_2131296662" parent="@style/name3_2131296669" />
+    <style name="name3_2131296663" parent="@style/name3_2131296378" />
+    <style name="name3_2131296664" parent="@style/name3_2131296379" />
+    <style name="name3_2131296665" parent="@style/name3_2131296677" />
+    <style name="name3_2131296666" parent="@style/name3_2131296681" />
+    <style name="name3_2131296667" parent="@style/name3_2131296380" />
+    <style name="name3_2131296668" parent="@style/name3_2131296381" />
+    <style name="name3_2131296669" parent="@style/name3_2131296382" />
+    <style name="name3_2131296670" parent="@style/name3_2131296383" />
+    <style name="name3_2131296671" parent="@style/name3_2131296384" />
+    <style name="name3_2131296672" parent="@style/name3_2131296385" />
+    <style name="name3_2131296673" parent="@style/name3_2131296529" />
+    <style name="name3_2131296674" parent="@style/name3_2131296285" />
+    <style name="name3_2131296675" parent="@style/name3_2131296286" />
+    <style name="name3_2131296676" parent="@style/name3_2131296386" />
+    <style name="name3_2131296677" parent="@style/name3_2131296530" />
+    <style name="name3_2131296678" parent="@style/name3_2131296531" />
+    <style name="name3_2131296679" parent="@style/name3_2131296287" />
+    <style name="name3_2131296680" parent="@style/name3_2131296679" />
+    <style name="name3_2131296681" parent="@style/name3_2131296387" />
+    <style name="name3_2131296682" parent="@style/name3_2131296388" />
+    <style name="name3_2131296683" parent="@style/name3_2131296389" />
+    <style name="name3_2131296684" parent="@style/name3_2131296532" />
+    <style name="name3_2131296685" parent="@style/name3_2131296317" />
+    <style name="name3_2131296686" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842964">?name3_2130772372</item>
+        <item name="name3_2130772040">@dimen/name3_2131230972</item>
+    </style>
+    <style name="name3_2131296687" parent="@android:style/name3_16973842">
+        <item name="name3_2130772136">32.0dip</item>
+        <item name="name3_2130772141">@style/name3_2131296588</item>
+        <item name="name3_2130772142">@style/name3_2131296577</item>
+        <item name="name3_2130772144">?name3_2130772373</item>
+    </style>
+    <style name="name3_2131296688" parent="@android:style/name3_16973842">
+        <item name="name3_2130772148">?name3_2130772373</item>
+    </style>
+    <style name="name3_2131296689" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842964">@drawable/name3_2130837901</item>
+        <item name="name3_2130772040">@dimen/name3_2131231269</item>
+        <item name="name3_2130772187">?name3_2130772377</item>
+        <item name="name3_2130772188">name3_2131689506</item>
+        <item name="name3_2130772189">@dimen/name3_2131231279</item>
+        <item name="name3_2130772190">@dimen/name3_2131231261</item>
+        <item name="name3_2130772419">?name3_2130772374</item>
+    </style>
+    <style name="name3_2131296690">
+        <item name="android:name3_16842964">?android:name3_16842836</item>
+        <item name="android:name3_16842973">true</item>
+        <item name="android:name3_16843039">@dimen/name3_2131231294</item>
+        <item name="name3_2130772040">@dimen/name3_2131231291</item>
+    </style>
+    <style name="name3_2131296691">
+        <item name="name3_2130772228">#44000000</item>
+    </style>
+    <style name="name3_2131296692" parent="@android:style/name3_16973842">
+        <item name="android:name2_16842752">@style/name3_2131296614</item>
+        <item name="android:name3_16842964">@drawable/name3_2130838007</item>
+        <item name="android:name3_16842966">@dimen/name3_2131231308</item>
+        <item name="android:name3_16842968">@dimen/name3_2131231308</item>
+        <item name="android:name3_16843039">@dimen/name3_2131230802</item>
+        <item name="android:name3_16843071">@dimen/name3_2131230803</item>
+        <item name="name3_2130772040">@dimen/name3_2131231307</item>
+        <item name="name3_2130772254">@dimen/name3_2131230799</item>
+    </style>
+    <style name="name3_2131296693" parent="@android:style/name3_16973842">
+        <item name="name3_2130772290">@style/name3_2131296590</item>
+        <item name="name3_2130772292">@style/name3_2131296589</item>
+    </style>
+</resources>

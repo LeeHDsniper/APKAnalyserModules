@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689580" android:layout_width="name3_16908781" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689581" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+        <LinearLayout android:gravity="name3_16908447" android:orientation="name3_16908460" android:id="@id/name3_2131689582" android:paddingLeft="?name3_2130772334" android:paddingTop="@dimen/name3_2131230904" android:paddingRight="?name3_2130772334" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+            <ImageView android:id="@android:id/name3_16908294" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@null" android:scaleType="name3_16908835" style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon" />
+            <android.support.v7.internal.widget.DialogTitle android:ellipsize="name3_16908393" android:id="@id/name3_2131689583" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:singleLine="true" android:textAlignment="name3_16908760" style="?attr/android:windowTitleStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/name3_2131689584" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:minHeight="48.0dip" android:layout_weight="1.0">
+        <ScrollView android:id="@id/name3_2131689585" android:clipToPadding="false" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+            <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+                <TextView android:id="@android:id/name3_16908299" android:paddingLeft="?name3_2130772334" android:paddingTop="@dimen/name3_2131230904" android:paddingRight="?name3_2130772334" android:layout_width="name3_16908781" android:layout_height="name3_16908386" style="@style/TextAppearance.AppCompat.Subhead" />
+                <View android:id="@id/name3_2131689586" android:visibility="name3_16908732" android:layout_width="0.0dip" android:layout_height="@dimen/name3_2131230904" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <FrameLayout android:id="@id/name3_2131689587" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:minHeight="48.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/name3_2131689588" android:layout_width="name3_16908781" android:layout_height="name3_16908386" />
+    </FrameLayout>
+    <LinearLayout android:gravity="name3_16908444" android:orientation="name3_16908460" android:id="@id/name3_2131689589" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layoutDirection="name3_16908749" style="?attr/buttonBarStyle">
+        <Button android:id="@android:id/name3_16908315" android:layout_width="name3_16908386" android:layout_height="name3_16908386" style="?attr/buttonBarNeutralButtonStyle" />
+        <android.support.v4.widget.Space android:visibility="name3_16908733" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@android:id/name3_16908314" android:layout_width="name3_16908386" android:layout_height="name3_16908386" style="?attr/buttonBarNegativeButtonStyle" />
+        <Button android:id="@android:id/name3_16908313" android:layout_width="name3_16908386" android:layout_height="name3_16908386" style="?attr/buttonBarPositiveButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

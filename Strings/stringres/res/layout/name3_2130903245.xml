@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.AdobeImageBottomBarAnimator android:animationCache="true" android:persistentDrawingCache="name3_16908774" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:animationDuration="@android:integer/name3_17694722" android:interpolator="@android:anim/name3_17432580" android:inAnimation="@anim/name3_2130968608" android:outAnimation="@anim/name3_2130968609" android:animateFirstView="true" app:vra_hideBeforeReveal="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:theme="@style/name3_2131296448" android:id="@id/name3_2131690147" android:background="?name3_2130771974" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:drawSelectorOnTop="true" />
+    <FrameLayout android:background="?name3_2130771975" android:padding="0.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+</com.adobe.creativesdk.aviary.widget.AdobeImageBottomBarAnimator>

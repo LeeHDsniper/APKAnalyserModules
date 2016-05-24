@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <EditText android:id="@id/name3_2131690164" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:inputType="name3_16908405" style="@style/AdobeImageWidget.MemeHiddenTextStyle" />
+        <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131690165" android:layout_width="name3_16908781" android:layout_height="100.0sp" />
+        <EditText android:id="@id/name3_2131690166" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:inputType="name3_16908405" style="@style/AdobeImageWidget.MemeHiddenTextStyle" />
+    </LinearLayout>
+    <com.adobe.creativesdk.aviary.widget.ImageViewDrawableOverlay android:layout_gravity="name3_16908450" android:id="@id/name3_2131689575" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:scaleType="name3_16908839" />
+</RelativeLayout>

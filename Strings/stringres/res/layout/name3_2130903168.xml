@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:background="@color/name3_2131558504" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="name3_16908447" android:id="@id/name3_2131689950" android:background="@drawable/name1_2130837630" android:layout_width="name3_16908781" android:layout_height="?android:name3_16843499">
+        <RelativeLayout android:id="@id/name3_2131689951" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/name3_2131689952" android:background="@drawable/name3_2130837679" android:paddingLeft="@dimen/name3_2131230848" android:paddingRight="@dimen/name3_2131230847" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:src="@drawable/name1_2130837639" android:scaleType="name3_16908445" android:layout_centerVertical="true" android:contentDescription="@string/name3_2131165833" />
+            <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131230880" android:textColor="@color/name3_2131558562" android:id="@id/name3_2131689953" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165710" android:layout_toRightOf="@id/name3_2131689952" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131230879" android:textColor="@color/name3_2131558489" android:gravity="name3_16908447" android:id="@id/name3_2131689954" android:paddingLeft="10.0dip" android:paddingRight="@dimen/name3_2131231127" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:text="@string/name3_2131165709" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:focusableInTouchMode="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <View android:layout_width="0.0dip" android:layout_height="name3_16908781" android:layout_weight="@integer/name3_2131427330" />
+            <ScrollView android:scrollbarStyle="name3_16908738" android:padding="@dimen/name3_2131231126" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="name3_16908781" android:layout_weight="@integer/name3_2131427329">
+                <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+                    <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginBottom="5.0dip">
+                        <RelativeLayout android:layout_width="@dimen/name3_2131231118" android:layout_height="@dimen/name3_2131231118">
+                            <ImageView android:id="@id/name3_2131689955" android:background="@color/name3_2131558529" android:layout_width="@dimen/name3_2131231118" android:layout_height="@dimen/name3_2131231118" />
+                            <ImageView android:background="@drawable/name3_2130837636" android:layout_width="@dimen/name3_2131231121" android:layout_height="@dimen/name3_2131231121" android:layout_marginRight="@dimen/name3_2131231122" android:layout_marginBottom="@dimen/name3_2131231122" android:src="@drawable/name1_2130837670" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="name3_16908461" android:layout_width="0.0dip" android:layout_height="@dimen/name3_2131231118" android:layout_marginLeft="@dimen/name3_2131231120" android:layout_weight="1.0">
+                            <com.behance.sdk.ui.customviews.BehanceSDKEditText android:id="@id/name3_2131689956" android:hint="@string/name3_2131165717" style="@style/BsdkEditProfileEditTextStyle" />
+                            <com.behance.sdk.ui.customviews.BehanceSDKEditText android:id="@id/name3_2131689957" android:hint="@string/name3_2131165718" style="@style/BsdkEditProfileEditTextStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.behance.sdk.ui.customviews.BehanceSDKEditText android:id="@id/name3_2131689958" android:hint="@string/name3_2131165720" style="@style/BsdkEditProfileEditTextStyle" />
+                    <com.behance.sdk.ui.customviews.BehanceSDKEditText android:id="@id/name3_2131689959" android:hint="@string/name3_2131165716" style="@style/BsdkEditProfileEditTextStyle" />
+                    <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231125" android:textColor="@color/name3_2131558557" android:gravity="name3_16908445|name3_16908453" android:id="@id/name3_2131689960" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131231124" android:layout_alignParentLeft="true" style="@style/BsdkEditTextWithSpinnerBgStyle" />
+                    <com.behance.sdk.ui.customviews.BehanceSDKEditText android:id="@id/name3_2131689961" android:hint="@string/name3_2131165721" style="@style/BsdkEditProfileEditTextStyle" />
+                </LinearLayout>
+            </ScrollView>
+            <View android:layout_width="0.0dip" android:layout_height="name3_16908781" android:layout_weight="@integer/name3_2131427330" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/name3_2131689962" android:background="@color/name3_2131558504" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <ProgressBar android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

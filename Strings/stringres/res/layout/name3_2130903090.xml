@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.creativesdk.foundation.internal.storage.controllers.utils.SlidingTabLayout android:id="@id/name3_2131689708" android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="name3_16908386" />
+    <android.support.v4.view.ViewPager android:id="@id/name3_2131689709" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uk.co.senab.photoview.PhotoView android:id="@id/name3_2131689844" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <include android:id="@id/name3_2131689841" layout="@layout/asset_viewer_no_internet_connection" />
+    <include android:id="@id/name3_2131689846" layout="@layout/asset_viewer_no_preview" />
+    <ProgressBar android:id="@id/name3_2131689843" android:background="@drawable/name3_2130838008" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true" />
+</RelativeLayout>

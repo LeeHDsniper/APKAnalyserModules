@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="name3_16908781" android:layout_height="name3_16908386" layout="@layout/actionbar" />
+    <FrameLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <FrameLayout android:id="@id/name3_2131689632" android:visibility="name3_16908734" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+        <FrameLayout android:id="@id/name3_2131689633" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+        <RelativeLayout android:id="@id/name3_2131689634" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:alpha="1.0">
+            <com.getbase.floatingactionbutton.FloatingActionsMenu android:id="@id/name3_2131689635" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginRight="7.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" fab:fab_addButtonColorNormal="#ff03a9f4" fab:fab_labelStyle="@style/name3_2131296424">
+                <com.getbase.floatingactionbutton.FloatingActionButton android:id="@id/name3_2131689636" android:padding="20.0dip" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:scaleType="name3_16908445" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" fab:fab_colorNormal="@color/name3_2131558422" fab:fab_icon="@drawable/name1_2130837948" fab:fab_size="name3_2131689545" fab:fab_title="@string/name3_2131165529" />
+                <com.getbase.floatingactionbutton.FloatingActionButton android:id="@id/name3_2131689637" android:padding="20.0dip" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:scaleType="name3_16908445" fab:fab_colorNormal="@color/name3_2131558422" fab:fab_icon="@drawable/name1_2130837962" fab:fab_size="name3_2131689545" fab:fab_title="@string/name3_2131165530" />
+                <com.getbase.floatingactionbutton.FloatingActionButton android:id="@id/name3_2131689638" android:padding="20.0dip" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:scaleType="name3_16908445" fab:fab_colorNormal="@color/name3_2131558422" fab:fab_icon="@drawable/name1_2130837950" fab:fab_size="name3_2131689545" fab:fab_title="@string/name3_2131165528" />
+            </com.getbase.floatingactionbutton.FloatingActionsMenu>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

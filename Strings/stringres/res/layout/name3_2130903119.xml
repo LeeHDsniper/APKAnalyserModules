@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131230959"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="@dimen/name3_2131230960" android:textColor="@color/name3_2131558423" android:id="@id/name3_2131689826" android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="name3_16908386" />
+</RelativeLayout>

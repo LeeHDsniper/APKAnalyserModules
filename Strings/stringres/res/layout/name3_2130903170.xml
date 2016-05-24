@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/name3_2131689964" android:background="@color/name3_2131558541" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/name3_2131689965" android:layout_width="name3_16908781" android:layout_height="name3_16908781" class="com.behance.sdk.ui.fragments.BehanceSDKPublishProjectPreviewFragment" />
+    <fragment android:id="@id/name3_2131689966" android:layout_width="name3_16908781" android:layout_height="name3_16908781" class="com.behance.sdk.ui.fragments.BehanceSDKPublishProjectCoverFragment" />
+    <fragment android:id="@id/name3_2131689967" android:layout_width="name3_16908781" android:layout_height="name3_16908781" class="com.behance.sdk.ui.fragments.BehanceSDKPublishProjectDetailsFragment" />
+</ViewFlipper>

@@ -30,14 +30,14 @@ int main()
 	}
 	for ( int i = 0; i < zGlobalInfo.number_entry; i++ )
 	{
-		int err = makedirectory( zfile, (char *) "83a2cba1cb708c7fd7bb00d20021e932/" );
+		int err = makedirectory( zfile, (char *) "14897e76b4920e13ac6a455dbaff68df/" );
 		unzCloseCurrentFile( zfile );
 		unzGoToNextFile( zfile );
 	}
 	unzGoToFirstFile( zfile );
 	for ( int i = 0; i < zGlobalInfo.number_entry; i++ )
 	{
-		int err = extract_currentfile( zfile, (char *) "83a2cba1cb708c7fd7bb00d20021e932/" );
+		int err = extract_currentfile( zfile, (char *) "14897e76b4920e13ac6a455dbaff68df/" );
 		unzCloseCurrentFile( zfile );
 		unzGoToNextFile( zfile );
 	}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout android:id="@id/name3_2131689769" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <include android:id="@id/name3_2131689770" android:visibility="name3_16908732" layout="@layout/adobe_common_popup_bannerview" />
+        <include android:id="@id/name3_2131689771" android:visibility="name3_16908732" layout="@layout/adobe_common_errorview" />
+        <FrameLayout android:id="@id/name3_2131689772" android:visibility="name3_16908734" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689773" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <android.support.v4.widget.SwipeRefreshLayout android:id="@id/name3_2131689774" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <android.support.v7.widget.RecyclerView android:id="@id/name3_2131689775" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+                </android.support.v4.widget.SwipeRefreshLayout>
+            </LinearLayout>
+            <ImageButton android:layout_gravity="name3_16908444|name3_16908445|name3_16908454" android:id="@id/name3_2131689776" android:background="@drawable/name3_2130837582" android:paddingLeft="2.0dip" android:visibility="name3_16908734" android:layout_width="@dimen/name3_2131231268" android:layout_height="@dimen/name3_2131231268" android:layout_marginRight="@dimen/name3_2131231266" android:layout_marginBottom="@dimen/name3_2131231265" android:src="@drawable/name1_2130837968" android:tint="@android:color/name3_17170443" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        </FrameLayout>
+        <ProgressBar android:layout_gravity="name3_16908445" android:id="@id/name3_2131689777" android:background="@drawable/name3_2130838008" android:visibility="name3_16908732" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout>

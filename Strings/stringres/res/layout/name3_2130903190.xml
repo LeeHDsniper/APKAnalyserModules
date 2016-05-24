@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:background="@color/name3_2131558522" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name3_2131690023" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="?android:name3_16843499">
+        <ImageView android:id="@id/name3_2131690024" android:paddingLeft="@dimen/name3_2131231140" android:paddingRight="@dimen/name3_2131231140" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:src="@drawable/name1_2130837638" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:contentDescription="@string/name3_2131165732" />
+        <ImageView android:id="@id/name3_2131690025" android:paddingLeft="@dimen/name3_2131231140" android:paddingRight="@dimen/name3_2131231140" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:src="@drawable/name1_2130837637" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:contentDescription="@string/name3_2131165732" />
+    </RelativeLayout>
+    <com.behance.sdk.edmodo.cropper.CropImageView android:id="@id/name3_2131690026" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_margin="5.0dip" />
+</LinearLayout>

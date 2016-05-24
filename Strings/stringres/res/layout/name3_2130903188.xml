@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name3_2131558530" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="name3_16908447" android:id="@id/name3_2131690013" android:background="@drawable/name1_2130837630" android:paddingRight="@dimen/name3_2131231051" android:layout_width="name3_16908781" android:layout_height="?android:name3_16843499" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="name3_16908460" android:id="@id/name3_2131690014" android:layout_width="name3_16908386" android:layout_height="name3_16908781">
+            <ImageView android:layout_gravity="name3_16908447" android:id="@id/name3_2131690015" android:background="@drawable/name3_2130837679" android:paddingLeft="@dimen/name3_2131231116" android:paddingRight="@dimen/name3_2131231117" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:src="@drawable/name1_2130837639" android:scaleType="name3_16908445" android:contentDescription="@string/name3_2131165797" />
+            <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131230880" android:textColor="@color/name3_2131558562" android:layout_gravity="name3_16908447" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165687" behanceSDK:fontSyle="light"
+              xmlns:behanceSDK="http://schemas.android.com/apk/com.behance.sdk" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231130" android:textColor="@color/name3_2131558556" android:gravity="name3_16908445" android:id="@id/name3_2131690016" android:background="@drawable/name3_2130837679" android:layout_width="name3_16908781" android:layout_height="?android:name3_16843499" android:text="@string/name3_2131165686" android:layout_alignParentBottom="true" behanceSDK:fontSyle="light"
+      xmlns:behanceSDK="http://schemas.android.com/apk/com.behance.sdk" />
+    <View android:id="@id/name3_2131690017" android:background="@color/name3_2131558532" android:layout_width="name3_16908781" android:layout_height="1.0dip" android:layout_above="@id/name3_2131690016" />
+    <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131690018" android:background="@android:color/name3_17170447" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_above="@id/name3_2131690017" android:layout_below="@id/name3_2131690013">
+        <com.behance.sdk.google.listview.SectionalListView android:scrollbarStyle="name3_16908738" android:id="@id/name3_2131690019" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:divider="@null" android:fastScrollEnabled="true" android:fastScrollAlwaysVisible="true" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/name3_2131690020" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleInverse" />
+</RelativeLayout>

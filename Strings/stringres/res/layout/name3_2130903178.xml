@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="name3_16908445" android:layout_gravity="name3_16908445" android:layout_width="name3_16908386" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/name3_2130837695" android:padding="@dimen/name3_2131231147" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <ImageView android:id="@id/name3_2131689983" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:scaleType="name3_16908833" android:contentDescription="@string/name3_2131165768" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="name3_16908444|name3_16908445|name3_16908454" android:id="@id/name3_2131689984" android:background="@drawable/name3_2130837696" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <ImageView android:padding="10.0dip" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837642" android:scaleType="name3_16908445" android:contentDescription="@string/name3_2131165732" />
+    </LinearLayout>
+</RelativeLayout>

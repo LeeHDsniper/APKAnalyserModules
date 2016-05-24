@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:interpolator/name3_17563648" android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="@integer/name3_2131427356" android:fromXDelta="0.0%" android:toXDelta="0.0%" android:fromYDelta="0.0%" android:toYDelta="0.0%" />
+    <scale android:duration="@integer/name3_2131427356" android:pivotX="50.0%" android:pivotY="50.0%" android:fromXScale="1.0" android:toXScale="0.8" android:fromYScale="1.0" android:toYScale="0.8" />
+    <alpha android:duration="@integer/name3_2131427356" android:fromAlpha="1.0" android:toAlpha="0.5" />
+</set>

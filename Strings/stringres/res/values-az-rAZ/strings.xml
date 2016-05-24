@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name3_2131165197">%1$s Android Wear tətbiqi üçün güncəlləşmə tələb edir.</string>
+    <string name="name3_2131165198">Android Wear güncəlləşməsə, %1$s işləməyəcək.</string>
+    <string name="name3_2131165199">"Android Wear'i güncəlləşdirin"</string>
+    <string name="name3_2131165200">%1$s hazırda əlçatmaz olan bir və ya daha çox Google Play xidməti tələb edir.</string>
+    <string name="name3_2131165201">Google Play xidmətlərini aktiv et</string>
+    <string name="name3_2131165202">Google Play xidmətlərini aktiv etməsəniz, %1$s işləməyəcək.</string>
+    <string name="name3_2131165203">Google Play xidmətlərini aktiv et</string>
+    <string name="name3_2131165204">%1$s tərəfindən tələb edilib</string>
+    <string name="name3_2131165205">Google Play xidmətlərini əldə et</string>
+    <string name="name3_2131165206">%1$s Sizin telefon itkin Google Play xidmətləri olmadan çalışmaz.</string>
+    <string name="name3_2131165207">%1$s tablet itkin Google Play xidmətləri olmadan çalışmaz.</string>
+    <string name="name3_2131165208">Google Play xidmətləri əldə et</string>
+    <string name="name3_2131165209">Göstərilmiş hesab bu cihazda mövcud deyil. Fərqli hesab seçin.</string>
+    <string name="name3_2131165210">Etibarsız Hesab</string>
+    <string name="name3_2131165211">Tətbiq Google Play Xidmətlərinin aktivləşməsini tələb edir.</string>
+    <string name="name3_2131165212">Google Play xidmətlərinə qoşulmaq üçün data bağlantısı tələb olunur.</string>
+    <string name="name3_2131165213">Şəbəkə Xətası</string>
+    <string name="name3_2131165214">Bir tətbiq Google Play Xidmətləri üçün güncəlləşmə tələb edir.</string>
+    <string name="name3_2131165215">Google Play xidmətləri xətası</string>
+    <string name="name3_2131165216">Göstərilən hesaba daxil olarkən səhv baş verdi. Lütfən fərqli bir hesab seçin.</string>
+    <string name="name3_2131165217">Daxil olmadı</string>
+    <string name="name3_2131165218">Google Play xidmətləri ilə bağlı naməlum problem</string>
+    <string name="name3_2131165219">%1$s Sizin cihaz tərəfindən dəstəklənən deyil ki, Google Play xidmətləri, əsaslanır. Yardım üçün istehsalçısı ilə əlaqə saxlayın.</string>
+    <string name="name3_2131165220">Google Play xidmətləri</string>
+    <string name="name3_2131165221">Güncəllə</string>
+    <string name="name3_2131165222">%1$s Google Play xidmətləri yeniləmə halda çalışmaz.</string>
+    <string name="name3_2131165223">Update Google Play xidmətlərini güncəlllə</string>
+    <string name="name3_2131165224">%1$s Hal-hazırda təzələyirik Google Play xidmətləri olmadan çalışmaz.</string>
+    <string name="name3_2131165225">Google Play xidmətləri təzələyirik</string>
+    <string name="name3_2131165226">Telefonda açın</string>
+    <string name="name3_2131165227">Giriş</string>
+    <string name="name3_2131165228">Google ilə daxil ol</string>
+</resources>

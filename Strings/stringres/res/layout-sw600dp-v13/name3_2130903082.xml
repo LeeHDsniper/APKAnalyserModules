@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689699" android:tag="LARGE" android:background="@drawable/name3_2130837573" android:layout_width="name3_16908386" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="230.0dip" android:layout_height="name3_16908386" android:layout_marginLeft="@dimen/name3_2131230738" android:layout_marginTop="10.0dip" android:layout_marginBottom="8.0dip">
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="20.0dip" android:textColor="@color/name3_2131558423" android:id="@id/name3_2131689702" android:layout_width="name3_16908386" android:layout_height="name3_16908386" />
+    </LinearLayout>
+    <ScrollView android:layout_width="name3_16908781" android:layout_height="220.0dip">
+        <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689701" android:layout_width="230.0dip" android:layout_height="name3_16908386" android:layout_marginLeft="@dimen/name3_2131230738" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.FitWindowsLinearLayout android:orientation="name3_16908461" android:fitsSystemWindows="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="name3_16908393" android:id="@id/name3_2131689579" android:paddingLeft="?name3_2130772334" android:paddingTop="@dimen/name3_2131230904" android:paddingRight="?name3_2130772334" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:singleLine="true" android:textAlignment="name3_16908760" style="?android:attr/windowTitleStyle" />
+    <include android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_weight="1.0" layout="@layout/abc_screen_content_include" />
+</android.support.v7.internal.widget.FitWindowsLinearLayout>

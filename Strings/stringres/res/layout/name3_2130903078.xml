@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:background="@drawable/name1_2130837612" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:weightSum="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:layout_weight="2.5">
+        <ImageView android:paddingTop="@dimen/name3_2131230806" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130838010" />
+    </LinearLayout>
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:layout_weight="6.0">
+        <ImageView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130838009" />
+    </LinearLayout>
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:layout_weight="1.5">
+        <ProgressBar android:id="@id/name3_2131689689" android:layout_width="name3_16908386" android:layout_height="name3_16908386" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/name3_2131230805" android:textStyle="name3_16908391" android:textColor="#ff000000" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="Loading..." />
+    </LinearLayout>
+</LinearLayout>

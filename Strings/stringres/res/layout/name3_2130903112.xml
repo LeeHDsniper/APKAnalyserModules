@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include android:id="@id/name3_2131689788" android:visibility="name3_16908732" layout="@layout/adobe_common_popup_bannerview" />
+        <include android:id="@id/name3_2131689789" android:visibility="name3_16908732" layout="@layout/adobe_common_errorview" />
+        <FrameLayout android:id="@id/name3_2131689790" android:background="@color/name3_2131558627" android:visibility="name3_16908734" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689791" android:visibility="name3_16908734" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <android.support.v4.widget.SwipeRefreshLayout android:id="@id/name3_2131689792" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <android.support.v7.widget.RecyclerView android:id="@id/name3_2131689793" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+                </android.support.v4.widget.SwipeRefreshLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <RelativeLayout android:id="@id/name3_2131689794" android:background="@color/name3_2131558627" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="24.0dip" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165504" android:singleLine="false" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ProgressBar android:layout_gravity="name3_16908445" android:id="@id/name3_2131689795" android:background="@drawable/name3_2130838008" android:visibility="name3_16908732" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout>

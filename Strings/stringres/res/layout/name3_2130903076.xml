@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:background="@drawable/name1_2130837612" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:weightSum="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:weightSum="8.0" android:layout_weight="4.5">
+        <View android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="name3_16908445" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:src="@drawable/name1_2130838019" android:layout_weight="6.0" />
+        <ImageButton android:layout_gravity="name3_16908445|name3_16908453|name3_16908455" android:id="@id/name3_2131689668" android:background="@null" android:visibility="name3_16908733" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837616" android:layout_weight="1.0" android:onClick="onClick" />
+    </LinearLayout>
+    <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:weightSum="7.0" android:layout_weight="1.5">
+        <View android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/name3_2131230795" android:textStyle="name3_16908391|name3_16908392" android:textColor="#ff000000" android:layout_gravity="name3_16908445|name3_16908455" android:id="@id/name3_2131689669" android:background="@drawable/name3_2130838023" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:text="Gallery" android:layout_weight="5.0" android:onClick="onClick" />
+        <View android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:weightSum="7.0" android:layout_weight="1.5">
+        <View android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/name3_2131230795" android:textStyle="name3_16908391|name3_16908392" android:textColor="#ff000000" android:layout_gravity="name3_16908445|name3_16908455" android:id="@id/name3_2131689670" android:background="@drawable/name3_2130838023" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:text="Camera" android:layout_weight="5.0" android:onClick="onClick" />
+        <View android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:weightSum="7.0" android:layout_weight="1.5">
+        <View android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/name3_2131230795" android:textStyle="name3_16908391|name3_16908392" android:textColor="#ff000000" android:layout_gravity="name3_16908445|name3_16908455" android:id="@id/name3_2131689671" android:background="@drawable/name3_2130838023" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:text="Doodle Board" android:layout_weight="5.0" android:onClick="onClick" />
+        <View android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="name3_16908454" android:id="@id/name3_2131689672" android:background="@null" android:padding="@dimen/name3_2131230796" android:layout_width="name3_16908386" android:layout_height="0.0dip" android:src="@drawable/name1_2130837972" android:layout_weight="1.0" android:onClick="onClick" />
+</LinearLayout>

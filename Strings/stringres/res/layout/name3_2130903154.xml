@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:id="@id/name3_2131689915" android:background="@color/name3_2131558408" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131230882" app:popupTheme="@style/name3_2131296411" app:theme="@style/name3_2131296419"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

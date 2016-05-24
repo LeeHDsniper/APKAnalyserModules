@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name3_2131689725" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131231019">
+            <RelativeLayout android:id="@id/name3_2131689726" android:layout_width="@dimen/name3_2131231016" android:layout_height="@dimen/name3_2131231016">
+                <ImageView android:gravity="name3_16908445" android:id="@id/name3_2131689727" android:layout_width="@dimen/name3_2131231016" android:layout_height="@dimen/name3_2131231016" android:layout_marginTop="@dimen/name3_2131231018" android:src="@drawable/name1_2130837721" />
+            </RelativeLayout>
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="@dimen/name3_2131231024" android:ellipsize="name3_16908395" android:gravity="name3_16908447" android:id="@id/name3_2131689728" android:background="@color/name3_2131558630" android:layout_width="@dimen/name3_2131231014" android:layout_height="name3_16908781" android:layout_marginLeft="@dimen/name3_2131231022" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:gravity="name3_16908447" android:background="@color/name3_2131558630" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginLeft="@dimen/name3_2131231012" android:layout_marginRight="@dimen/name3_2131231013" android:src="@drawable/name1_2130837906" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:id="@id/name3_2131689485" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <ProgressBar android:layout_width="name3_16908386" android:layout_height="name3_16908386" style="?android:attr/progressBarStyleLarge" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/name3_2131689483" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <android.support.v7.widget.AppCompatTextView android:gravity="name3_16908445" android:id="@id/name3_2131689478" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+        <ListView android:id="@android:id/name3_16908298" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:listSelector="?name3_2130772006" android:drawSelectorOnTop="false" android:divider="@drawable/name1_2130837538" />
+    </FrameLayout>
+</FrameLayout>

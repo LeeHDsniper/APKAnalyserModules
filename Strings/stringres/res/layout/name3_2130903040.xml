@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908386" style="@style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="name3_16908393" android:id="@id/name3_2131689570" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:singleLine="true" />
+    <TextView android:ellipsize="name3_16908393" android:id="@id/name3_2131689571" android:visibility="name3_16908732" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginTop="@dimen/name3_2131230889" android:singleLine="true" />
+</LinearLayout>

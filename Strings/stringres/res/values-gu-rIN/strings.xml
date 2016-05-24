@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name3_2131165197">%1$s ને Android Wear એપ્લિકેશન માટેના અપડેટની જરૂર છે.</string>
+    <string name="name3_2131165198">જ્યાં સુધી તમે Android Wear એપ્લિકેશનને અપડેટ કરશો નહીં ત્યાં સુધી %1$s શરૂ થશે નહીં.</string>
+    <string name="name3_2131165199">Android Wear અપડેટ કરો</string>
+    <string name="name3_2131165200">%1$s ને એક કે વધુ Google Play સેવાઓની જરૂર છે કે જે હાલમાં ઉપલબ્ધ નથી. કૃપા કરીને સહાયતા માટે વિકાસકર્તાનો સંપર્ક કરો.</string>
+    <string name="name3_2131165201">Google Play સેવાઓ સક્ષમ કરો</string>
+    <string name="name3_2131165202">તમે Google Play સેવાઓ સક્ષમ કરશો નહીં ત્યાં સુધી %1$s કાર્ય કરશે નહી.</string>
+    <string name="name3_2131165203">Google Play સેવાઓ સક્ષમ કરો</string>
+    <string name="name3_2131165204">%1$s દ્વારા વિનંતી કરી</string>
+    <string name="name3_2131165205">Google Play સેવાઓ મેળવો</string>
+    <string name="name3_2131165206">%1$s Google Play સેવાઓ વગર ચાલશે નહીં, જે તમારા ફોનમાંથી ખૂટે છે.</string>
+    <string name="name3_2131165207">%1$s Google Play સેવાઓ વગર ચાલશે નહીં, જે તમારા ટેબ્લેટમાંથી ખૂટે છે.</string>
+    <string name="name3_2131165208">Google Play સેવાઓ મેળવો</string>
+    <string name="name3_2131165209">ઉલ્લેખિત એકાઉન્ટ આ ઉપકરણ પર અસ્તિત્વમાં નથી. કૃપા કરીને એક અલગ એકાઉન્ટ પસંદ કરો.</string>
+    <string name="name3_2131165210">અમાન્ય એકાઉન્ટ</string>
+    <string name="name3_2131165211">એક એપ્લિકેશનને Google Play સેવાઓ સક્ષમ કરવાની જરૂર છે.</string>
+    <string name="name3_2131165212">ડેટા કનેક્શનને Google Play સેવાઓ સાથે કનેક્ટ થવાની જરૂર છે.</string>
+    <string name="name3_2131165213">નેટવર્ક ભૂલ</string>
+    <string name="name3_2131165214">એક એપ્લિકેશનને Google Play સેવાઓ અપડેટ કરવાની જરૂર છે.</string>
+    <string name="name3_2131165215">Google Play સેવાઓની ભૂલ</string>
+    <string name="name3_2131165216">ઉલ્લેખિત એકાઉન્ટમાં સાઇન ઇન કરવામાં ભૂલ. કૃપા કરીને એક અલગ એકાઉન્ટ પસંદ કરો.</string>
+    <string name="name3_2131165217">સાઇન ઇન નિષ્ફળ થયું</string>
+    <string name="name3_2131165218">Google Play સેવાઓમાં અજાણી સમસ્યા આવી.</string>
+    <string name="name3_2131165219">%1$s Google Play સેવાઓ પર આધાર રાખે છે, જે તમારા ઉપકરણ દ્વારા સમર્થિત નથી. સહાયતા માટે નિર્માતાનો સંપર્ક કરો.</string>
+    <string name="name3_2131165220">Google Play સેવાઓ</string>
+    <string name="name3_2131165221">અપડેટ કરો</string>
+    <string name="name3_2131165222">તમે Google Play સેવાઓ અપડેટ કરશો નહીં ત્યાં સુધી %1$s શરૂ થશે નહીં.</string>
+    <string name="name3_2131165223">Google Play સેવાઓ અપડેટ કરો</string>
+    <string name="name3_2131165224">%1$s, Google Play સેવાઓ વગર શરૂ થશે નહીં, જે વર્તમાનમાં અપડેટ થઈ રહી છે.</string>
+    <string name="name3_2131165225">Google Play સેવાઓ અપડેટ થઈ રહી છે</string>
+    <string name="name3_2131165226">ફોન પર ખોલો</string>
+    <string name="name3_2131165227">સાઇન ઇન કરો</string>
+    <string name="name3_2131165228">Google માં સાઇન ઇન કરો</string>
+</resources>

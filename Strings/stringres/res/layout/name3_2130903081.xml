@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:background="@color/name3_2131558626" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:minWidth="220.0dip" android:minHeight="170.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="name3_16908781" android:layout_height="130.0dip">
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="19.0sp" android:id="@id/name3_2131689696" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:text="@string/name3_2131165430" android:maxLines="2" android:singleLine="false" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131231036">
+        <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginRight="15.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="18.0sp" android:textColor="@color/name3_2131558628" android:id="@id/name3_2131689697" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:text="@string/name3_2131165440" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_width="25.0dip" android:layout_height="name3_16908781" />
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="18.0sp" android:textColor="@color/name3_2131558628" android:id="@id/name3_2131689698" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:text="@string/name3_2131165441" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

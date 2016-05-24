@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689968" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+</RelativeLayout>

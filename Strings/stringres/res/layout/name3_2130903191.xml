@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="name3_16908447" android:id="@id/name3_2131690027" android:background="@drawable/name1_2130837630" android:layout_width="name3_16908781" android:layout_height="?android:name3_16843499">
+        <RelativeLayout android:id="@id/name3_2131690028" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/name3_2131690029" android:background="@drawable/name3_2130837679" android:paddingLeft="@dimen/name3_2131231158" android:paddingRight="@dimen/name3_2131231157" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:src="@drawable/name1_2130837639" android:scaleType="name3_16908445" android:layout_centerVertical="true" android:contentDescription="@string/name3_2131165749" />
+            <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231160" android:textColor="@color/name3_2131558528" android:id="@id/name3_2131690030" android:paddingRight="10.0dip" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165750" android:layout_toRightOf="@id/name3_2131690029" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231156" android:textColor="@drawable/name3_2130837692" android:gravity="name3_16908447" android:id="@id/name3_2131690031" android:paddingLeft="10.0dip" android:paddingRight="@dimen/name3_2131231159" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:text="@string/name3_2131165746" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ViewFlipper android:id="@id/name3_2131690032" android:background="@color/name3_2131558524" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_below="@id/name3_2131690027">
+        <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <GridView android:scrollbarStyle="name3_16908738" android:id="@id/name3_2131690033" android:paddingLeft="@dimen/name3_2131231150" android:paddingTop="@dimen/name3_2131231151" android:paddingRight="@dimen/name3_2131231150" android:paddingBottom="@dimen/name3_2131231148" android:clipToPadding="false" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:horizontalSpacing="@dimen/name3_2131231149" android:verticalSpacing="@dimen/name3_2131231149" android:numColumns="@integer/name3_2131427328" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <GridView android:scrollbarStyle="name3_16908738" android:gravity="name3_16908446" android:id="@id/name3_2131690034" android:paddingLeft="@dimen/name3_2131231154" android:paddingTop="@dimen/name3_2131231155" android:paddingRight="@dimen/name3_2131231154" android:paddingBottom="@dimen/name3_2131231152" android:clipToPadding="false" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:horizontalSpacing="@dimen/name3_2131231153" android:verticalSpacing="@dimen/name3_2131231153" android:numColumns="@integer/name3_2131427331" />
+        </RelativeLayout>
+    </ViewFlipper>
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:id="@id/name3_2131690035" android:background="@color/name3_2131558486" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_below="@id/name3_2131690027">
+        <ProgressBar android:layout_width="name3_16908386" android:layout_height="name3_16908386" style="?android:attr/progressBarStyle" />
+    </LinearLayout>
+</RelativeLayout>

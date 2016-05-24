@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="name3_16908446" android:id="@id/name3_2131689916" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837985" />
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="@dimen/name3_2131231249" android:textColor="@color/name3_2131558423" android:id="@id/name3_2131689917" android:paddingTop="@dimen/name3_2131231248" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165551" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+[
+[
+  Version: V3
+  Subject: O=Dumpling Sandwich, ST=Saskatchewan
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  
+  Validity: [From: Sat May 12 12:23:42 CST 2012,
+               To: Sun Apr 30 12:23:42 CST 2062]
+  Issuer: O=Dumpling Sandwich, ST=Saskatchewan
+  SerialNumber: [    4fade5ce]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 7C D7 FF 71 6D 53 72 F4   F2 82 59 C5 D5 95 99 63  ...qmSr...Y....c
+0010: 01 E2 E9 85 B7 6A 5F 87   26 8F CD 27 71 43 79 15  .....j_.&..'qCy.
+0020: 99 6D A2 68 46 35 7E 96   8E 1E 04 CE EB 69 1F 28  .m.hF5.......i.(
+0030: 68 CA 6A DB 9C 28 64 1B   AF ED 98 80 D5 BE EC 8E  h.j..(d.........
+0040: F3 9F A5 17 37 AD 7E 26   4A BC B0 59 7D C1 42 5E  ....7..&J..Y..B^
+0050: AC D9 BF 6E 56 46 79 69   EA 5C 93 3E B4 D4 70 E1  ...nVFyi.\.>..p.
+0060: 0F AB 15 52 3F B5 5D 2D   56 5D BC 16 69 C1 83 51  ...R?.]-V]..i..Q
+0070: 1D 88 D3 80 84 82 EF 94   E3 7E 14 69 CF 03 86 15  ...........i....
+
+]

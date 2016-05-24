@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name3_2131689918" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="name3_16908461" android:id="@id/name3_2131689919" android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="17.0sp" android:id="@id/name3_2131689920" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:text="@string/name3_2131165507" />
+        <ListView android:gravity="name3_16908445" android:id="@id/name3_2131689921" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:verticalSpacing="0.0dip" android:numColumns="2" android:divider="@null" android:dividerHeight="0.0dip" android:choiceMode="name3_16908826" android:layout_below="@id/name3_2131689920" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="ClientSecret">qjT7p5NjJ8gGiiuRyo3ff0p7TvTiYl+rQ5uyonMWYwH1mADwSaWIAF8tjycvm5Hg</string>
+    <string name="ClientId">8aPA3kWv81WVkoAnQS5OxddXeLj9mDceDJIk4QcT/De41mnO2QdWF7nPHQaHQrP6</string>
+    <int name="EnvironmentIndicator" value="5" />
+    <int name="CCCache.version" value="8" />
+    <int name="KeychainVersion" value="10" />
+</map>

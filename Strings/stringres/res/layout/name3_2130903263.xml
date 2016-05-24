@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView android:ellipsize="name3_16908393" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:singleLine="true" android:layout_centerVertical="true" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

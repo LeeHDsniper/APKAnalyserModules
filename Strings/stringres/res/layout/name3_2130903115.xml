@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout android:id="@id/name3_2131689809" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.creativesdk.foundation.internal.storage.controllers.AssetViewerViewPager android:id="@id/name3_2131689810" android:background="@color/name3_2131558627" android:paddingTop="?name3_2130772313" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_above="@id/name3_2131689811" />
+    <ImageButton android:id="@id/name3_2131689812" android:background="@null" android:visibility="name3_16908732" android:clickable="true" android:layout_width="@dimen/name3_2131231316" android:layout_height="@dimen/name3_2131231316" android:layout_marginLeft="18.0dip" android:layout_marginBottom="18.0dip" android:src="@drawable/name3_2130838012" android:scaleType="name3_16908445" android:layout_above="@id/name3_2131689811" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@id/name3_2131689811" android:background="@drawable/name3_2130837611" android:layout_width="name3_16908781" android:layout_height="73.0dip" android:layout_alignParentBottom="true">
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="16.0sp" android:textColor="@color/name3_2131558420" android:gravity="name3_16908445" android:id="@id/name3_2131689813" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginLeft="16.0dip" />
+        <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:id="@id/name3_2131689814" android:background="@drawable/name3_2130837988" android:clickable="true" android:layout_width="129.0dip" android:layout_height="50.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="16.0sp" android:textColor="@android:color/name3_17170443" android:id="@id/name3_2131689815" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165649" android:layout_toRightOf="@id/name3_2131689816" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_width="name3_16908781" android:layout_height="name3_16908386" layout="@layout/actionbar" />
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout android:gravity="name3_16908444" android:id="@id/name3_2131689817" android:layout_width="name3_16908781" android:layout_height="name3_16908781" sothree:umanoPanelHeight="190.0dip" sothree:umanoShadowHeight="4.0dip" sothree:umanoParalaxOffset="100.0dip" sothree:umanoDragView="@id/name3_2131689818" sothree:umanoOverlay="true" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:orientation="name3_16908461" android:id="@id/name3_2131689819" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+        <fragment android:name="com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeAssetShareOptionsFragment" android:id="@id/name3_2131689820" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+</com.adobe.creativesdk.foundation.internal.utils.DrawShadowRelativeLayout>

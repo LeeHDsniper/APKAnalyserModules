@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name3_2131296294" parent="@style/name1_2131296292" />
+    <style name="name3_2131296295" parent="@style/name1_2131296293" />
+    <style name="name1_2131296292" parent="@style/name3_2131296515">
+        <item name="android:name3_16843618">@drawable/name1_2130837558</item>
+    </style>
+    <style name="name1_2131296293" parent="@style/name3_2131296516">
+        <item name="android:name3_16843618">@drawable/name1_2130837558</item>
+    </style>
+</resources>

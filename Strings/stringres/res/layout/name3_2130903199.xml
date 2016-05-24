@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:background="@color/name3_2131558542" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:civ="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bsdk_actionbar_custom_publish_project" />
+    <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <RelativeLayout android:id="@id/name3_2131690101" android:background="#ff000000" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_above="@id/name3_2131690102">
+            <com.behance.sdk.edmodo.cropper.CropImageView android:id="@id/name3_2131690103" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_centerInParent="true" civ:guidelines="name3_2131689537" civ:fixAspectRatio="true" civ:aspectRatioX="404" civ:aspectRatioY="316" xmlns:civ="http://schemas.android.com/apk/res-auto" />
+            <ImageView android:id="@id/name3_2131690104" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:scaleType="name3_16908835" android:layout_centerInParent="true" android:contentDescription="@string/name3_2131165732" />
+            <ProgressBar android:id="@id/name3_2131690105" android:visibility="name3_16908732" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <HorizontalScrollView android:id="@id/name3_2131690102" android:background="@color/name3_2131558446" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131231044" android:layout_alignParentBottom="true">
+            <RelativeLayout android:layout_width="name3_16908386" android:layout_height="name3_16908781">
+                <LinearLayout android:gravity="name3_16908447" android:layout_gravity="name3_16908447" android:orientation="name3_16908460" android:id="@id/name3_2131690106" android:paddingLeft="@dimen/name3_2131231046" android:layout_width="name3_16908386" android:layout_height="name3_16908781" />
+                <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:id="@id/name3_2131690107" android:background="@drawable/name3_2130837693" android:layout_width="@dimen/name3_2131231041" android:layout_height="@dimen/name3_2131231040" android:layout_marginRight="@dimen/name3_2131231046" android:layout_toRightOf="@id/name3_2131690106" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="name3_16908445" android:id="@id/name3_2131690108" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837644" android:contentDescription="@string/name3_2131165732" />
+                </LinearLayout>
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+</LinearLayout>

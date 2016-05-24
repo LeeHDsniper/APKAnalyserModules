@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name3_2130837757" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_above="@id/name3_2131690200" layout="@layout/com_adobe_image_listview_layout" />
+    <View android:background="@drawable/name1_2130837726" android:layout_width="name3_16908781" android:layout_height="3.0dip" android:layout_above="@id/name3_2131690200" />
+    <RelativeLayout android:gravity="name3_16908445" android:id="@id/name3_2131690200" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_alignParentBottom="true">
+        <com.adobe.android.ui.view.AdobeButton android:id="@id/name3_2131690201" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165319" app:fontFamily="?name3_2130771971" style="@style/AdobeImageWidget.FlatButton.Blue.Transparent" />
+    </RelativeLayout>
+</RelativeLayout>

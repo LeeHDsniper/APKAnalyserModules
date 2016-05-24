@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="name3_2131623936">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="name3_2131623937">
+        <item>@string/name3_2131165348</item>
+        <item>@string/name3_2131165385</item>
+        <item>@string/name3_2131165272</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>2.35:1</item>
+    </string-array>
+    <string-array name="name3_2131623938">
+        <item>-1:-1</item>
+        <item>1:1</item>
+        <item>0:0</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>235:100</item>
+    </string-array>
+    <integer-array name="name3_2131623939">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="name3_2131623940">
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+    </integer-array>
+    <integer-array name="name3_2131623941">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="name3_2131623942">
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+    </integer-array>
+</resources>

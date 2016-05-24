@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/name3_2131690087" android:background="@color/name3_2131558468" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131690088" android:background="@color/name3_2131558542" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <include layout="@layout/bsdk_actionbar_custom_publish_project_preview_fragment" />
+        <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <ListView android:scrollbarStyle="name3_16908738" android:gravity="name3_16908445" android:id="@id/name3_2131690089" android:paddingTop="@dimen/name3_2131230729" android:paddingBottom="@dimen/name3_2131230729" android:clipToPadding="false" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:divider="@android:color/name3_17170445" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/name3_2131690090" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131690091" android:background="@color/name3_2131558458" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <include layout="@layout/bsdk_actionbar_custom_publish_project" />
+        <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:id="@id/name3_2131690092" android:background="@color/name3_2131558459" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_marginBottom="@dimen/name3_2131231066">
+                <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231058" android:textColor="@color/name3_2131558460" android:gravity="name3_16908445" android:id="@id/name3_2131690093" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginBottom="15.0dip" android:text="@string/name3_2131165671" />
+                <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231059" android:textColor="@color/name3_2131558461" android:gravity="name3_16908445" android:id="@id/name3_2131690094" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165672" />
+            </LinearLayout>
+            <com.behance.sdk.mobeta.android.dslv.DragSortListView android:scrollbarStyle="name3_16908738" android:id="@id/name3_2131690095" android:paddingBottom="@dimen/name3_2131231066" android:clipToPadding="false" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:divider="@color/name3_2131558463" android:dividerHeight="1.0px" android:choiceMode="name3_16908824" dslv:collapsed_height="0.0px" dslv:drag_scroll_start="0.33" dslv:remove_mode="name3_2131689540" dslv:float_alpha="0.6" dslv:slide_shuffle_speed="0.3" dslv:remove_animation_duration="300" dslv:drag_enabled="true" dslv:remove_enabled="true" dslv:drag_start_mode="name3_2131689542" dslv:drag_handle_id="@id/name3_2131689477" dslv:click_remove_id="@id/name3_2131689997"
+              xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dslv="http://schemas.android.com/apk/res-auto" />
+            <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:id="@id/name3_2131690096" android:background="@color/name3_2131558464" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131231066" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/name3_2131690097" android:layout_width="@dimen/name3_2131231055" android:layout_height="@dimen/name3_2131231054" android:layout_marginRight="@dimen/name3_2131231067" android:src="@drawable/name1_2130837646" android:scaleType="name3_16908834" android:contentDescription="@string/name3_2131165768" />
+                <ImageView android:id="@id/name3_2131690098" android:layout_width="@dimen/name3_2131231055" android:layout_height="@dimen/name3_2131231054" android:layout_marginRight="@dimen/name3_2131231067" android:src="@drawable/name1_2130837645" android:scaleType="name3_16908834" android:contentDescription="@string/name3_2131165768" />
+                <ImageView android:id="@id/name3_2131690099" android:layout_width="@dimen/name3_2131231055" android:layout_height="@dimen/name3_2131231054" android:layout_marginRight="@dimen/name3_2131231067" android:src="@drawable/name1_2130837651" android:scaleType="name3_16908834" android:contentDescription="@string/name3_2131165768" />
+                <ImageView android:id="@id/name3_2131690100" android:layout_width="@dimen/name3_2131231055" android:layout_height="@dimen/name3_2131231054" android:src="@drawable/name1_2130837649" android:scaleType="name3_16908834" android:contentDescription="@string/name3_2131165768" />
+            </LinearLayout>
+            <View android:background="@color/name3_2131558465" android:layout_width="name3_16908781" android:layout_height="0.5dip" android:layout_above="@id/name3_2131690096" />
+        </RelativeLayout>
+    </LinearLayout>
+</ViewFlipper>

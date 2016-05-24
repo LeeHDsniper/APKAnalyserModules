@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name3_2131165197">%1$s kërkon një përditësim të aplikacionit të \"Teknologjisë Android që vishet\".</string>
+    <string name="name3_2131165198">%1$s nuk do të ekzekutohet nëse nuk përditëson aplikacionin e \"Teknologjisë Android që vishet\".</string>
+    <string name="name3_2131165199">Përditëso \"Teknologjia Android që vishet\"</string>
+    <string name="name3_2131165200">%1$s kërkon një ose më shumë shërbime të \"Luaj me Google\" që aktualisht janë të papërdorshme. Kontakto me zhvilluesin për ndihmë.</string>
+    <string name="name3_2131165201">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="name3_2131165202">%1$s nuk do të funksionojë nëse nuk aktivizon shërbimet e \"Luaj me Google\".</string>
+    <string name="name3_2131165203">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="name3_2131165204">Kërkuar nga %1$s</string>
+    <string name="name3_2131165205">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="name3_2131165206">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat mungojnë në telefonin tënd.</string>
+    <string name="name3_2131165207">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat mungojnë në tabletin tënd.</string>
+    <string name="name3_2131165208">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="name3_2131165209">Llogaria e specifikuar nuk ekziston në këtë pajisje. Zgjidh një llogari tjetër.</string>
+    <string name="name3_2131165210">Llogari e pavlefshme</string>
+    <string name="name3_2131165211">"Një aplikacion kërkon shërbimet e \"Luaj me Google\" për t'u aktivizuar."</string>
+    <string name="name3_2131165212">"Kërkohet një lidhje të dhënash për t'u lidhur me shërbimet e \"Luaj me Google\"."</string>
+    <string name="name3_2131165213">Gabim rrjeti</string>
+    <string name="name3_2131165214">Një aplikacion kërkon përditësim për shërbimet e \"Luaj me Google\".</string>
+    <string name="name3_2131165215">Gabim në shërbimet e \"Luaj me Google\"</string>
+    <string name="name3_2131165216">Gabim gjatë identifikimit në llogarinë e specifikuar. Zgjidh një llogari tjetër.</string>
+    <string name="name3_2131165217">Identifikimi dështoi!</string>
+    <string name="name3_2131165218">Problem i panjohur me shërbimet e \"Luaj me Google\".</string>
+    <string name="name3_2131165219">%1$s mbështetet në shërbimet e \"Luaj me Google\", të cilat nuk mbështeten nga pajisja jote. Kontakto me prodhuesin për ndihmë.</string>
+    <string name="name3_2131165220">Shërbimet e \"Luaj me Google\"</string>
+    <string name="name3_2131165221">Përditëso</string>
+    <string name="name3_2131165222">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
+    <string name="name3_2131165223">Përditëso shërbimet e \"Luaj me Google\"</string>
+    <string name="name3_2131165224">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat po përditësohen aktualisht.</string>
+    <string name="name3_2131165225">Shërbimet e \"Luaj\" po përditësohen</string>
+    <string name="name3_2131165226">Hape në telefon</string>
+    <string name="name3_2131165227">Identifikohu</string>
+    <string name="name3_2131165228">Identifikohu me Google</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name3_2131296256" parent="@style/name3_2131296525">
+        <item name="name3_2130772181">24.0dip</item>
+        <item name="name3_2130772182">3.3299866dip</item>
+        <item name="name3_2130772185">18.659973dip</item>
+    </style>
+</resources>

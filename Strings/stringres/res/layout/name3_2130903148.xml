@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="name3_16908445" android:orientation="name3_16908461" android:descendantFocusability="name3_16908778" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/adobe_storage_assetslist_header" />
+    <include layout="@layout/adobe_storage_assetslist_divider" />
+</LinearLayout>

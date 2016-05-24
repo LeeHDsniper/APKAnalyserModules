@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/name3_2131690169" android:fitsSystemWindows="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <include layout="@layout/com_adobe_image_main_toolbar" />
+        <RelativeLayout android:id="@id/name3_2131690170" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_above="@id/name3_2131690171" android:layout_below="@id/name3_2131689489">
+            <RelativeLayout android:id="@id/name3_2131690172" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+            <com.adobe.creativesdk.aviary.widget.AdobeImageViewUndoRedo android:id="@id/name3_2131689575" android:visibility="name3_16908733" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+            <include android:id="@id/name3_2131690173" layout="@layout/com_adobe_image_main_view_loader" />
+        </RelativeLayout>
+        <View android:background="@drawable/name1_2130837726" android:layout_width="name3_16908781" android:layout_height="3.0dip" android:layout_above="@id/name3_2131690171" />
+        <include android:id="@id/name3_2131690171" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131230810" android:layout_alignParentBottom="true" layout="@layout/com_adobe_image_main_bottombar" />
+        <RelativeLayout android:id="@id/name3_2131690174" android:visibility="name3_16908734" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_below="@id/name3_2131689489" />
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

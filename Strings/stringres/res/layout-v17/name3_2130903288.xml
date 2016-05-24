@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name3_2131690236" android:layout_width="name3_16908781" android:layout_height="128.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name3_2131689578" android:layout_width="128.0dip" android:layout_height="128.0dip" android:scaleType="name3_16908833" />
+    <include android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/notification_media_cancel_action" />
+    <include android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginLeft="128.0dip" android:layout_toLeftOf="@id/name3_2131690235" android:layout_marginStart="128.0dip" android:layout_toStartOf="@id/name3_2131690235" layout="@layout/notification_template_lines" />
+    <LinearLayout android:orientation="name3_16908460" android:id="@id/name3_2131690237" android:layout_width="name3_16908781" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/name3_2131689578" android:layout_alignParentBottom="true" android:layoutDirection="name3_16908750" android:layout_toEndOf="@id/name3_2131689578" />
+    <ImageView android:id="@id/name3_2131690238" android:background="?android:name3_16843564" android:layout_width="name3_16908781" android:layout_height="1.0dip" android:layout_toRightOf="@id/name3_2131689578" android:layout_above="@id/name3_2131690237" android:layout_toEndOf="@id/name3_2131689578" />
+</RelativeLayout>

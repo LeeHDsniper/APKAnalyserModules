@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.CheckableRelativeLayout android:layout_width="@dimen/name3_2131230822" android:layout_height="name3_16908781" android:layout_marginLeft="@dimen/name3_2131231213" android:layout_marginRight="@dimen/name3_2131231213"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="name3_16908446" android:orientation="name3_16908461" android:duplicateParentState="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <com.adobe.android.ui.view.SquareImageView android:id="@id/name3_2131689575" android:background="@drawable/name3_2130837732" android:padding="1.5dip" android:visibility="name3_16908734" android:duplicateParentState="true" android:layout_width="@dimen/name3_2131230821" android:layout_height="@dimen/name3_2131230821" android:layout_marginTop="10.0dip" android:src="?name3_2130772373" android:scaleType="name3_16908838" />
+        <com.adobe.android.ui.view.AdobeTextView android:textStyle="name3_16908391" android:gravity="name3_16908445" android:id="@id/name3_2131690163" android:padding="4.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:text="@string/name3_2131165305" app:fontFamily="?name3_2130771972" style="@style/AdobeImageWidget.TextAppearance.Caption" />
+    </LinearLayout>
+    <View android:background="@drawable/name3_2130837734" android:duplicateParentState="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+</com.adobe.creativesdk.aviary.widget.CheckableRelativeLayout>

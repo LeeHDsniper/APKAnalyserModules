@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:padding="0.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908781" style="@style/AdobeImageWidget.GridCard.WithElevation" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name3_2131689575" android:padding="0.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:src="@android:color/name3_17170443" android:scaleType="name3_16908838" />
+    <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296270" android:textColor="?name3_2130772009" android:ellipsize="name3_16908393" android:gravity="name3_16908446" android:id="@id/name3_2131689579" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:maxLines="1" app:fontFamily="?name3_2130771973" />
+</LinearLayout>

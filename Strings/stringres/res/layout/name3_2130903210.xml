@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <com.adobe.android.ui.widget.AdobeGalleryView android:id="@id/name3_2131690149" android:background="?name3_2130771998" android:clipChildren="true" android:clipToPadding="true" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:animationDuration="200" android:layout_weight="1.0" android:overScrollMode="name3_16908742" />
+        <com.adobe.android.ui.widget.AdobeGalleryView android:id="@id/name3_2131690150" android:clipChildren="true" android:clipToPadding="true" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:animationDuration="200" android:layout_weight="1.0" android:overScrollMode="name3_16908742" />
+    </LinearLayout>
+    <include layout="@layout/com_adobe_image_bottombar_disabled_status_layout" />
+</RelativeLayout>

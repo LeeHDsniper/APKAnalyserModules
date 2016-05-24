@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.etsy.android.grid.StaggeredGridView android:id="@id/name3_2131689862" android:paddingTop="@dimen/name3_2131231001" android:longClickable="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781" sgv:column_count_portrait="1" sgv:column_count_landscape="1" sgv:item_margin="@dimen/name3_2131230995" xmlns:sgv="http://schemas.android.com/apk/res-auto" />
+    <RelativeLayout android:id="@id/name3_2131689863" android:background="@drawable/name3_2130838000" android:paddingRight="7.0dip" android:visibility="name3_16908732" android:layout_width="name3_16908386" android:layout_height="34.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:alpha="0.5" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/name3_2131689864" android:paddingLeft="19.0dip" android:paddingTop="1.0dip" android:paddingRight="7.0dip" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837990" android:layout_centerVertical="true" />
+        <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="16.0sp" android:textColor="@android:color/name3_17170443" android:id="@id/name3_2131689865" android:visibility="name3_16908734" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="12 of 12" android:layout_toRightOf="@id/name3_2131689864" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

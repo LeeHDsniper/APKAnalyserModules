@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name3_2130837697" android:padding="@dimen/name3_2131231135" android:layout_width="@dimen/name3_2131231139" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131690134" android:paddingBottom="@dimen/name3_2131231135" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_centerHorizontal="true">
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231138" android:textStyle="name3_16908391" android:textColor="@color/name3_2131558521" android:id="@id/name3_2131690135" android:padding="@dimen/name3_2131231135" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:maxLines="2" />
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231133" android:textColor="@color/name3_2131558519" android:id="@id/name3_2131690136" android:padding="@dimen/name3_2131231135" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="1.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="name3_16908460" android:paddingTop="@dimen/name3_2131231135" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_below="@id/name3_2131690134">
+        <com.behance.sdk.ui.customviews.BehanceSDKButton android:textSize="@dimen/name3_2131231130" android:textColor="@color/name3_2131558488" android:id="@id/name3_2131690139" android:background="@drawable/name3_2130837679" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165731" android:layout_alignParentRight="true" android:textAllCaps="true" />
+        <com.behance.sdk.ui.customviews.BehanceSDKButton android:textSize="@dimen/name3_2131231130" android:textColor="@color/name3_2131558488" android:id="@id/name3_2131690138" android:background="@drawable/name3_2130837679" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165730" android:layout_toLeftOf="@id/name3_2131690139" android:textAllCaps="true" />
+    </RelativeLayout>
+</RelativeLayout>

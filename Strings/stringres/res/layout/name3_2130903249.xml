@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name3_2130837811" android:layout_width="name3_16908386" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_margin="40.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ProgressBar android:id="@id/name3_2131690179" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:indeterminate="true" android:indeterminateOnly="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleLarge" />
+    </RelativeLayout>
+</RelativeLayout>

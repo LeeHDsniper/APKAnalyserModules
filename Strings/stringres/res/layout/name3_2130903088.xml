@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/name3_2131689704" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <org.lucasr.twowayview.widget.TwoWayView android:id="@id/name3_2131689705" android:paddingLeft="@dimen/name3_2131230962" android:paddingRight="@dimen/name3_2131230962" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

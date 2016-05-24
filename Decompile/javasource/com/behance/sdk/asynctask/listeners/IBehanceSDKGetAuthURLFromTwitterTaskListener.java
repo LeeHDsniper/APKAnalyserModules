@@ -1,0 +1,10 @@
+package com.behance.sdk.asynctask.listeners;
+
+import com.behance.sdk.asynctasks.result.BehanceSDKGetAuthUrlFromTwitterTaskResult;
+
+public abstract interface IBehanceSDKGetAuthURLFromTwitterTaskListener
+{
+  public abstract void onGetAuthURLFromTwitterFailure(BehanceSDKGetAuthUrlFromTwitterTaskResult paramBehanceSDKGetAuthUrlFromTwitterTaskResult);
+  
+  public abstract void onGetAuthURLFromTwitterSuccess(BehanceSDKGetAuthUrlFromTwitterTaskResult paramBehanceSDKGetAuthUrlFromTwitterTaskResult);
+}

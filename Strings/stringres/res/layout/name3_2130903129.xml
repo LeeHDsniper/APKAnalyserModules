@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:minHeight="90.0dip" card_view:cardBackgroundColor="@android:color/name3_17170443" card_view:cardCornerRadius="7.0dip" card_view:cardElevation="2.0sp" card_view:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="name3_16908445" android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <LinearLayout android:orientation="name3_16908461" android:layout_width="55.0dip" android:layout_height="55.0dip">
+            <ImageView android:id="@id/name3_2131689848" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_marginLeft="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginLeft="20.0dip">
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="17.0sp" android:textColor="@color/name3_2131558420" android:id="@id/name3_2131689849" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginRight="10.0dip" android:singleLine="false" />
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="14.0sp" android:textColor="@color/name3_2131558423" android:gravity="name3_16908454" android:id="@id/name3_2131689850" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

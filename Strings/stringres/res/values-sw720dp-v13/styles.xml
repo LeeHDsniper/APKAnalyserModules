@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name3_2131296261" parent="@style/name3_2131296546">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+    </style>
+    <style name="name3_2131296262" parent="@style/name3_2131296547">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+    </style>
+    <style name="name3_2131296263" parent="@style/name3_2131296549">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+    </style>
+    <style name="name3_2131296264" parent="@style/name3_2131296550">
+        <item name="android:name3_16842901">@dimen/name3_2131230929</item>
+    </style>
+    <style name="name3_2131296265" parent="@style/name3_2131296556">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+    </style>
+    <style name="name3_2131296266" parent="@style/name3_2131296557">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+    </style>
+    <style name="name3_2131296267" parent="@style/name3_2131296558">
+        <item name="android:name3_16842901">@dimen/name3_2131230925</item>
+    </style>
+    <style name="name3_2131296268" parent="@style/name3_2131296563">
+        <item name="android:name3_16842901">@dimen/name3_2131230931</item>
+    </style>
+    <style name="name3_2131296269" parent="@style/name3_2131296564">
+        <item name="android:name3_16842901">@dimen/name3_2131230931</item>
+    </style>
+    <style name="name3_2131296270" parent="@style/name3_2131296568">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+    </style>
+    <style name="name3_2131296271" parent="@style/name3_2131296569">
+        <item name="android:name3_16842901">@dimen/name3_2131230930</item>
+    </style>
+    <style name="name3_2131296272" parent="@style/name3_2131296570">
+        <item name="android:name3_16842901">@dimen/name3_2131230927</item>
+    </style>
+    <style name="name3_2131296273" parent="@style/name3_2131296572">
+        <item name="android:name3_16842901">@dimen/name3_2131230926</item>
+    </style>
+</resources>

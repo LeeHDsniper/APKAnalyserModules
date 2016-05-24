@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name3_2130838015" android:layout_width="name3_16908781" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="14.0sp" android:textColor="@color/name3_2131558420" android:ellipsize="name3_16908394" android:gravity="name3_16908445" android:id="@id/name3_2131690244" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:scrollHorizontally="true" android:singleLine="true" android:layout_centerInParent="true" />
+</RelativeLayout>

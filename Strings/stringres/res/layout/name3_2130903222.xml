@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?name3_2130771989" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/name3_2131231219" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name3_2131689575" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" />
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false">
+        <shape android:shape="name3_16908868"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/name3_2131230865" />
+            <solid android:color="@color/name3_2131558513" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_pressed="true">
+        <shape android:shape="name3_16908868"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/name3_2131230865" />
+            <solid android:color="@color/name3_2131558513" />
+        </shape>
+    </item>
+    <item android:state_focused="false" android:state_pressed="true">
+        <shape android:shape="name3_16908868"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/name3_2131230865" />
+            <solid android:color="@color/name3_2131558513" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="name3_16908868"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="@dimen/name3_2131230865" />
+            <solid android:color="@color/name3_2131558512" />
+        </shape>
+    </item>
+</selector>

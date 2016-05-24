@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	ManifestData();
-	CodeAnalysis( "./javasource/", "83a2cba1cb708c7fd7bb00d20021e932", &dvm_permission_list[0] );
+	CodeAnalysis( "./javasource/", "14897e76b4920e13ac6a455dbaff68df", &dvm_permission_list[0] );
 	if ( native )
 		cout << "native = true" << endl;
 	else

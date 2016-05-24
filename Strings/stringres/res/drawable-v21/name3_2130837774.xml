@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:name3_16843820"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/name3_16908334" android:drawable="@drawable/name3_2130837777" />
+    <item>
+        <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="false" android:drawable="@android:color/name3_17170445" />
+            <item android:state_checked="true" android:drawable="@drawable/name3_2130837775" />
+        </selector>
+    </item>
+</ripple>

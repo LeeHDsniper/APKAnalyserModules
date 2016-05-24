@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/name1_2130837612" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/name3_2131689619" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_margin="@dimen/name1_2131230763" />
+    <RadioGroup android:layout_gravity="name3_16908444|name3_16908445" android:orientation="name3_16908460" android:id="@id/name3_2131689620" android:layout_width="name3_16908386" android:layout_height="name3_16908386">
+        <RadioButton android:id="@id/name3_2131689621" android:clickable="false" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:checked="true" />
+        <RadioButton android:id="@id/name3_2131689622" android:clickable="false" android:layout_width="name3_16908386" android:layout_height="name3_16908386" />
+        <RadioButton android:id="@id/name3_2131689623" android:clickable="false" android:layout_width="name3_16908386" android:layout_height="name3_16908386" />
+        <RadioButton android:id="@id/name3_2131689624" android:clickable="false" android:layout_width="name3_16908386" android:layout_height="name3_16908386" />
+    </RadioGroup>
+</FrameLayout>

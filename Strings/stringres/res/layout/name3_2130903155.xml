@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.app.FragmentTabHost android:id="@android:id/name3_16908306" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+        <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <TabWidget android:orientation="name3_16908460" android:id="@android:id/name3_16908307" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_weight="0.0" />
+            <FrameLayout android:id="@android:id/name3_16908305" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_weight="1.0" />
+        </LinearLayout>
+    </android.support.v4.app.FragmentTabHost>
+</LinearLayout>

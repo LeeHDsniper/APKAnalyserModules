@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="name3_16908461" android:background="#fff0f0f0" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="name3_16908461" android:id="@id/name3_2131689625" android:layout_width="name3_16908781" android:layout_height="name3_16908386">
+        <include android:id="@id/name3_2131689626" layout="@layout/layout_dumplingsandwich_apps" />
+        <include android:id="@id/name3_2131689627" layout="@layout/layout_dumplingsandwich_apps" />
+        <include android:id="@id/name3_2131689628" layout="@layout/layout_dumplingsandwich_apps" />
+        <include android:id="@id/name3_2131689629" layout="@layout/layout_dumplingsandwich_apps" />
+        <include android:id="@id/name3_2131689630" layout="@layout/layout_dumplingsandwich_apps" />
+        <include android:id="@id/name3_2131689631" layout="@layout/layout_dumplingsandwich_apps" />
+    </LinearLayout>
+</ScrollView>

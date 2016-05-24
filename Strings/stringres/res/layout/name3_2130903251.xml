@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/name3_2131690178" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:indeterminate="true" android:indeterminateOnly="true" style="?android:attr/progressBarStyle" />
+    <android.support.v7.widget.AppCompatTextView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginLeft="5.0dip" android:text="@string/name3_2131165334" style="@style/AdobeImageWidget.TextAppearance.Caption" />
+</LinearLayout>

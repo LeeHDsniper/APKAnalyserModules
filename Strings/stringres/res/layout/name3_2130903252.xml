@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewSwitcher android:id="@id/name3_2131690180" android:visibility="name3_16908734" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:inAnimation="@anim/name3_2130968576" android:outAnimation="@anim/name3_2130968577" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908386">
+            <RelativeLayout android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_margin="0.0dip">
+                <ImageView android:id="@id/name3_2131690181" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837827" android:adjustViewBounds="true" />
+                <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginBottom="10.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                    <ImageView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginBottom="12.0dip" android:src="@drawable/name1_2130837828" />
+                    <ImageView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837810" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="name3_16908446" android:orientation="name3_16908461" android:background="@android:color/name3_17170443" android:padding="@dimen/name3_2131231239" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_margin="0.0dip">
+                <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296266" android:gravity="name3_16908445" android:layout_gravity="name3_16908445" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165365" android:maxLines="3" android:singleLine="false" app:fontFamily="?name3_2130771973" />
+                <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296261" android:id="@id/name3_2131690163" android:scrollbars="name3_16908461" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginTop="10.0dip" android:text="@string/name3_2131165362" android:maxLines="8" android:minLines="5" app:fontFamily="?name3_2130771972">
+                    <requestFocus />
+                </com.adobe.android.ui.view.AdobeTextView>
+                <LinearLayout android:orientation="name3_16908460" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_weight="0.0">
+                    <android.support.v7.widget.AppCompatButton android:id="@id/name3_2131690151" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_marginRight="6.0dip" android:text="@string/name3_2131165383" android:layout_weight="1.0" style="@style/AdobeImageWidget.FlatButton.Dark" />
+                    <android.support.v7.widget.AppCompatButton android:id="@id/name3_2131690152" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:layout_marginLeft="6.0dip" android:text="@string/name3_2131165384" android:layout_weight="1.0" style="@style/AdobeImageWidget.FlatButton.Blue" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="name3_16908461" android:background="@android:color/name3_17170443" android:layout_width="name3_16908386" android:layout_height="name3_16908386">
+            <ImageView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837826" android:adjustViewBounds="true" />
+            <LinearLayout android:layout_gravity="name3_16908446" android:orientation="name3_16908461" android:padding="@dimen/name3_2131231239" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_margin="0.0dip">
+                <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296266" android:gravity="name3_16908445" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:text="@string/name3_2131165363" android:singleLine="true" android:layout_weight="0.0" app:fontFamily="?name3_2130771973" />
+                <com.adobe.android.ui.view.AdobeTextView android:textAppearance="@style/name3_2131296261" android:id="@id/name3_2131690153" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/name3_2131165364" android:maxLines="5" android:singleLine="false" android:layout_weight="1.0" android:lineSpacingExtra="1.0dip" app:fontFamily="?name3_2130771972" />
+                <android.support.v7.widget.AppCompatButton android:id="@id/name3_2131690154" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_marginTop="10.0dip" android:text="@string/name3_2131165306" android:layout_weight="0.0" style="@style/AdobeImageWidget.FlatButton.Blue" />
+            </LinearLayout>
+        </LinearLayout>
+    </ViewSwitcher>
+    <ProgressBar android:id="@id/name3_2131690178" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:indeterminate="true" android:indeterminateOnly="true" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:id="@id/name3_2131690141" android:layout_width="@dimen/name3_2131231204" android:layout_height="name3_16908781" android:weightSum="100.0" style="?attr/com_adobe_image_editor_bottombar_gallery_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton android:id="@android:id/name3_16908294" android:layout_width="name3_16908781" android:layout_height="0.0dip" android:layout_weight="70.0" app:adobe_toggleable="true" app:adobe_untoggleable="false" />
+    <com.adobe.android.ui.view.AdobeTextView android:gravity="name3_16908445" android:id="@android:id/name3_16908308" android:layout_width="name3_16908781" android:layout_height="name3_16908386" android:layout_weight="0.0" style="?attr/com_adobe_image_editor_bottombar_circle_text" />
+</LinearLayout>

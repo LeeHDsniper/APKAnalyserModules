@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="name3_16908460" android:background="@color/name3_2131558630" android:paddingBottom="8.0dip" android:clickable="true" android:layout_width="name3_16908386" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name3_2131689851" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginTop="7.0dip" android:src="@drawable/name1_2130837963" />
+    <TextView android:textColor="@color/name3_2131558408" android:gravity="name3_16908445" android:layout_gravity="name3_16908445|name3_16908454|name3_16908455" android:id="@id/name3_2131689852" android:background="@drawable/name3_2130837584" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginLeft="9.0dip" android:text="1" />
+</RelativeLayout>

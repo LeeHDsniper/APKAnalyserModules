@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:padding="@dimen/name3_2131231209" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="name3_16908460" android:layout_height="name3_16908386" android:weightSum="4.0" style="@style/AdobeImageWidget.ConsolidatedAdjustButtons">
+        <com.adobe.creativesdk.aviary.widget.AdobeImageToggleButton android:id="@id/name3_2131690143" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:checked="true" android:text="@string/name3_2131165378" android:layout_weight="1.0" style="?attr/com_adobe_image_editor_bottombar_panel_toggle_rectangle_button" />
+        <com.adobe.creativesdk.aviary.widget.AdobeImageToggleButton android:id="@id/name3_2131690144" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:checked="false" android:text="@string/name3_2131165378" android:layout_weight="1.0" style="?attr/com_adobe_image_editor_bottombar_panel_toggle_rectangle_button" />
+        <com.adobe.creativesdk.aviary.widget.AdobeImageToggleButton android:id="@id/name3_2131690145" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:checked="false" android:text="@string/name3_2131165378" android:layout_weight="1.0" style="?attr/com_adobe_image_editor_bottombar_panel_toggle_rectangle_button" />
+        <com.adobe.creativesdk.aviary.widget.AdobeImageToggleButton android:id="@id/name3_2131690146" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:checked="false" android:text="@string/name3_2131165378" android:layout_weight="1.0" style="?attr/com_adobe_image_editor_bottombar_panel_toggle_rectangle_button" />
+    </LinearLayout>
+    <com.adobe.creativesdk.aviary.widget.NonSwipeableViewPager android:id="@id/name3_2131689619" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+</LinearLayout>

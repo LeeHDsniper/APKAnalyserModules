@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:padding="@dimen/name3_2131231205" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/name3_2131230818" android:layout_height="0.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="@integer/name3_2131427371">
+        <com.adobe.android.ui.view.AdobeButton android:id="@id/name3_2131690151" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:hint="@string/name3_2131165281" android:layout_centerInParent="true" style="?attr/com_adobe_image_editor_bottombar_meme_button" />
+        <ImageButton android:id="@id/name3_2131690156" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginRight="10.0dip" android:layout_alignRight="@id/name3_2131690151" android:layout_centerVertical="true" style="?attr/com_adobe_image_editor_bottombar_meme_clear_button" />
+    </RelativeLayout>
+    <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="@integer/name3_2131427370" />
+    <RelativeLayout android:layout_width="@dimen/name3_2131230818" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" android:layout_weight="@integer/name3_2131427371">
+        <com.adobe.android.ui.view.AdobeButton android:id="@id/name3_2131690152" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:hint="@string/name3_2131165280" android:layout_centerInParent="true" style="?attr/com_adobe_image_editor_bottombar_meme_button" />
+        <ImageButton android:id="@id/name3_2131690157" android:visibility="name3_16908733" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_marginRight="10.0dip" android:layout_alignRight="@id/name3_2131690152" android:layout_centerVertical="true" style="?attr/com_adobe_image_editor_bottombar_meme_clear_button" />
+    </RelativeLayout>
+</LinearLayout>

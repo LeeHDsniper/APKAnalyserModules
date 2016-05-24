@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeStorageListViewAssetViewCell android:id="@id/name3_2131689885" android:descendantFocusability="name3_16908778" android:layout_width="name3_16908781" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="name3_16908445" android:orientation="name3_16908461" android:descendantFocusability="name3_16908778" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <include layout="@layout/adobe_storage_assetslist_header" />
+        <include layout="@layout/adobe_storage_assetslist_divider" />
+        <LinearLayout android:gravity="name3_16908447" android:layout_gravity="name3_16908447" android:orientation="name3_16908460" android:descendantFocusability="name3_16908778" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131231019">
+            <ImageButton android:id="@id/name3_2131689886" android:background="@null" android:visibility="name3_16908732" android:layout_width="@dimen/name3_2131231316" android:layout_height="@dimen/name3_2131231316" android:src="@drawable/name3_2130838013" android:scaleType="name3_16908445" />
+            <ImageView android:id="@id/name3_2131689887" android:layout_width="@dimen/name3_2131231016" android:layout_height="@dimen/name3_2131231016" android:scaleType="name3_16908445" />
+            <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="@dimen/name3_2131231024" android:textColor="@color/name3_2131558420" android:ellipsize="name3_16908395" android:gravity="name3_16908447" android:id="@id/name3_2131689888" android:background="@color/name3_2131558630" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_marginLeft="@dimen/name3_2131231022" android:layout_marginRight="@dimen/name3_2131231023" android:singleLine="true" />
+        </LinearLayout>
+        <ProgressBar android:ellipsize="name3_16908395" android:id="@id/name3_2131689724" android:visibility="name3_16908732" android:layout_width="name3_16908781" android:layout_height="@dimen/name3_2131231020" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/name3_2130837610" android:minHeight="@dimen/name3_2131231020" android:singleLine="true" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </LinearLayout>
+</com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeStorageListViewAssetViewCell>

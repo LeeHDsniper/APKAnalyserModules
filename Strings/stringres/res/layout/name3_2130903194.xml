@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name3_2131558486" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/name3_2131690056" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+    <ProgressBar android:id="@id/name3_2131690057" android:visibility="name3_16908732" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.PackDetailBannerView android:id="@id/name3_2131690187" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:measureAllChildren="true" android:inAnimation="@anim/name3_2130968613" android:outAnimation="@anim/name3_2130968614" android:animateFirstView="true" android:layerType="name3_16908746"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.android.ui.view.SquareImageView android:layout_gravity="name3_16908445" android:id="@id/name3_2131690188" android:layout_width="@dimen/name3_2131231243" android:layout_height="@dimen/name3_2131231243" android:scaleType="name3_16908838" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/name3_2131690189" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:scaleType="name3_16908838" />
+</com.adobe.creativesdk.aviary.widget.PackDetailBannerView>

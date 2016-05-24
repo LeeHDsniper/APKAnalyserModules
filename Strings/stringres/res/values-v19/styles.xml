@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name3_2131296318" parent="@style/name3_2131296425">
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843760">true</item>
+    </style>
+    <style name="name3_2131296319" parent="@style/name3_2131296425">
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843759">true</item>
+    </style>
+    <style name="name3_2131296320" parent="@style/name3_2131296425">
+        <item name="android:name3_16842841">@null</item>
+        <item name="android:name3_16843759">true</item>
+        <item name="android:name3_16843760">true</item>
+    </style>
+</resources>

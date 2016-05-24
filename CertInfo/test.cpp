@@ -7,7 +7,7 @@
 using namespace std;
 int main()
 {
-	CertInfo( "/usr/bin/jdk1.8.0_91/bin/java", "./CertPrint.jar", "./83a2cba1cb708c7fd7bb00d20021e932/" );
+	CertInfo( "/usr/bin/jdk1.8.0_91/bin/java", "./CertPrint.jar", "./14897e76b4920e13ac6a455dbaff68df/" );
 	return(0);
 }
 

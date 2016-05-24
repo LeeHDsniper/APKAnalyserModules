@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="name3_2131230828">4.0dip</dimen>
+    <dimen name="name3_2131230829">12.5dip</dimen>
+    <dimen name="name3_2131230830">13.0dip</dimen>
+    <dimen name="name3_2131230831">0.0dip</dimen>
+    <dimen name="name3_2131230832">18.5dip</dimen>
+    <dimen name="name3_2131230833">0.0dip</dimen>
+    <dimen name="name3_2131230834">15.5dip</dimen>
+    <dimen name="name3_2131230835">0.0dip</dimen>
+    <dimen name="name3_2131230836">11.0dip</dimen>
+    <dimen name="name3_2131230837">18.5dip</dimen>
+    <dimen name="name3_2131230838">0.0dip</dimen>
+    <dimen name="name3_2131230839">15.5dip</dimen>
+    <dimen name="name3_2131230840">0.0dip</dimen>
+    <item type="dimen" name="name3_2131230841">@dimen/name3_2131230848</item>
+    <item type="dimen" name="name3_2131230842">@dimen/name3_2131230848</item>
+    <item type="dimen" name="name3_2131230843">@dimen/name3_2131230841</item>
+    <dimen name="name3_2131230844">18.5dip</dimen>
+    <dimen name="name3_2131230845">0.0dip</dimen>
+    <dimen name="name3_2131230846">15.5dip</dimen>
+    <dimen name="name3_2131230847">27.5dip</dimen>
+    <dimen name="name3_2131230848">18.5dip</dimen>
+    <dimen name="name3_2131230849">4.0dip</dimen>
+    <dimen name="name3_2131230850">0.0dip</dimen>
+    <dimen name="name3_2131230851">12.5dip</dimen>
+    <dimen name="name3_2131230852">13.0dip</dimen>
+    <dimen name="name3_2131230853">0.0dip</dimen>
+    <item type="dimen" name="name3_2131230854">@dimen/name3_2131230848</item>
+    <item type="dimen" name="name3_2131230855">@dimen/name3_2131230848</item>
+    <dimen name="name3_2131230856">0.0dip</dimen>
+    <dimen name="name3_2131230857">18.5dip</dimen>
+    <dimen name="name3_2131230858">0.0dip</dimen>
+    <dimen name="name3_2131230859">15.5dip</dimen>
+    <dimen name="name3_2131230860">0.0dip</dimen>
+    <dimen name="name3_2131230861">11.0dip</dimen>
+    <dimen name="name3_2131230862">24.0dip</dimen>
+</resources>

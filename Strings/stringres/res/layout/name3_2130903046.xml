@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.TintImageView android:id="@id/name3_2131689572" android:focusable="true" android:clickable="true" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:src="?name3_2130772322" android:contentDescription="@string/name3_2131165187" style="?attr/actionModeCloseButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

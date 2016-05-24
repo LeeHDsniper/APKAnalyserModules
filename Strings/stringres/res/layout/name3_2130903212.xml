@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:padding="@dimen/name3_2131231205" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginRight="@dimen/name3_2131230813">
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton android:id="@id/name3_2131690151" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837798" android:contentDescription="@string/name3_2131165263" app:adobe_checked="true" style="?attr/com_adobe_image_editor_bottombar_circle_button_nontoggle" />
+        <com.adobe.android.ui.view.AdobeTextView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165366" style="?attr/com_adobe_image_editor_bottombar_circle_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginRight="@dimen/name3_2131230813">
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton android:id="@id/name3_2131690152" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837797" android:contentDescription="@string/name3_2131165367" app:adobe_checked="false" style="?attr/com_adobe_image_editor_bottombar_circle_button_nontoggle" />
+        <com.adobe.android.ui.view.AdobeTextView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165332" style="?attr/com_adobe_image_editor_bottombar_circle_text" />
+    </LinearLayout>
+</LinearLayout>

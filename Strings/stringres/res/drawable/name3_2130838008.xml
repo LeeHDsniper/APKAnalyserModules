@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate android:fromDegrees="0.0" android:toDegrees="360.0" android:pivotX="50.0%" android:pivotY="50.0%"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="name3_16908869" android:innerRadiusRatio="3.0" android:thicknessRatio="8.0" android:useLevel="false">
+        <solid android:color="@color/name3_2131558630" />
+        <size android:height="@dimen/name3_2131231254" android:width="@dimen/name3_2131231255" />
+    </shape>
+</rotate>

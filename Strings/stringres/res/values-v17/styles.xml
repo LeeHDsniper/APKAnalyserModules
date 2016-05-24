@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name3_2131296304" parent="@style/name3_2131296493">
+        <item name="android:name3_16843697">name3_16908760</item>
+    </style>
+    <style name="name3_2131296305" parent="@android:style/name3_16973842">
+        <item name="android:name3_16842931">name3_16908397|name3_16908445</item>
+        <item name="android:name3_16843700">8.0dip</item>
+    </style>
+    <style name="name3_2131296306" parent="@style/name3_2131296366">
+        <item name="android:name3_16843699">@dimen/name3_2131230885</item>
+        <item name="android:name3_16843700">@dimen/name3_2131230757</item>
+    </style>
+    <style name="name3_2131296307" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843702">8.0dip</item>
+    </style>
+    <style name="name3_2131296308" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843700">16.0dip</item>
+    </style>
+    <style name="name3_2131296309" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843701">16.0dip</item>
+    </style>
+    <style name="name3_2131296310" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843697">name3_16908760</item>
+        <item name="android:name3_16843707">true</item>
+    </style>
+    <style name="name3_2131296311" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843699">@dimen/name3_2131230908</item>
+        <item name="android:name3_16843700">4.0dip</item>
+    </style>
+    <style name="name3_2131296312" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843707">true</item>
+    </style>
+    <style name="name3_2131296313" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843703">@id/name3_2131689601</item>
+    </style>
+    <style name="name3_2131296314" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843708">true</item>
+    </style>
+    <style name="name3_2131296315" parent="@style/name3_2131296374">
+        <item name="android:name3_16843703">@android:id/name3_16908296</item>
+        <item name="android:name3_16843704">@android:id/name3_16908295</item>
+    </style>
+    <style name="name3_2131296316" parent="@android:style/name3_16973842">
+        <item name="android:name3_16843701">@dimen/name3_2131230908</item>
+    </style>
+    <style name="name3_2131296317" parent="@style/name3_2131296390">
+        <item name="android:name3_16843699">@dimen/name3_2131230756</item>
+    </style>
+</resources>

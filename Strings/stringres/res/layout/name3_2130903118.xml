@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="name3_16908445" android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837596" android:layout_above="@id/name3_2131689825" android:layout_centerHorizontal="true" />
+    <com.adobe.creativesdk.foundation.internal.utils.CreativeSDKTextView android:textSize="@dimen/name3_2131231332" android:textColor="@color/name3_2131558423" android:id="@id/name3_2131689825" android:paddingTop="@dimen/name3_2131231331" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165559" android:layout_centerInParent="true" />
+</RelativeLayout>

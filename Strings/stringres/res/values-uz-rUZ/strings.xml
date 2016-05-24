@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name3_2131165184">Boshiga o‘tish</string>
+    <string name="name3_2131165185">Yuqoriga o‘tish</string>
+    <string name="name3_2131165186">Qo‘shimcha sozlamalar</string>
+    <string name="name3_2131165187">Tayyor</string>
+    <string name="name3_2131165188">Barchasini ko‘rish</string>
+    <string name="name3_2131165189">Dastur tanlang</string>
+    <string name="name3_2131165190">So‘rovni tozalash</string>
+    <string name="name3_2131165191">So‘rovni izlash</string>
+    <string name="name3_2131165192">Izlash</string>
+    <string name="name3_2131165193">So‘rov yaratish</string>
+    <string name="name3_2131165194">Ovozli qidiruv</string>
+    <string name="name3_2131165195">Bo‘lishish:</string>
+    <string name="name3_2131165197">%1$s bilan ishlashda davom etish uchun Android Wear ilovasini yangilang.</string>
+    <string name="name3_2131165198">Android Wear ilovasi yangilanmaguncha, %1$s ishga tushmaydi.</string>
+    <string name="name3_2131165199">Android Wear ilovasini yangilash</string>
+    <string name="name3_2131165200">%1$s ilovasining ishlashi uchun zarur bo‘lgan bir yoki bir nechta Google Play xizmatlari yo‘q. Yordam olish uchun ilovaning ishlab chiquvchisi bilan bog‘laning.</string>
+    <string name="name3_2131165201">Google Play xizmatlarini yoqish</string>
+    <string name="name3_2131165202">Google Play xizmatlari yoqilmaguncha, %1$s ishlamaydi.</string>
+    <string name="name3_2131165203">Google Play xizmatlarini yoqish</string>
+    <string name="name3_2131165204">So‘rov manbasi: %1$s</string>
+    <string name="name3_2131165205">Google Play xizmatlarini yuklab oling</string>
+    <string name="name3_2131165206">%1$s ishlashi uchun telefoningizga Google Play xizmatlarini o‘rnatish lozim.</string>
+    <string name="name3_2131165207">%1$s ishlashi uchun planshetingizga Google Play xizmatlarini o‘rnatish lozim.</string>
+    <string name="name3_2131165208">Google Play xizmatlarini yuklab oling</string>
+    <string name="name3_2131165209">Ushbu qurilmada ko‘rsatilgan hisob mavjud emas. Boshqa hisobni tanlang.</string>
+    <string name="name3_2131165210">Hisob haqiqiy emas</string>
+    <string name="name3_2131165211">Ilova Google Play xizmatlarining yoqilishini talab qiladi.</string>
+    <string name="name3_2131165212">Google Play xizmatlariga ulanish uchun internet zarur.</string>
+    <string name="name3_2131165213">Tarmoq xatosi</string>
+    <string name="name3_2131165214">Ilova Google Play xizmatlarining yangilanishini talab qiladi.</string>
+    <string name="name3_2131165215">Google Play xizmatlari xatosi</string>
+    <string name="name3_2131165216">Ko‘rsatilgan hisobga kirishda xatolik yuz berdi. Boshqa hisob tanlang.</string>
+    <string name="name3_2131165217">Kirish amalga oshmadi</string>
+    <string name="name3_2131165218">Google Play xizmatlari bilan bog‘liq noma’lum muammo yuz berdi.</string>
+    <string name="name3_2131165219">%1$s ilovasi Google Play xizmatlarisiz ishlamaydi, biroq qurilmangiz ularni qo‘llab-quvvatlamaydi. Yordam olish uchun qurilmaning ishlab chiqaruvchisi bilan bog‘laning.</string>
+    <string name="name3_2131165220">Google Play xizmatlari</string>
+    <string name="name3_2131165221">Yangilash</string>
+    <string name="name3_2131165222">Google Play xizmatlari yangilanmaguncha, %1$s ishga tushmaydi.</string>
+    <string name="name3_2131165223">Google Play xizmatlarini yangilash</string>
+    <string name="name3_2131165224">%1$s ilovasining ishlashi uchun zarur Google Play xizmatlari hozirda yangilanmoqda.</string>
+    <string name="name3_2131165225">Google Play xizmatlari yangilanmoqda</string>
+    <string name="name3_2131165226">Telefonda ochish</string>
+    <string name="name3_2131165227">Kirish</string>
+    <string name="name3_2131165228">Google orqali kirish</string>
+</resources>

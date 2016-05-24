@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908386"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name3_2131690054" android:paddingLeft="@dimen/name3_2131231162" android:paddingRight="@dimen/name3_2131231181" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837643" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/name3_2131165732" />
+    <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231161" android:textColor="@color/name3_2131558533" android:ellipsize="name3_16908393" android:id="@id/name3_2131690055" android:paddingTop="@dimen/name3_2131231165" android:paddingBottom="@dimen/name3_2131231165" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:maxLines="1" android:layout_toLeftOf="@id/name3_2131690054" android:layout_alignParentLeft="true" />
+</RelativeLayout>

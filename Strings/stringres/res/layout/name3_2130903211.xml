@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:padding="@dimen/name3_2131231205" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginRight="@dimen/name3_2131230813">
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton android:id="@id/name3_2131690151" android:tag="enhance_hi_def" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837793" android:contentDescription="@string/name3_2131165308" style="?attr/com_adobe_image_editor_bottombar_circle_button" />
+        <com.adobe.android.ui.view.AdobeTextView android:id="@id/name3_2131689920" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165308" style="?attr/com_adobe_image_editor_bottombar_circle_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908781" android:layout_marginRight="@dimen/name3_2131230813">
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton android:id="@id/name3_2131690152" android:tag="enhance_illuminate" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837794" android:contentDescription="@string/name3_2131165327" style="?attr/com_adobe_image_editor_bottombar_circle_button" />
+        <com.adobe.android.ui.view.AdobeTextView android:id="@id/name3_2131690153" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165327" style="?attr/com_adobe_image_editor_bottombar_circle_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908461" android:layout_width="name3_16908386" android:layout_height="name3_16908781">
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton android:id="@id/name3_2131690154" android:tag="enhance_color_fix" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:src="@drawable/name1_2130837792" android:contentDescription="@string/name3_2131165265" style="?attr/com_adobe_image_editor_bottombar_circle_button" />
+        <com.adobe.android.ui.view.AdobeTextView android:id="@id/name3_2131690155" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165265" style="?attr/com_adobe_image_editor_bottombar_circle_text" />
+    </LinearLayout>
+</LinearLayout>

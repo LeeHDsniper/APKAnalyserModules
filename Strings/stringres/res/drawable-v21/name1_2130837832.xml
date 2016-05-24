@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/name1_2130837833" android:tint="?name3_2130772375" />
+    </item>
+    <item>
+        <layer-list>
+            <item android:id="@android:id/name3_16908288">
+                <nine-patch android:src="@drawable/name1_2130837831" android:tint="?name3_2130771982" />
+            </item>
+            <item android:id="@android:id/name3_16908303">
+                <scale android:scaleWidth="100%">
+                    <nine-patch android:src="@drawable/name1_2130837831" android:tint="?name3_2130772375" />
+                </scale>
+            </item>
+            <item android:id="@android:id/name3_16908301">
+                <scale android:scaleWidth="100%">
+                    <nine-patch android:src="@drawable/name1_2130837831" android:tint="?name3_2130772376" />
+                </scale>
+            </item>
+        </layer-list>
+    </item>
+</selector>

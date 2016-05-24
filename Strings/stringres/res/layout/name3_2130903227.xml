@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.CropImageView android:id="@id/name3_2131689575" android:background="@android:color/name3_17170445" android:layout_width="name3_16908781" android:layout_height="name3_16908781" app:adobe_minCropSize="@dimen/name3_2131231220" app:adobe_highlightStyle="?name3_2130771995"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

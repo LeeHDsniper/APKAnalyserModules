@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:theme="@style/name3_2131296448" android:id="@id/name3_2131690147" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+    <include android:layout_gravity="name3_16908445" android:id="@id/name3_2131690148" android:layout_width="name3_16908781" android:layout_height="name3_16908781" layout="@layout/com_adobe_image_progress_small_layout" />
+</RelativeLayout>

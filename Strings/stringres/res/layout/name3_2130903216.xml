@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.android.ui.widget.AdobeGalleryView android:gravity="name3_16908445" android:id="@id/name3_2131690149" android:clipChildren="true" android:clipToPadding="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:animationDuration="200" android:overScrollMode="name3_16908742" />
+    <include layout="@layout/com_adobe_image_bottombar_disabled_status_layout" />
+</RelativeLayout>

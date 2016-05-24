@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adobe.creativesdk.foundation.internal.storage.controllers.multipage.AdobeHackyViewPager android:id="@id/name3_2131690214" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+</RelativeLayout>

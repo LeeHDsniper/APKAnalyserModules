@@ -508,7 +508,7 @@ def startTornado(IP,PORT,log):
         if os.path.exists(fil):
             os.remove(fil)
    # logp = os.path.join(settings.LOG_DIR, 'webproxy.log')
-    logp = './webproxy.log';
+    logp = '/home/marine/APKAnalyserModules/DynamicAnalysis/webproxy.log';
     tornado.options.parse_command_line(args=["dummy_arg","--log_file_prefix="+logp,"--logging=info"])
     tornado.ioloop.PeriodicCallback(try_exit, 100).start()
     tornado.ioloop.IOLoop.instance().start()

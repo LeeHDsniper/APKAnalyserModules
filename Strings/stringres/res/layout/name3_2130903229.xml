@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.ImageViewTiltiShiftTouch android:id="@id/name3_2131689575" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:hapticFeedbackEnabled="true" style="?attr/com_adobe_image_editor_focus_content_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

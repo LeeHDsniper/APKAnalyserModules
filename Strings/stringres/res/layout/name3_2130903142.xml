@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name3_2131558627" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/name3_2131689881" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+        <android.support.v7.widget.RecyclerView android:id="@id/name3_2131689882" android:paddingLeft="@dimen/name3_2131231000" android:paddingTop="@dimen/name3_2131231000" android:paddingRight="@dimen/name3_2131231000" android:paddingBottom="@dimen/name3_2131231000" android:longClickable="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

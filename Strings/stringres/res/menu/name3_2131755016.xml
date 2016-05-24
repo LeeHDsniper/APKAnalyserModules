@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/name3_2131690262" android:orderInCategory="100" android:title="@string/name3_2131165449" app:showAsAction="name3_2131689554" />
+    <item android:id="@id/name3_2131690263" android:orderInCategory="100" android:title="@string/name3_2131165448" app:showAsAction="name3_2131689553" />
+</menu>

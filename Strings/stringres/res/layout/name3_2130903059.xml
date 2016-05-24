@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.FitWindowsFrameLayout android:id="@id/name3_2131689594" android:fitsSystemWindows="true" android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/abc_screen_content_include" />
+    <android.support.v7.internal.widget.ViewStubCompat android:id="@id/name3_2131689595" android:layout="@layout/name3_2130903045" android:inflatedId="@id/name3_2131689596" android:layout_width="name3_16908781" android:layout_height="name3_16908386" />
+</android.support.v7.internal.widget.FitWindowsFrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="name3_16908781" android:layout_height="name3_16908781"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="name3_16908447" android:orientation="name3_16908460" android:id="@id/name3_2131689946" android:background="@drawable/name1_2130837630" android:padding="15.0dip" android:layout_width="name3_16908781" android:layout_height="?android:name3_16843499" android:layout_alignParentTop="true">
+        <com.behance.sdk.ui.customviews.BehanceSDKTextView android:textSize="@dimen/name3_2131231107" android:textColor="@color/name3_2131558496" android:id="@id/name3_2131689947" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:text="@string/name3_2131165695" android:drawableLeft="@drawable/name1_2130837663" android:drawablePadding="9.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/name3_2131558495" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:layout_below="@id/name3_2131689946">
+        <RelativeLayout android:id="@id/name3_2131689948" android:background="@color/name3_2131558495" android:layout_width="name3_16908781" android:layout_height="name3_16908781">
+            <ProgressBar android:id="@id/name3_2131689949" android:layout_width="name3_16908386" android:layout_height="name3_16908386" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

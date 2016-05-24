@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="name3_16908445" android:orientation="name3_16908460" android:padding="@dimen/name3_2131231205" android:layout_width="name3_16908781" android:layout_height="name3_16908781" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/name3_2131690140" android:layout_width="0.0dip" android:layout_height="name3_16908386" android:progress="0" android:layout_weight="@integer/name3_2131427334" layout="@layout/com_adobe_image_seekbar" />
+</LinearLayout>
