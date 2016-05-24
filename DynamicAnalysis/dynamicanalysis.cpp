@@ -1,12 +1,47 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 #include <sstream>
 #include <ctime>
 #include <fstream>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <dirent.h>
 #include <unistd.h>
+#include <regex.h>
+/*These two libs below seems were wrote by one author:ggicci,Thanks.*/
+#include "gci-json.h"/*a Json lib,thanks for https://github.com/ggicci/ggicci--json*/
+#include "base64.h"/*a base64 decode & encode lib,thanks for http://blog.csdn.net/ggicci/article/details/10600403*/
 #include "dynamicanalysis.h"
+
+using namespace ggicci;
 using namespace std;
 
+API_ANAs	API_BASE64;
+API_ANAs	API_FILEIO;
+API_ANAs	API_REFLECT;
+API_ANAs	API_SYSPROP;
+API_ANAs	API_CNTRSLVR;
+API_ANAs	API_CNTVAL;
+API_ANAs	API_BINDER;
+API_ANAs	API_CRYPTO;
+API_ANAs	API_ACNTMNGER;
+API_ANAs	API_DEVICEINFO;
+API_ANAs	API_NET;
+API_ANAs	API_DEXLOADER;
+API_ANAs	API_CMD;
+API_ANAs	API_SMS;
+string 	URLs[256];
+string 	EMAILs[256];
+string 	XmlFiles[256];
+string 	SQLiteDB[256];
+string	OtherFiles[256];
+int url_index=0;
+int email_index=0;
+int xmlfile_index=0;
+int sqlitedb_index=0;
+int otherfile_index=0;
+FILE *process_proxy;
 /*convert int to a string*/
 string str(int n)
 {
@@ -16,35 +51,117 @@ string str(int n)
 	ss>>str;
 	return str;
 }
-
-void DICT_NORMAL:: append( string value )
+void API_ANAs:: append( DICT_APIANA d )
 {
-	for ( int i = 0; i < DICT_VALUES_SUM; i++ )
+	for ( int i = 0; i < APIANA_SUM; i++ )
 	{
-		if ( Values[i] == "" )
+		if(dict[i].Method=="")
 		{
-			Values[i] = value;
-			return;
+			dict[i]=d;
+			break;
 		}
 	}
 }
-DICT_NORMAL* NORMALs::operator []( string key )
+DICT_APIANA::DICT_APIANA()
 {
-	int i = 0;
-	while ( dict[i].Key != "" )
+}
+DICT_APIANA::DICT_APIANA(string method,string args,string ret,string info)
+{
+	Method=method;
+	Args=args;
+	Return=ret;
+	Info=info;
+}
+
+bool regex_search( string patt, string where )
+{
+	regex_t		reg;
+	regmatch_t	pmatch[64];
+	const char	* pattern = patt.c_str();
+	regcomp( &reg, pattern, REG_EXTENDED );
+	int ret = regexec( &reg, where.c_str(), 64, pmatch, 0 );
+	regfree( &reg );
+	if ( ret == 0 )
+		return(true);
+	else
+		return(false);
+}
+void regex_findall( string patt, string where, string saveat[] )
+{
+	regex_t		reg;
+	regmatch_t	pmatch[64];
+	const char	* pattern = patt.c_str();
+	regcomp( &reg, pattern, REG_EXTENDED );
+	int ret = regexec( &reg, where.c_str(), 64, pmatch, 0 );
+	regfree( &reg );
+	int index = 0;
+	if ( ret == 0 )
 	{
-		if ( dict[i].Key == key )
+		for ( int i = 1; i < 64 && pmatch[i].rm_so != -1; i++ )
 		{
-			return(&dict[i]);
+			char buff[500];
+			memset( buff, '\0', 200 );
+
+			int len = pmatch[i].rm_eo - pmatch[i].rm_so; /* 匹配长度 */
+			strncpy( buff, where.c_str() + pmatch[i].rm_so, len );
+			if ( strcmp( buff, "https://" ) != 0 && strcmp( buff, "http://" ) != 0 && strcmp( buff, "ftps://" ) != 0 && strcmp( buff, "file://" ) != 0 && strcmp( buff, "javascript:" ) != 0 && strcmp( buff, "data:" ) != 0 )
+			{
+				saveat[index]=buff;
+				index++;
+			}
 		}
-		i++;
-	}
-	if ( i <= NORMALTRACING_SUM )
+		return;
+	}else
+		return;
+}
+string replace( string str, string old_str, string new_str )
+{
+	int	index	= 0;
+	int	pos	= 0;
+	while ( (pos = str.find( old_str, index ) ) != string::npos )
 	{
-		dict[i].Key = key;
-		return(&dict[i]);
+		str.replace( pos, old_str.length(), new_str );
+		index = pos + old_str.length();
 	}
-	return(NULL);
+	return(str);
+}
+int endswith( string str, string withstr )
+{
+	if ( str.rfind( withstr ) == string::npos )
+		return(0);
+	else if ( (str.length() - str.rfind( withstr ) ) == withstr.length() )
+		return(1);
+	else
+		return(0);
+}
+
+bool isBase64(string str)
+{
+	bool result=regex_search("^[A-Za-z0-9+/]+[=]{0,2}$",str);
+	return result;
+}
+void mymkdir( char * file_Path )
+{
+	DIR *dp;
+	if ( (dp = opendir( file_Path ) ) == NULL )
+	{
+		int err = mkdir( file_Path, S_IRWXU | S_IRWXG | S_IROTH );
+		if ( err != 0 )
+		{
+			int	end	= strlen( file_Path );
+			char	*p	= &file_Path[end - 1];
+			while ( (*p) != '/' )
+			{
+				p--;
+			}
+			int	length	= (int) strlen( file_Path ) - (int) strlen( p );
+			char	*temp	= new char[length];
+			memcpy( temp, file_Path, length );
+			mymkdir( temp );
+			err = mkdir( file_Path, S_IRWXU | S_IRWXG | S_IROTH );
+		}
+	}
+	closedir( dp );
 }
 void RefreshVM(string vboxmessage_path,string uuid,string snapshot_uuid)
 {
@@ -58,7 +175,6 @@ void RefreshVM(string vboxmessage_path,string uuid,string snapshot_uuid)
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
        cmd = vboxmessage_path+" snapshot "+ uuid+" restore "+snapshot_uuid;
@@ -69,7 +185,6 @@ void RefreshVM(string vboxmessage_path,string uuid,string snapshot_uuid)
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
        cmd = vboxmessage_path+" startvm "+ uuid;
@@ -80,9 +195,29 @@ void RefreshVM(string vboxmessage_path,string uuid,string snapshot_uuid)
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
+}
+void WebProxy(string proxy_ip,string proxy_port,bool status)
+{
+	char buff[1024];
+	if(status)
+	{
+		string cmd="python ./WebProxy/startproxy.py -i "+proxy_ip+" -p "+proxy_port;
+		process_proxy=popen(cmd.c_str(),"w");
+		if(process_proxy==NULL)
+		{
+			return ;
+		}
+	}
+	else
+	{
+		char stop[5]="stop";
+		fputs(stop,process_proxy);
+		sleep(5);
+		pclose(process_proxy);
+		return ;
+	}
 }
 void Install_Run(string device_IP,string device_Port,string APP_path,string package,string mainactivity)
 {
@@ -103,7 +238,6 @@ void Install_Run(string device_IP,string device_Port,string APP_path,string pack
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb connect "+device_IP+":"+device_Port;
@@ -114,7 +248,6 @@ void Install_Run(string device_IP,string device_Port,string APP_path,string pack
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb wait-for-device";
@@ -125,7 +258,6 @@ void Install_Run(string device_IP,string device_Port,string APP_path,string pack
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
 	cmd ="adb -s "+device_IP+":"+device_Port+" shell su -c mount -o rw,remount,rw /system";
@@ -136,7 +268,6 @@ void Install_Run(string device_IP,string device_Port,string APP_path,string pack
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb -s "+device_IP+":"+device_Port+" shell mount -o rw,remount -t rfs /dev/block/sda6 /system";
@@ -147,7 +278,6 @@ void Install_Run(string device_IP,string device_Port,string APP_path,string pack
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       	cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb -s "+device_IP+":"+device_Port+" install -r "+APP_path;
@@ -164,7 +294,6 @@ void Install_Run(string device_IP,string device_Port,string APP_path,string pack
        if(mainactivity!="")
        {
        		cmd ="adb -s "+device_IP+":"+device_Port+" shell am start -n "+package+"/"+mainactivity;
-       		cout<<cmd<<endl;
        		f = popen( cmd.c_str(), "r" );
        		if ( f == NULL )
        		{
@@ -172,8 +301,7 @@ void Install_Run(string device_IP,string device_Port,string APP_path,string pack
        		}
        		while( fgets( buff, sizeof(buff), f ) != NULL )
        		{
-       			cout<<buff<<endl;
-      		 }
+      			}
        		pclose( f );
        }
 }
@@ -216,7 +344,6 @@ void ScreenShot(string device_IP,string device_Port,string out_path)
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb -s "+device_IP+":"+device_Port+" pull /data/local/screen.png  "+out_path+"screen.png";
@@ -227,7 +354,6 @@ void ScreenShot(string device_IP,string device_Port,string out_path)
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose(f);
 }
@@ -243,7 +369,6 @@ void Touch(string device_IP,string device_Port,string x_axis,string y_axis)
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
 }
@@ -259,7 +384,6 @@ void ExecuteADB(string device_IP,string device_Port,string ADB_cmd)
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
 }
@@ -275,7 +399,6 @@ void StopTest(string device_IP,string device_Port,string out_logcat_path,string 
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb -s "+device_IP+":"+device_Port+" pull /data/data/de.robv.android.xposed.installer/log/error.log  "+out_errorlog_path+"errorlog.txt";
@@ -286,7 +409,6 @@ void StopTest(string device_IP,string device_Port,string out_logcat_path,string 
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb -s "+device_IP+":"+device_Port+" shell dumpsys >  "+out_dumpsys_path+"dump.txt ";
@@ -297,7 +419,6 @@ void StopTest(string device_IP,string device_Port,string out_logcat_path,string 
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb -s "+device_IP+":"+device_Port+" shell am force-stop "+package;
@@ -308,7 +429,6 @@ void StopTest(string device_IP,string device_Port,string out_logcat_path,string 
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
 }
@@ -324,7 +444,6 @@ void DumpData(string device_IP,string device_Port,string out_appfile_path,string
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb -s "+device_IP+":"+device_Port+" shell am startservice -a "+package+" opensecurity.ajin.datapusher/.GetPackageLocation";
@@ -335,7 +454,6 @@ void DumpData(string device_IP,string device_Port,string out_appfile_path,string
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
        time_t start_time;
@@ -370,7 +488,6 @@ void DumpData(string device_IP,string device_Port,string out_appfile_path,string
        }
        while( fgets( buff, sizeof(buff), f ) != NULL )
        {
-       		cout<<buff<<endl;
        }
        pclose( f );
        cmd ="adb kill-server";
@@ -411,7 +528,6 @@ void ExportedActivityTest(string device_IP,string device_Port,string exported_ac
 	       }
 	       while( fgets( buff, sizeof(buff), f ) != NULL )
 	       {
-	       		cout<<buff<<endl;
 	       }
 	       pclose(f);
 	       cmd ="adb -s "+device_IP+":"+device_Port+" shell am force-stop  "+package;
@@ -422,12 +538,11 @@ void ExportedActivityTest(string device_IP,string device_Port,string exported_ac
 	       }
 	       while( fgets( buff, sizeof(buff), f ) != NULL )
 	       {
-	       		cout<<buff<<endl;
 	       }
 	       pclose(f);
 	}
 }
-void ActivityTest(std::string device_IP,std::string device_Port,std::string activity_list[],std::string package,std::string screenshot_path)
+void ActivityTest(string device_IP,string device_Port,string activity_list[],string package,string screenshot_path)
 {
 	int index=0;
 	for(index;activity_list[index]!="";index++)
@@ -450,14 +565,13 @@ void ActivityTest(std::string device_IP,std::string device_Port,std::string acti
 	       }
 	       pclose( f );
 	       cmd ="adb -s "+device_IP+":"+device_Port+" pull /data/local/screen.png  "+screenshot_path+"actscreen"+str(index)+".png";
-       		f = popen( cmd.c_str(), "r" );
+       	f = popen( cmd.c_str(), "r" );
 	       if ( f == NULL )
 	       {
 	       		return;
 	       }
 	       while( fgets( buff, sizeof(buff), f ) != NULL )
 	       {
-	       		cout<<buff<<endl;
 	       }
 	       pclose(f);
 	       cmd ="adb -s "+device_IP+":"+device_Port+" shell am force-stop  "+package;
@@ -468,8 +582,295 @@ void ActivityTest(std::string device_IP,std::string device_Port,std::string acti
 	       }
 	       while( fgets( buff, sizeof(buff), f ) != NULL )
 	       {
-	       		cout<<buff<<endl;
 	       }
 	       pclose(f);
+	}
+}
+void APIAnalysis(string errorlog_path,string package)
+{
+	fstream errorlog;
+	errorlog.open((errorlog_path+"errorlog.txt").c_str(),ios_base::in);
+	char line[999999];
+	string ID="Droidmon-apimonitor-" + package +":";
+	int i=0;
+	int j=1;
+	while(errorlog.getline(line,999999)!=NULL)
+	{
+		j++;
+		int json_pos;
+		if(((string)line).find(ID)!=string::npos)
+		{
+			json_pos=((string)line).find("{");
+			try
+			{
+   				Json API = Json::Parse(line+json_pos);
+   				string Return;
+   				string Class;
+   				string Method;
+   				string Args;
+   				Method=API["method"].AsString();
+   				Class=API["class"].AsString();
+   				if(!API["return"].IsNull())
+   					Return=API["return"].ToString();
+   				else 
+   					Return="No Return Data";
+   				if(!API["args"].IsNull())
+   					Args=API["args"].ToString();
+   				else 
+   					Return="No Arguments Passed";
+   				DICT_APIANA D(Method,Args,Return,"");
+   				if(Class.find("android.util.Base64")!=string::npos)
+   				{
+
+   					if(Method.find("decode")!=string::npos)
+   					{
+   						string encode=API["args"][0].AsString();
+   						if(isBase64(encode))
+   						{
+   							D.Info="Decode string : "+base64_decode(encode);
+   						}	
+   					}
+   					API_BASE64.append(D);
+   				}
+   				if(regex_search("libcore.io|android.app.SharedPreferencesImpl$EditorImpl",Class))
+   				{
+   					API_FILEIO.append(D);
+   				}
+   				if(regex_search("java.lang.reflect",Class))
+   				{
+   					API_REFLECT.append(D);
+   				}
+   				if(regex_search("android.content.ContentResolver|android.location.Location|android.media.AudioRecord|android.media.MediaRecorder|android.os.SystemProperties",Class))
+   				{
+   					API_SYSPROP.append(D);
+   				}
+   				if(regex_search("android.app.Activity|android.app.ContextImpl|android.app.ActivityThread",Class))
+   				{
+   					API_BINDER.append(D);
+   				}
+   				if(regex_search("javax.crypto.spec.SecretKeySpec|javax.crypto.Cipher|javax.crypto.Mac",Class))
+   				{
+   					API_CRYPTO.append(D);
+   				}
+   				if(regex_search("android.accounts.AccountManager|android.app.ApplicationPackageManager|android.app.NotificationManager|android.net.ConnectivityManager|android.content.BroadcastReceiver",Class))
+   				{
+   					API_ACNTMNGER.append(D);
+   				}
+   				if(regex_search("android.telephony.TelephonyManager|android.net.wifi.WifiInfo|android.os.Debug",Class))
+   				{
+   					API_DEVICEINFO.append(D);
+   				}
+   				if(regex_search("dalvik.system.BaseDexClassLoader|dalvik.system.DexFile|dalvik.system.DexClassLoader|dalvik.system.PathClassLoader",Class))
+   				{
+   					API_DEXLOADER.append(D);
+   				}
+   				if(regex_search("java.lang.Runtime|java.lang.ProcessBuilder|java.io.FileOutputStream|java.io.FileInputStream|android.os.Process",Class))
+   				{
+   					API_CMD.append(D);
+   				}
+   				if(regex_search("android.content.ContentValues",Class))
+   				{
+   					API_CNTVAL.append(D);
+   				}
+   				if(regex_search("android.telephony.SmsManager",Class))
+   				{
+   					API_SMS.append(D);
+   				}
+   				if(regex_search("java.net.URL|org.apache.http.impl.client.AbstractHttpClient",Class))
+   				{
+   					API_NET.append(D);
+   				}
+   				i++;
+			}
+			catch (exception& e)
+			{
+				i--;
+			}
+		}
+	}
+	i=0;
+	errorlog.close();
+}
+void RunAnalysis(string logs_path,string package)
+{
+	fstream log;
+	log.open((logs_path+"logcat.txt").c_str(),ios_base::in);
+	char line[999999];
+	while(log.getline(line,999999)!=NULL)
+	{	
+		string url_result[100];
+		string email_result[100];
+		regex_findall("((https://|http://|ftps://|file://|javascript:|data:|www[0-9]{0,3}[.])[a-zA-Z0-9.=/;,#:@?&~*+!$\'{}-]*)",line,url_result);
+		int j=0;
+		while(url_result[j]!="")
+		{
+			bool alreadyhas=false;
+			for(int t=0;t<url_index;t++)
+			{
+				if(url_result[j]==URLs[t])
+					alreadyhas=true;
+			}
+			if(alreadyhas)
+				break;
+			URLs[url_index]=url_result[j];
+			j++;
+			url_index++;
+		}
+		regex_findall( "([a-zA-Z0-9-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9]+)", line, email_result );
+		j = 0;
+		while ( email_result[j] != ""&&email_result[j]!="yodleebanglore@gmail.com")
+		{
+			bool alreadyhas=false;
+			for(int t=0;t<email_index;t++)
+			{
+				if(email_result[j]==EMAILs[t])
+					alreadyhas=true;
+			}
+			if(alreadyhas)
+				break;
+			EMAILs[email_index]=email_result[j];
+			j++;
+			email_index++;
+		}
+	}
+	log.close();
+	fstream errorlog;
+	errorlog.open((logs_path+"errorlog.txt").c_str(),ios_base::in);
+	memset( line, '\0', 999999);
+	int linenum=0;
+	while(errorlog.getline(line,999999)!=NULL)
+	{
+		linenum++;
+		string repline=replace(line,"\\","");
+		string url_result[100];
+		string email_result[100];
+		regex_findall("((https://|http://|ftps://|file://|javascript:|data:|www[0-9]{0,3}[.])[a-zA-Z0-9.=/;,#:@?&~*+!$\'{}-]*)",repline,url_result);
+		int j=0;
+		while(url_result[j]!="")
+		{
+			bool alreadyhas=false;
+			for(int t=0;t<url_index;t++)
+			{
+				if(url_result[j]==URLs[t])
+					alreadyhas=true;
+			}
+			if(alreadyhas)
+				break;
+			URLs[url_index]=url_result[j];
+			j++;
+			url_index++;
+		}
+		regex_findall( "([a-zA-Z0-9-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9]+)", line, email_result );
+		j = 0;
+		while ( email_result[j] != ""&&email_result[j]!="yodleebanglore@gmail.com" )
+		{
+			bool alreadyhas=false;
+			for(int t=0;t<email_index;t++)
+			{
+				if(email_result[j]==EMAILs[t])
+					alreadyhas=true;
+			}
+			if(alreadyhas)
+				break;
+			EMAILs[email_index]=email_result[j];
+			j++;
+			email_index++;
+		}
+	}
+	errorlog.close();
+	fstream urllog;
+	urllog.open((logs_path+"WebProxy/proxydata/urls").c_str(),ios_base::in);
+	memset( line, '\0', 999999);
+	while(urllog.getline(line,999999)!=NULL)
+	{
+		bool alreadyhas=false;
+		for(int t=0;t<url_index;t++)
+		{
+			if(URLs[t]==(string)line)
+				alreadyhas=true;
+		}
+		if(alreadyhas)
+			continue;
+		URLs[url_index]=(string)line;
+		url_index++;
+	}
+	urllog.close();
+}
+void ExtractTar(string tarextract_path,string package)
+{
+	mymkdir(&tarextract_path[0]);
+	FILE *f;
+	char buff[1024];
+	string cmd ="tar -xf ./"+package+".tar -C "+tarextract_path;
+	f = popen( cmd.c_str(), "r" );
+	if ( f == NULL )
+	{
+	       	return;
+	}
+	while( fgets( buff, sizeof(buff), f ) != NULL )
+	       {
+	       }
+	pclose(f);
+}
+void CheckDeviceFile(string devicefile_path)
+{
+	struct dirent	* ent = NULL;
+	DIR		*pDir;
+	pDir = opendir( devicefile_path.c_str() );
+	if ( pDir == NULL )
+	{
+		return;
+	}
+	while ( (ent = readdir( pDir ) ) != NULL )
+	{
+		
+		if ( ent->d_type == 8 )
+		{
+			string	file( ent->d_name );
+			string	file_path = (devicefile_path + (string) ent->d_name);
+			if ( file.find( "+" ) != string::npos )
+			{
+				file = replace( file, "+", "x" );
+				string temp = devicefile_path + file;
+				rename( file_path.c_str(), temp.c_str() );
+				file_path = temp;
+			}
+			if(file!="lib")
+			{
+				if(endswith(file,".xml"))
+				{
+					XmlFiles[xmlfile_index]=file_path;
+					xmlfile_index++;
+				}
+				else
+				{
+					fstream f;
+					f.open(file_path.c_str(),ios_base::in);
+					char buffer[7];
+					f.get(buffer,7);
+					if((string)buffer=="SQLite")
+					{
+						SQLiteDB[sqlitedb_index]=file_path;
+						sqlitedb_index++;
+					}
+					else if(!endswith(file,".DS_Store"))
+					{
+						OtherFiles[otherfile_index]=file_path;
+						otherfile_index++;
+					}
+				}
+			}
+		}
+		else  
+		{
+			if ( strcmp( ent->d_name, "." ) == 0 || strcmp( ent->d_name, ".." ) == 0 )
+			{
+				continue;
+			}
+			string	_path( devicefile_path );
+			string	_dirName( ent->d_name );
+			string	fullDirPath = _path + _dirName + "/";
+			CheckDeviceFile( fullDirPath.c_str() );
+		}
 	}
 }

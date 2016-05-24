@@ -311,7 +311,7 @@ void regex_findall( string patt, string where, string saveat[] )
 		for ( int i = 1; i < 64 && pmatch[i].rm_so != -1; i++ )
 		{
 			char buff[500];
-			memset( buff, '\0', 200 );
+			memset( buff, '\0', 500 );
 
 			int len = pmatch[i].rm_eo - pmatch[i].rm_so; /* 匹配长度 */
 			strncpy( buff, where.c_str() + pmatch[i].rm_so, len );
