@@ -13,9 +13,6 @@ getmanifest.cpp      C++源文件
 test.cpp             C++源文件/*程序入口*/
 test                 可执行文件
 ----------------------
-AndroidManifest.xml  apk解压缩后的xml文件
-----------------------
-AXMLPrinter2.jar     jar文件
 
 **********************
 
@@ -35,4 +32,4 @@ g++ 5.3.1
 运行：
 
 终端下输入：./test
-最终结果：在当前文件夹生成重新编码后的manifest.xml文件
+最终结果：在TestResult下app解压后文件夹生成重新编码后的manifest.xml文件

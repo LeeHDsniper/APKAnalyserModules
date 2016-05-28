@@ -10,9 +10,12 @@
 #include <unistd.h>
 #include <regex.h>
 /*These two libs below seems were wrote by one author:ggicci,Thanks.*/
-#include "gci-json.h"/*a Json lib,thanks for https://github.com/ggicci/ggicci--json*/
-#include "base64.h"/*a base64 decode & encode lib,thanks for http://blog.csdn.net/ggicci/article/details/10600403*/
+/*a Json lib,thanks for https://github.com/ggicci/ggicci--json*/
+#include "../utils/json/gci-json.h"
+/*a base64 decode & encode lib,thanks for http://blog.csdn.net/ggicci/article/details/10600403*/
+#include "../utils/base64/base64.h"
 #include "dynamicanalysis.h"
+#include "../utils/utils.h"
 
 using namespace ggicci;
 using namespace std;
@@ -42,25 +45,11 @@ int xmlfile_index=0;
 int sqlitedb_index=0;
 int otherfile_index=0;
 FILE *process_proxy;
-/*convert int to a string*/
-string str(int n)
-{
-	stringstream ss;
-	ss<<n;
-	string str;
-	ss>>str;
-	return str;
-}
+
 void API_ANAs:: append( DICT_APIANA d )
 {
-	for ( int i = 0; i < APIANA_SUM; i++ )
-	{
-		if(dict[i].Method=="")
-		{
-			dict[i]=d;
-			break;
-		}
-	}
+  dict[called_times]=d;
+  called_times++;
 }
 DICT_APIANA::DICT_APIANA()
 {
@@ -73,96 +62,6 @@ DICT_APIANA::DICT_APIANA(string method,string args,string ret,string info)
 	Info=info;
 }
 
-bool regex_search( string patt, string where )
-{
-	regex_t		reg;
-	regmatch_t	pmatch[64];
-	const char	* pattern = patt.c_str();
-	regcomp( &reg, pattern, REG_EXTENDED );
-	int ret = regexec( &reg, where.c_str(), 64, pmatch, 0 );
-	regfree( &reg );
-	if ( ret == 0 )
-		return(true);
-	else
-		return(false);
-}
-void regex_findall( string patt, string where, string saveat[] )
-{
-	regex_t		reg;
-	regmatch_t	pmatch[64];
-	const char	* pattern = patt.c_str();
-	regcomp( &reg, pattern, REG_EXTENDED );
-	int ret = regexec( &reg, where.c_str(), 64, pmatch, 0 );
-	regfree( &reg );
-	int index = 0;
-	if ( ret == 0 )
-	{
-		for ( int i = 1; i < 64 && pmatch[i].rm_so != -1; i++ )
-		{
-			char buff[500];
-			memset( buff, '\0', 200 );
-
-			int len = pmatch[i].rm_eo - pmatch[i].rm_so; /* 匹配长度 */
-			strncpy( buff, where.c_str() + pmatch[i].rm_so, len );
-			if ( strcmp( buff, "https://" ) != 0 && strcmp( buff, "http://" ) != 0 && strcmp( buff, "ftps://" ) != 0 && strcmp( buff, "file://" ) != 0 && strcmp( buff, "javascript:" ) != 0 && strcmp( buff, "data:" ) != 0 )
-			{
-				saveat[index]=buff;
-				index++;
-			}
-		}
-		return;
-	}else
-		return;
-}
-string replace( string str, string old_str, string new_str )
-{
-	int	index	= 0;
-	int	pos	= 0;
-	while ( (pos = str.find( old_str, index ) ) != string::npos )
-	{
-		str.replace( pos, old_str.length(), new_str );
-		index = pos + old_str.length();
-	}
-	return(str);
-}
-int endswith( string str, string withstr )
-{
-	if ( str.rfind( withstr ) == string::npos )
-		return(0);
-	else if ( (str.length() - str.rfind( withstr ) ) == withstr.length() )
-		return(1);
-	else
-		return(0);
-}
-
-bool isBase64(string str)
-{
-	bool result=regex_search("^[A-Za-z0-9+/]+[=]{0,2}$",str);
-	return result;
-}
-void mymkdir( char * file_Path )
-{
-	DIR *dp;
-	if ( (dp = opendir( file_Path ) ) == NULL )
-	{
-		int err = mkdir( file_Path, S_IRWXU | S_IRWXG | S_IROTH );
-		if ( err != 0 )
-		{
-			int	end	= strlen( file_Path );
-			char	*p	= &file_Path[end - 1];
-			while ( (*p) != '/' )
-			{
-				p--;
-			}
-			int	length	= (int) strlen( file_Path ) - (int) strlen( p );
-			char	*temp	= new char[length];
-			memcpy( temp, file_Path, length );
-			mymkdir( temp );
-			err = mkdir( file_Path, S_IRWXU | S_IRWXG | S_IROTH );
-		}
-	}
-	closedir( dp );
-}
 void RefreshVM(string vboxmessage_path,string uuid,string snapshot_uuid)
 {
 	FILE *f;
@@ -779,7 +678,7 @@ void RunAnalysis(string logs_path,string package)
 	}
 	errorlog.close();
 	fstream urllog;
-	urllog.open((logs_path+"WebProxy/proxydata/urls").c_str(),ios_base::in);
+	urllog.open("./WebProxy/proxydata/urls",ios_base::in);
 	memset( line, '\0', 999999);
 	while(urllog.getline(line,999999)!=NULL)
 	{
@@ -796,12 +695,12 @@ void RunAnalysis(string logs_path,string package)
 	}
 	urllog.close();
 }
-void ExtractTar(string tarextract_path,string package)
+void ExtractTar(string tarextract_path,string tar_path,string package)
 {
 	mymkdir(&tarextract_path[0]);
 	FILE *f;
 	char buff[1024];
-	string cmd ="tar -xf ./"+package+".tar -C "+tarextract_path;
+	string cmd ="tar -xf ./"+tar_path+package+".tar -C "+tarextract_path;
 	f = popen( cmd.c_str(), "r" );
 	if ( f == NULL )
 	{

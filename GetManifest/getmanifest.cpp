@@ -19,7 +19,7 @@ int GetManifest( string java_path, string jar_path, string APP_path )
         return(-1);
     }
     fstream file;
-    file.open( "manifest.xml", ios_base::out );
+    file.open( (APP_path+"manifest.xml").c_str(), ios_base::out );
     while ( fgets( buff, sizeof(buff), f ) != NULL )
     {
         file.write( buff, strlen( buff ) );

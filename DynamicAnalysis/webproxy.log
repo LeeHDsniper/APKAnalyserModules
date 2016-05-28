@@ -1,32 +1,31 @@
-[E 160524 21:54:54 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:54:58 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:00 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:02 web:1825] 599 GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=I&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=XXqvj%2FCIJGKzXX5%2BjHLyXoWbbya2ofnubXLh%2FHkIMnU%3D (192.168.56.101) 2.09ms
-[E 160524 21:55:02 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:03 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:12 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:14 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:39 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:58 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:55:58 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:56:00 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:56:12 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:56:13 web:1825] 599 GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=I&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=XXqvj%2FCIJGKzXX5%2BjHLyXoWbbya2ofnubXLh%2FHkIMnU%3D (192.168.56.101) 2.55ms
-[E 160524 21:56:14 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:56:17 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:56:32 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:56:40 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:56:58 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:57:14 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:57:17 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:57:40 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:57:59 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:57:59 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:00 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:05 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:10 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:12 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:14 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:17 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:17 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
-[E 160524 21:58:17 web:1825] 599 GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=I&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=XXqvj%2FCIJGKzXX5%2BjHLyXoWbbya2ofnubXLh%2FHkIMnU%3D (192.168.56.101) 1.15ms
+[E 160528 16:43:10 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:43:50 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:45:10 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:45:50 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:46:30 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:47:10 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:47:50 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:06 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:11 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:11 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:13 web:1825] 599 GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=G&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=K99XqMMe9M8w2Ovq%2FTzKc7cYS9iMiqFo8VTuEKIegpg%3D (192.168.56.101) 29.04ms
+[E 160528 16:51:13 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:15 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:22 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:29 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:51:53 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:52:11 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:52:11 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:52:11 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:58:42 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:58:46 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:58:48 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:58:50 web:1825] 599 GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=F&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=KKLZJzRGsb9hasnTqDGrsBbyOxa1eYeD1BNQhugAJEk%3D (192.168.56.101) 2.15ms
+[E 160528 16:58:50 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:58:50 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:58:58 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:59:05 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:59:29 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:59:46 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:59:48 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution
+[E 160528 16:59:48 concurrent:122] Future exception was never retrieved: gaierror: [Errno -3] Temporary failure in name resolution

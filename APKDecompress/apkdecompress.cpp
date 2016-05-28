@@ -1,37 +1,13 @@
 #include <iostream>
+#include <string>
 #include <cstring>
 #include <fstream>
-#include <dirent.h>
-#include <sys/stat.h>
-#include <sys/types.h>
-#include "unzip.h"
-#include "zlib.h"
+#include "../utils/utils.h"
+#include "../utils/zlib/unzip.h"
+#include "../utils/zlib/zlib.h"
 #include "apkdecompress.h"
-using namespace std;
-void mymkdir( char * file_Path )
-{
-	DIR *dp;
-	if ( (dp = opendir( file_Path ) ) == NULL )
-	{
-		int err = mkdir( file_Path, S_IRWXU | S_IRWXG | S_IROTH );
-		if ( err != 0 )
-		{
-			int	end	= strlen( file_Path );
-			char	*p	= &file_Path[end - 1];
-			while ( (*p) != '/' )
-			{
-				p--;
-			}
-			int	length	= (int) strlen( file_Path ) - (int) strlen( p );
-			char	*temp	= new char[length];
-			memcpy( temp, file_Path, length );
-			mymkdir( temp );
-			err = mkdir( file_Path, S_IRWXU | S_IRWXG | S_IROTH );
-		}
-	}
-	closedir( dp );
-}
 
+using namespace std;
 
 int makedirectory( unzFile zfile, char *extractdirectory )
 {
@@ -101,6 +77,39 @@ int extract_currentfile( unzFile zfile, char *extractdirectory )
 	file.close();
 	free( fileData );
 	return(0);
+}
+void Decompress(string filepath,string decompress_to_path)
+{
+	unzFile zfile;
+	zfile = unzOpen64( filepath.c_str() );
+	if ( zfile == NULL )
+	{
+		cout << "[ERROR] 文件不存在" << endl;
+		return;
+	}else  
+	{
+		cout << "[INFO] 成功打开压缩文件:" << filepath << endl;
+	}
+	unz_global_info64 zGlobalInfo;
+	if ( UNZ_OK != unzGetGlobalInfo64( zfile, &zGlobalInfo ) )
+	{
+		cout << "[ERROR] 获取压缩文件全局信息失败" << endl;
+		return;
+	}
+	for ( int i = 0; i < zGlobalInfo.number_entry; i++ )
+	{
+		int err = makedirectory( zfile, &decompress_to_path[0] );
+		unzCloseCurrentFile( zfile );
+		unzGoToNextFile( zfile );
+	}
+	unzGoToFirstFile( zfile );
+	for ( int i = 0; i < zGlobalInfo.number_entry; i++ )
+	{
+		int err = extract_currentfile( zfile, &decompress_to_path[0] );
+		unzCloseCurrentFile( zfile );
+		unzGoToNextFile( zfile );
+	}
+	cout << "[INFO] 解压完成" << endl;
 }
 
 

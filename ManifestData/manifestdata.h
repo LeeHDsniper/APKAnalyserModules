@@ -26,7 +26,7 @@ extern std::string library_list[1024];
 extern Permission dvm_permission_list[MANI_PERMISSIONS_SUM];
 
 
-void ManifestData();
+void ManifestData(std::string manifest_path);
 
 
 #endif

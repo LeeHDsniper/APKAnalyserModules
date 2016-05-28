@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
-#include <cctype>
 #include <sstream>
-#include "tinyxml.h"
-#include "xmlanalysis.h"
 #include "manifestanalysis.h"
+#include "../utils/tinyxml/tinyxml.h"
+#include "../utils/tinyxml/xmlanalysis.h"
+#include "../utils/utils.h"
 
 using namespace std;
 
@@ -20,16 +20,18 @@ Exported_Count	exp_count;
 int	RET_Index	= 0;
 int	EXP_Index	= 0;
 
-int strisdigit( string str )
-{
-	for ( int i = 0; i < str.length(); i++ )
-	{
-		if ( !isdigit( str[i] ) )
-			return(-1);
-	}
-	return(1);
-}
 
+int& Exported_Count::operator[](string key)
+{
+	if(key== "activity")
+		return Activity_Count;
+	if(key== "service")
+		return Service_Count;
+	if(key== "receiver")
+		return Receiver_Count;
+	if(key== "provider")
+		return Provider_Count;
+}
 
 void ManifestAnalysis( std::string xml_path, std::string main_activity )
 {
@@ -40,7 +42,7 @@ void ManifestAnalysis( std::string xml_path, std::string main_activity )
 	int		sum	= 0;
 	TiXmlElement	* elementsList[1500];
 	TiXmlAttribute	*attr;
-	if ( getElementsByName( root, sum, elementsList, 1500, "service" ) == 0 )
+	/*if ( getElementsByName( root, sum, elementsList, 1500, "service" ) == 0 )
 	{
 		int i = 0;
 		while ( elementsList[i] != NULL )
@@ -61,7 +63,7 @@ void ManifestAnalysis( std::string xml_path, std::string main_activity )
 						RET[RET_Index].Description	= "A service was found to be shared with other apps on the device without an intent filter or a permission requirement therefore leaving it accessible to any other application on the device.";
 						RET_Index++;
 					}
-					exp_count.Service_Count++;
+					exp_count["service"]++;
 				}
 			}
 			i++;
@@ -70,7 +72,7 @@ void ManifestAnalysis( std::string xml_path, std::string main_activity )
 			elementsList[i] = NULL;
 		attr	= NULL;
 		sum	= 0;
-	}
+	}*/
 	if ( getElementsByName( root, sum, elementsList, 1500, "application" ) == 0 )
 	{
 		TiXmlNode	* child;
@@ -114,6 +116,15 @@ void ManifestAnalysis( std::string xml_path, std::string main_activity )
 			}
 			for ( child = elementsList[i]->FirstChild(); child; child = child->NextSibling() )
 			{
+				string itemname="";
+				if((string) child->Value() == "activity"|| (string) child->Value() == "activity-alias")
+					itemname="activity";
+				else if((string) child->Value() == "service")
+					itemname="service";
+				else if((string) child->Value() == "provider")
+					itemname="provider";
+				else if((string)child->Value()=="receiver")
+					itemname="receiver";
 				if ( ( (string) child->Value() == "activity") || ( (string) child->Value() == "activity-alias") )
 				{
 					if ( child->ToElement()->Attribute( "android:taskAffinity" ) )
@@ -136,7 +147,7 @@ void ManifestAnalysis( std::string xml_path, std::string main_activity )
 				}
 				bool	isExp	= false;
 				bool	impE	= false;
-				if ( ( ( (string) child->Value() == "activity") || ( (string) child->Value() == "activity-alias") || ( (string) child->Value() == "provider") || ( (string) child->Value() == "receiver") ) && ( (child->ToElement()->Attribute( "android:exported" ) ) && ( (string) (child->ToElement()->Attribute( "android:exported" ) ) == "true") ) )
+				if ( ( itemname!="" ) && ( (child->ToElement()->Attribute( "android:exported" ) ) && ( (string) (child->ToElement()->Attribute( "android:exported" ) ) == "true") ) )
 				{
 					isExp = true;
 					string perm;
@@ -155,7 +166,7 @@ void ManifestAnalysis( std::string xml_path, std::string main_activity )
 						RET[RET_Index].Severity		= "high";
 						RET[RET_Index].Description	= "The " + (string) child->ToElement()->Attribute( "android:name" ) + " was found to be shared with other apps on the device therefore leaving it accessible to any other application on the device.";
 						RET_Index++;
-						exp_count.Activity_Count++;
+						exp_count[itemname]++;
 					}
 				}
 				if ( ( ( (string) child->Value() == "activity") || ( (string) child->Value() == "activity-alias") || ( (string) child->Value() == "provider") || ( (string) child->Value() == "receiver") ) && ( (child->ToElement()->Attribute( "android:exported" ) ) && ( (string) (child->ToElement()->Attribute( "android:exported" ) ) == "false") ) )
@@ -180,11 +191,11 @@ void ManifestAnalysis( std::string xml_path, std::string main_activity )
 								EXPORTED[EXP_Index] = (string) child->ToElement()->Attribute( "android:name" );
 								EXP_Index++;
 							}
-							RET[RET_Index].Issue		= (string) child->ToElement()->Attribute( "android:name" ) + "( " + (string) child->Value() + " )" + "is not Protected.<br>An intent-filter exists.";
+							RET[RET_Index].Issue		= (string) child->ToElement()->Attribute( "android:name" ) + "( " + (string) child->Value() + " )" + "is not Protected.An intent-filter exists.";
 							RET[RET_Index].Severity		= "high";
 							RET[RET_Index].Description	= "The " + (string) child->ToElement()->Attribute( "android:name" ) + " was found to be shared with other apps on the device therefore leaving it accessible to any other application on the device. The presence of intent-filter indicates that the " + (string) child->ToElement()->Attribute( "android:name" ) + " is explicitly exported.";
 							RET_Index++;
-							exp_count.Activity_Count++;
+							exp_count[itemname]++;
 						}
 					}
 				}

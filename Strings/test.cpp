@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	Strings( "/usr/bin/jdk1.8.0_91/bin/java", "./string_from_apk.jar", "./test.apk", "./" );
+	Strings( "/usr/bin/jdk1.8.0_91/bin/java", "../Tools/strings_from_apk.jar", "../TestResult/test.apk", "../TestResult/" );
 	int i = 0;
 	while ( Strings_List[i] != "")
 	{

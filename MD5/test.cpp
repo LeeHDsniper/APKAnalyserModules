@@ -14,7 +14,7 @@ int main()
     //cout<<"md5 of \"helloworld\" is: "<<md5_str_test.toStr()<<endl; 
     //计算一个apk文件的md5值
     fstream file;
-    file.open("test.apk",ios_base::in|ios_base::binary);
+    file.open("../TestResult/test.apk",ios_base::in|ios_base::binary);
     MD5 md5_file_test(file);
     cout<<"md5 of file test.apk is: "<<md5_file_test.toStr()<<endl; 
 	return 0;

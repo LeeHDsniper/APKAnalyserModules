@@ -5,8 +5,8 @@
 using namespace std;
 int main()
 {
-	Dex2Jar("./14897e76b4920e13ac6a455dbaff68df/");
-	Dex2Smali( "/usr/bin/jdk1.8.0_91/bin/java", "./tools/baksmali.jar", "./14897e76b4920e13ac6a455dbaff68df/" );
-	Jar2Java( "/usr/bin/jdk1.8.0_91/bin/java", "./tools/jd-core.jar","./classes.jar" );
+	Dex2Jar("../TestResult/14897e76b4920e13ac6a455dbaff68df/","../Tools/","../TestResult/");
+	Dex2Smali( "/usr/bin/jdk1.8.0_91/bin/java", "../Tools/", "../TestResult/14897e76b4920e13ac6a455dbaff68df/","../TestResult/smali_source" );
+	Jar2Java( "/usr/bin/jdk1.8.0_91/bin/java", "../Tools/","../TestResult/classes.jar","../TestResult/javasource");
 	return 0;
 }

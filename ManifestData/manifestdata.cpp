@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
-#include "tinyxml.h"
 #include "dvm_permissions.h"
 #include "manifestdata.h"
-#include "xmlanalysis.h"
+#include "../utils/tinyxml/tinyxml.h"
+#include "../utils/tinyxml/xmlanalysis.h"
+
 using namespace std;
 
 string	minsdk;
@@ -28,10 +29,10 @@ string library_list[1024];
 Permission dvm_permission_list[MANI_PERMISSIONS_SUM];
 
 
-void ManifestData()
+void ManifestData(string manifest_path)
 {
 	TiXmlDocument doc;
-	if ( loadXML( "manifest.xml", doc ) != 0 )
+	if ( loadXML( manifest_path, doc ) != 0 )
 		return;
 	TiXmlElement	* root	= doc.FirstChildElement();
 	int		sum	= 0;

@@ -1,13 +1,14 @@
 #include <iostream>
 #include <string>
-#include "tinyxml.h"
 #include "dvm_permissions.h"
 #include "manifestdata.h"
+#include "../utils/tinyxml/tinyxml.h"
+#include "../utils/tinyxml/xmlanalysis.h"
 using namespace std;
 
 int main( int argc, char* argv[] )
 {
-    ManifestData();
+    ManifestData("../TestResult/14897e76b4920e13ac6a455dbaff68df/manifest.xml");
     cout << "minsdk=" << minsdk << endl;
     cout << "maxsdk=" << maxsdk << endl;
     cout << "targetsdk=" << targetsdk << endl;

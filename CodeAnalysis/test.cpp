@@ -1,15 +1,15 @@
 #include <iostream>
-#include "./ManifestData/tinyxml.h"
-#include "./ManifestData/dvm_permissions.h"
-#include "./ManifestData/manifestdata.h"
+#include "../utils/tinyxml/tinyxml.h"
+#include "../ManifestData/dvm_permissions.h"
+#include "../ManifestData/manifestdata.h"
 #include "codeanalysis.h"
 
 using namespace std;
 
 int main()
 {
-	ManifestData();
-	CodeAnalysis( "./javasource/", "14897e76b4920e13ac6a455dbaff68df", &dvm_permission_list[0] );
+	ManifestData("../TestResult/14897e76b4920e13ac6a455dbaff68df/manifest.xml");
+	CodeAnalysis( "../TestResult/javasource/", "14897e76b4920e13ac6a455dbaff68df", &dvm_permission_list[0] );
 	if ( native )
 		cout << "native = true" << endl;
 	else

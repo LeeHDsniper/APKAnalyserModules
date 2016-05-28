@@ -1,15 +1,14 @@
 #include <iostream>
 #include <string>
-#include <cctype>
-#include <sstream>
-#include "tinyxml.h"
-#include "xmlanalysis.h"
 #include "manifestanalysis.h"
+#include "../utils/tinyxml/tinyxml.h"
+#include "../utils/tinyxml/xmlanalysis.h"
+#include "../utils/utils.h"
 
 using namespace std;
 int main()
 {
-	ManifestAnalysis( "manifest.xml", ".activity.SplashActivity" );
+	ManifestAnalysis( "../TestResult/14897e76b4920e13ac6a455dbaff68df/manifest.xml", "com.dumplingsandwich.pencilsketch.activities.SplashScreenActivity" );
 	
 	cout << "----------Manifest Analysis EXPORTED_COUNT------------" << endl;
 	cout << "Activity_Count: " << exp_count.Activity_Count << endl;

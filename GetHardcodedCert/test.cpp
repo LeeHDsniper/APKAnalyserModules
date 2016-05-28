@@ -12,7 +12,7 @@ int main()
   char  *file_Path[10];
   string  f;
   int sum = 0;
-  GetHardcodedCert( "./14897e76b4920e13ac6a455dbaff68df", sum, file_Path );
+  GetHardcodedCert( "../TestResult/14897e76b4920e13ac6a455dbaff68df/", sum, file_Path );
   for ( int i = 0; i < sum; i++ )
     cout << file_Path[i] << endl;
   return(0);

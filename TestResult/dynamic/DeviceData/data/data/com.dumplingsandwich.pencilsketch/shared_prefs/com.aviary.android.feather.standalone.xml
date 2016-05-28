@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="aviary.cds.content-group-name">F</string>
+    <long name="aviary.cds.last-execution-time" value="0" />
+    <long name="aviary.cds.content-group-update-time" value="1464091581187" />
+</map>

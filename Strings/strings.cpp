@@ -1,8 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "tinyxml.h"
-#include "xmlanalysis.h"
+#include "../utils/tinyxml/tinyxml.h"
+#include "../utils/tinyxml/xmlanalysis.h"
 #include "strings.h"
 
 using namespace std;

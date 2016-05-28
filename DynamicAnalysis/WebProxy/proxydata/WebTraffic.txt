@@ -1,36 +1,6 @@
 
 
-REQUEST: GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=I&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=XXqvj%2FCIJGKzXX5%2BjHLyXoWbbya2ofnubXLh%2FHkIMnU%3D
-Host: cds-gateway.aviary.com
-Accept-Encoding: gzip
-User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; Samsung Galaxy S4 - 4.4.2 - API 19 - 1080x1920 Build/KOT49H)
-
-
-
-
-
-RESPONSE: 599 Unknown
-
-
-
-
-
-REQUEST: GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=I&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=XXqvj%2FCIJGKzXX5%2BjHLyXoWbbya2ofnubXLh%2FHkIMnU%3D
-Host: cds-gateway.aviary.com
-Accept-Encoding: gzip
-User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; Samsung Galaxy S4 - 4.4.2 - API 19 - 1080x1920 Build/KOT49H)
-
-
-
-
-
-RESPONSE: 599 Unknown
-
-
-
-
-
-REQUEST: GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=I&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=XXqvj%2FCIJGKzXX5%2BjHLyXoWbbya2ofnubXLh%2FHkIMnU%3D
+REQUEST: GET http://cds-gateway.aviary.com/v1/gateway/manifest?apiKey=5bdd636e3694470fa58e0ea0f195e0d3&contentGroup=F&country=US&formFactor=phone&language=en&osVersion=19&platform=android&resolution=xhigh&sdkVersion=4.1.1&versionKey=0&signature=KKLZJzRGsb9hasnTqDGrsBbyOxa1eYeD1BNQhugAJEk%3D
 Host: cds-gateway.aviary.com
 Accept-Encoding: gzip
 User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.2; Samsung Galaxy S4 - 4.4.2 - API 19 - 1080x1920 Build/KOT49H)

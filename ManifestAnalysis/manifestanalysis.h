@@ -9,6 +9,7 @@ struct Manifest_Anal
 };
 struct  Exported_Count
 {
+	int& operator [](std::string key); 
 	int	Activity_Count;
 	int	Provider_Count;
 	int	Receiver_Count;
@@ -25,9 +26,4 @@ extern Exported_Count	exp_count;
 
 
 void ManifestAnalysis( std::string xml_path, std::string main_activity );
-
-
-int strisdigit( std::string str );
-
-
 #endif

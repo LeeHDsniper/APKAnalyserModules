@@ -15,6 +15,7 @@ struct DICT_APIANA
 struct API_ANAs
 {
 	void append( DICT_APIANA d );	
+	int called_times;
 	DICT_APIANA dict[APIANA_SUM];
 };
 
@@ -50,6 +51,6 @@ void ExportedActivityTest(std::string device_IP,std::string device_Port,std::str
 void ActivityTest(std::string device_IP,std::string device_Port,std::string activity_list[],std::string package,std::string screenshot_path);
 void APIAnalysis(std::string errorlog_path,std::string package);
 void RunAnalysis(std::string logs_path,std::string package);
-void ExtractTar(std::string tarextract_path,std::string package);
+void ExtractTar(std::string tarextract_path,std::string tar_path,std::string package);
 void CheckDeviceFile(std::string devicefile_path);
 #endif

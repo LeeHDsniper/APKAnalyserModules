@@ -59,32 +59,33 @@ int main()
 	cout<<"[INFO] 正在启动网络代理"<<endl;
 	WebProxy("192.168.56.1","1337",true);
 	cout<<"[INFO] 正在安装apk"<<endl;
-	Install_Run("192.168.56.101","5555","./test.apk","com.dumplingsandwich.pencilsketch","com.dumplingsandwich.pencilsketch.activities.SplashScreenActivity");
+	Install_Run("192.168.56.101","5555","../TestResult/test.apk","com.dumplingsandwich.pencilsketch","com.dumplingsandwich.pencilsketch.activities.SplashScreenActivity");
 	//ScreenShot("192.168.56.101","5555","./");
 	//Touch("192.168.56.101","5555","400","1100");
 	//ExecuteADB("192.168.56.101","5555","shell screencap -p /data/local/screen.png");
 	cout<<"[INFO] 正在准备数据"<<endl;
 	prepare_activity();
+	
 	cout<<"[INFO] 开始测试外部调用活动"<<endl;
-	ExportedActivityTest("192.168.56.101","5555",EXPORTED,"com.dumplingsandwich.pencilsketch","./exported_screenshots/");
+	ExportedActivityTest("192.168.56.101","5555",EXPORTED,"com.dumplingsandwich.pencilsketch","../TestResult/dynamic/exported_screenshots/");
 	cout<<"[INFO] 开始测试所有活动"<<endl;
-	ActivityTest("192.168.56.101","5555",activity_list,"com.dumplingsandwich.pencilsketch","./activity_screenshots/");
+	ActivityTest("192.168.56.101","5555",activity_list,"com.dumplingsandwich.pencilsketch","../TestResult/dynamic/activity_screenshots/");
 	cout<<"[INFO] 正在停止测试"<<endl;
-	StopTest("192.168.56.101","5555","./","./","./","com.dumplingsandwich.pencilsketch");
+	StopTest("192.168.56.101","5555","../TestResult/dynamic/","../TestResult/dynamic/","../TestResult/dynamic/","com.dumplingsandwich.pencilsketch");
 	cout<<"[INFO ]正在关闭网络代理"<<endl;
 	WebProxy("192.168.56.1","1337",false);
 	cout<<"[INFO] 正在收集数据"<<endl;	
-	DumpData("192.168.56.101","5555","./","com.dumplingsandwich.pencilsketch",10);
+	DumpData("192.168.56.101","5555","../TestResult/dynamic/","com.dumplingsandwich.pencilsketch",10);
 	cout<<"[INFO] 正在分析API调用"<<endl;
-	APIAnalysis("./","com.dumplingsandwich.pencilsketch");
+	APIAnalysis("../TestResult/dynamic/","com.dumplingsandwich.pencilsketch");
 	cout<<"[INFO] 正在分析日志文件"<<endl;
-	RunAnalysis("./","com.dumplingsandwich.pencilsketch");
+	RunAnalysis("../TestResult/dynamic/","com.dumplingsandwich.pencilsketch");
 	cout<<"[INFO] 正在解压设备数据"<<endl;
-	ExtractTar("./DeviceData","com.dumplingsandwich.pencilsketch");
+	ExtractTar("../TestResult/dynamic/DeviceData","../TestResult/dynamic/","com.dumplingsandwich.pencilsketch");
 	cout<<"[INFO] 正在分析设备文件"<<endl;
-	CheckDeviceFile("./DeviceData/");
+	CheckDeviceFile("../TestResult/dynamic/DeviceData/");
 	cout<<"[INFO] 分析完成"<<endl;
-	cout<<"************************Base64加密************************"<<endl;
+	cout<<"************************Base64加密(called times:"<<API_BASE64.called_times<<")************************"<<endl;
 	int i=0;
 	while(API_BASE64.dict[i].Method!=""&&i<10)
 	{

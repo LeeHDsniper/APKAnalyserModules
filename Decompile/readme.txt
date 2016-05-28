@@ -20,10 +20,6 @@ jar2java.cpp            C++源文件
 ----------------------
 test.cpp                C++源文件/*程序入口*/
 test                    可执行文件
-----------------------
-83a2cba1cb708c7fd7bb00d20021e932/                            apk解压缩文件夹
-----------------------
-tools                   使用的反编译工具文件文件夹
 
 **********************
 
@@ -43,7 +39,7 @@ g++ 5.3.1
 运行：
 
 终端下输入：./test
-最终结果：在当前文件夹生成反编译的smali_source文件夹，classes.jar文件，javasource文件夹
+最终结果：在TestResult文件夹下生成反编译的smali_source文件夹，classes.jar文件，javasource文件夹
 输出：
 dex2jar ./83a2cba1cb708c7fd7bb00d20021e932/classes.dex -> ./classes.jar
 java.lang.IndexOutOfBoundsException: Index: 18, Size: 18

@@ -11,11 +11,7 @@ certinfo.cpp         C++源文件
 ----------------------
 test.cpp             C++源文件/*程序入口*/
 test                 可执行文件
-----------------------
-83a2cba1cb708c7fd7bb00d20021e932/                            只保留了签名文件的apk解压缩包
-83a2cba1cb708c7fd7bb00d20021e932/META-INF/ANDROIDR.RSA       签名文件
-----------------------
-CertPrint.jar        jar文件
+
 
 **********************
 
@@ -28,11 +24,11 @@ g++ 5.3.1
 
 编译方法：
 
-终端下输入g++ certinfo.cpp test.cpp -o test
+终端下输入g++ ../utils/utils.h certinfo.cpp test.cpp -o test
 
 **********************
 
 运行：
 
 终端下输入：./test
-最终结果：在当前文件夹生成解析出的certinfo.txt文件
+最终结果：在APK解压缩文件夹生成解析出的certinfo.txt文件

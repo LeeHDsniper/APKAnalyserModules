@@ -4,7 +4,4 @@
 int CertInfo( std::string java_path, std::string jar_path, std::string APP_path );
 
 
-void tolower( std::string &str );
-
-
 #endif

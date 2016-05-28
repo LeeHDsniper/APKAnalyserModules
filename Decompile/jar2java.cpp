@@ -5,24 +5,12 @@
 #include "jar2java.h"
 using namespace std;
 
-int Jar2Java( string java_path, string jar_path,string file_path )
+int Jar2Java( string java_path, string tools_path,string jarfile_path,string out_path)
 {
-	int pos=jar_path.rfind("/");
-	const char *suffix;
-    suffix  = jar_path.c_str();
-    suffix  = suffix + pos+1;
-    string cmd;
+
+    string cmd=java_path+" -jar "+tools_path+"jd-core.jar "+jarfile_path+" "+out_path;
     FILE *f;
-    if(strcmp(suffix,"jd-core.jar")==0)
-    {
-    	cmd=java_path+" -jar "+jar_path+" "+file_path+" ./javasource";
-    	f = popen( cmd.c_str(), "r" );
-    	pclose( f );
-    	return 0;
-    }
-    else
-    {
-    	return -1;
-    }
+    f = popen( cmd.c_str(), "r" );
+    pclose( f );
     return(0);
 }

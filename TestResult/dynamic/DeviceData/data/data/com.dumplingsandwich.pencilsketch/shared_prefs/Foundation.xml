@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="ClientId">sRIqApZz/GXhsYk616aisKIp9Th97SYnnR+ac7lAtGm0jogQ/1e0Bqo4+ygGP1V1</string>
+    <int name="EnvironmentIndicator" value="5" />
+    <string name="ClientSecret">oABT/oLRWqsjxlMQNorLcia+qZcLo9kaTe/4r022O6FhmbsCeOBG/tukLfnhGvL+</string>
+    <int name="KeychainVersion" value="10" />
+</map>
