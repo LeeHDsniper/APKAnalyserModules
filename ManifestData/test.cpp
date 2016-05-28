@@ -50,6 +50,8 @@ int main( int argc, char* argv[] )
     while ( dvm_permission_list[i].Permission_Name != "" )
     {
         cout << "permission_list[" << i << "]=" << dvm_permission_list[i].Permission_Name << endl;
+        cout<<"Description:"<<dvm_permission_list[i].Permission_Description<<endl;
+        cout<<"-----------------------------------"<<endl;
         i++;
     }
     return(0);

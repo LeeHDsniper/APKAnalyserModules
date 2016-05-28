@@ -103,12 +103,32 @@ service_list[4]=com.behance.sdk.services.BehanceSDKPublishWIPService
 provider_list[0]=com.adobe.creativesdk.aviary.internal.cds.CdsProvider
 receiver_list[0]=com.adobe.creativesdk.aviary.internal.cds.CdsReceiver
 permission_list[0]=INTERNET
+Description:允许应用程序创建网络套接字。
+-----------------------------------
 permission_list[1]=WRITE_EXTERNAL_STORAGE
+Description:允许应用程序向SD卡进行写入操作。
+-----------------------------------
 permission_list[2]=ACCESS_NETWORK_STATE
+Description:允许应用程序查看所有网络的状态。
+-----------------------------------
 permission_list[3]=VIBRATE
+Description:允许应用程序控制振动器。
+-----------------------------------
 permission_list[4]=READ_EXTERNAL_STORAGE
+Description:允许应用程序读取SD卡。
+-----------------------------------
 permission_list[5]=BILLING
+Description:Unknown permission from android reference
+-----------------------------------
 permission_list[6]=BROADCAST_STICKY
+Description:允许应用程序在广播结束后继续发送广播消息。恶意应用程序可以使手机缓慢或不稳定，使其使用过多的内存。
+-----------------------------------
 permission_list[7]=SEND_DOWNLOAD_COMPLETED_INTENTS
+Description:Unknown permission from android reference
+-----------------------------------
 permission_list[8]=ACCESS_WIFI_STATE
+Description:允许应用程序查看Wi-Fi状态的信息。
+-----------------------------------
 permission_list[9]=ACCESS_WIFI_STATE
+Description:允许应用程序查看Wi-Fi状态的信息。
+-----------------------------------

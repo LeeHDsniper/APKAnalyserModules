@@ -5,7 +5,7 @@
 #define NORMALTRACING_SUM	256
 #define DICT_VALUES_SUM		9999
 
-#include "./ManifestData/dvm_permissions.h"
+#include "../ManifestData/dvm_permissions.h"
 
 struct DICT_API
 {
