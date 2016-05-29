@@ -36,5 +36,47 @@ int main()
 		cout << endl;
 		i++;
 	}
+	double Weight=0;
+	if(i<25)
+	{
+		Weight=2.0;
+	}
+	else if(i<45)
+	{
+		Weight=4.0;
+	}
+	else if(i<60)
+	{
+		Weight=6.0;
+	}
+	else if(i<70)
+	{
+		Weight=8.0;
+	}
+	else if(i<75)
+	{
+		Weight=10.0;
+	}
+	else if(i<80)
+	{
+		Weight=12.0;
+	}
+	else if(i<85)
+	{
+		Weight=14.0;
+	}
+	else if(i<90)
+	{
+		Weight=16.0;
+	}
+	else if(i<95)
+	{
+		Weight=18.0;
+	}
+	else
+	{
+		Weight=20.0;
+	}
+	cout<<"Weight="<<Weight<<endl;
 	return(0);
 }

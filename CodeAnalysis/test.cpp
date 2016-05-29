@@ -78,12 +78,21 @@ int main()
 	}
 	i = 0;
 	cout << "***********************Sensitive Code Analysis*************************" << endl;
+	double Weight=0;
 	while ( rev_t.code[i].Key != "" )
 	{
 		if ( rev_t.code[i].Values[0] != "" )
 		{
 			cout << "* Key:" << rev_t.code[i].Key << endl;
 			cout << "* Security:" << rev_t.code[i].Security << endl;
+			if(rev_t.code[i].Security=="high")
+				Weight+=1.9;
+			else if(rev_t.code[i].Security=="warning")
+				Weight+=1.5;
+			else if(rev_t.code[i].Security=="info")
+				Weight+=0.9;
+			else
+				;
 			cout << "* Description:" << rev_t.code[i].Description << endl;
 		}
 		int j = 0;
@@ -95,5 +104,6 @@ int main()
 		i++;
 		cout << "-------------------------------------------------------------------" << endl;
 	}
+	cout<<"Weight:"<<Weight<<endl;
 	return(0);
 }

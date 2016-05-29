@@ -287,8 +287,22 @@ void ManifestData(string manifest_path)
 				Permission *search_p = m.search( pmn );
 				if ( search_p != NULL )
 				{
-					dvm_permission_list[p] = *search_p;
-					p++;
+					int index=0;
+					bool has=false;
+					while(dvm_permission_list[index].Permission_Name!="")
+					{
+						if(dvm_permission_list[index].Permission_Name==(string)pmn)
+						{
+							has=true;
+							break;
+						}
+						index++;
+					}
+					if(!has)
+					{
+						dvm_permission_list[p] = *search_p;
+						p++;
+					}
 				}else  {
 					dvm_permission_list[p] = Permission( pmn, "dangerous", "Unknown permission from android reference", "Unknown permission from android reference" );
 					p++;

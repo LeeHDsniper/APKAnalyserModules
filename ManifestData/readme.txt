@@ -129,6 +129,4 @@ Description:Unknown permission from android reference
 permission_list[8]=ACCESS_WIFI_STATE
 Description:允许应用程序查看Wi-Fi状态的信息。
 -----------------------------------
-permission_list[9]=ACCESS_WIFI_STATE
-Description:允许应用程序查看Wi-Fi状态的信息。
------------------------------------
+

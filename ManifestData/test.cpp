@@ -47,12 +47,16 @@ int main( int argc, char* argv[] )
         i++;
     }
     i = 0;
+    double Weight=0;
     while ( dvm_permission_list[i].Permission_Name != "" )
     {
         cout << "permission_list[" << i << "]=" << dvm_permission_list[i].Permission_Name << endl;
         cout<<"Description:"<<dvm_permission_list[i].Permission_Description<<endl;
+        cout<<"weight:"<<dvm_permission_list[i].Permission_Weight<<endl;
+        Weight+=dvm_permission_list[i].Permission_Weight;
         cout<<"-----------------------------------"<<endl;
         i++;
     }
+    cout<<"Result:"<<Weight<<endl;
     return(0);
 }

@@ -11,11 +11,12 @@
 struct Permission
 {
 	Permission();
-	Permission( std::string name, std::string level, std::string info, std::string description );
+	Permission( std::string name, std::string level, std::string info, std::string description,double weight=0 );
 	std::string	Permission_Name;
 	std::string	Permission_Level;
 	std::string	Permission_Info;
 	std::string	Permission_Description;
+	double Permission_Weight;
 };
 struct Manifest_Permissions
 {
